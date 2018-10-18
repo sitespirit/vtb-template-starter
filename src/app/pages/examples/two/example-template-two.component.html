@@ -1,0 +1,11 @@
+<vtb-titles [config]="[{field:'subTitle',tag: 'h2'},{field:'title',tag: 'h3'}]" [itinerary]="itinerary"></vtb-titles>
+
+<li *ngFor="let participant of itinerary.participants['party 1']" >
+{{participant.name}}
+</li>
+
+<div *ngFor="let segment of itinerary.segments" >
+  <div *ngFor="let media of segment.media">
+    <img [src]="media.url" width="100"/>
+  </div>
+</div>

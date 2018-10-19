@@ -1,4 +1,4 @@
-<vtb-titles [config]="[{field:'subTitle',tag: 'h2'},{field:'title',tag: 'h3'}]" [itinerary]="itinerary"></vtb-titles>
+<vtb-titles [config]="[{field:'subTitle',tag: 'h2'},{field:'title',tag: 'h3'}]" [dataSource]="itinerary"></vtb-titles>
 
 <li *ngFor="let participant of itinerary.participants['party 1']" >
 {{participant.name}}

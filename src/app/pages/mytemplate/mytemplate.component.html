@@ -1,12 +1,20 @@
 vtb-titles comp:
 
-<vtb-titles [config]="[{field:'subTitle',tag: 'h2'},{field:'title',tag: 'h1'}]" [itinerary]="itinerary"></vtb-titles>
+<vtb-titles [config]="[{field:'subTitle',tag: 'h2'},{field:'title',tag: 'h1'}]" [dataSource]="itinerary"></vtb-titles>
 
 Custom title: <h1 [innerHTML]="itinerary.title"></h1>
 
+------
+
+Vtb-elements with unitId 3 and 4
+------
+<vtb-elements [dataSource]="itinerary.segments" [unitIds]="[3,4]" [reverseUnitIds]="false"></vtb-elements>
+Vtb-elements without unitId 3 and 4
+------
+<vtb-elements [dataSource]="itinerary.segments" [unitIds]="[3,4]" [reverseUnitIds]="true"></vtb-elements>
 
 <li *ngFor="let participant of itinerary.participants['party 1']" >
-{{participant.name}}
+  {{participant.name}}
 </li>
 
 <div *ngFor="let segment of itinerary.segments" >

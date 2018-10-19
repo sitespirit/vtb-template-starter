@@ -1,4 +1,9 @@
+vtb-titles comp:
+
 <vtb-titles [config]="[{field:'subTitle',tag: 'h2'},{field:'title',tag: 'h1'}]" [itinerary]="itinerary"></vtb-titles>
+
+Custom title: <h1 [innerHTML]="itinerary.title"></h1>
+
 
 <li *ngFor="let participant of itinerary.participants['party 1']" >
 {{participant.name}}

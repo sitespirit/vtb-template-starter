@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
+import { environment } from '../environments/environment';
 
 import { VtbComponentsModule } from '@sitespirit/vtb-component-library';
 
@@ -54,7 +55,7 @@ import { MyTemplateComponent } from './pages/mytemplate/mytemplate.component';
     }
   ]),
   HttpClientModule,
-  VtbComponentsModule
+  VtbComponentsModule.forRoot(environment)
 ],
 providers: [ItineraryResolver],
 bootstrap: [AppComponent]

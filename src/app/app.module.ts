@@ -15,6 +15,9 @@ import { ExampleTemplateOneComponent } from './pages/examples/one/example-templa
 import { ExampleTemplateTwoComponent } from './pages/examples/two/example-template-two.component';
 
 import { MyTemplateComponent } from './pages/mytemplate/mytemplate.component';
+import { MinisiteComponent } from './pages/minisite/minisite.component';
+
+import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
@@ -22,13 +25,14 @@ import { MyTemplateComponent } from './pages/mytemplate/mytemplate.component';
     ExampleTemplateMenuComponent,
     ExampleTemplateOneComponent,
     ExampleTemplateTwoComponent,
-    MyTemplateComponent
+    MyTemplateComponent,
+    MinisiteComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([{
       path: '',
-      component: MyTemplateComponent,
+      component: MinisiteComponent,
       pathMatch: 'full',
       resolve: {
         itinerary: ItineraryResolver
@@ -54,6 +58,9 @@ import { MyTemplateComponent } from './pages/mytemplate/mytemplate.component';
       }
     }
   ]),
+  AgmCoreModule.forRoot({
+    apiKey: 'AIzaSyDa6wr3FY1sGlEpAzL2riOeMVGxdUGmCjI'
+  }),
   HttpClientModule,
   VtbComponentsModule.forRoot(environment)
 ],

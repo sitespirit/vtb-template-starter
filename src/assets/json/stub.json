@@ -135,8 +135,8 @@
       "isFlight": true,
       "typeId": 7,
       "title": "Fligth towards Bali",
-      "subTitle": null,
-      "content": null,
+      "subTitle": "At facilisis odio",
+      "content": "Fusce fringilla consequat varius. Nullam gravida sagittis ex, at facilisis odio condimentum vel. Duis imperdiet, tellus eu accumsan rutrum, sapien arcu pulvinar nulla, id luctus risus nisl ut enim. Mauris interdum, libero in tempus tincidunt, orci sapien vestibulum dui, at luctus felis quam a tortor. Aenean in magna turpis. Nam mollis diam quis orci dictum auctor. Nullam pharetra arcu eu eros euismod porttitor. Mauris maximus, quam eget luctus porta, neque augue euismod tortor, sit amet sodales velit augue quis diam. In hac habitasse platea dictumst. Vestibulum accumsan sit amet metus ullamcorper egestas.",
       "TSBlock": {
         "id": 2590
       },
@@ -365,7 +365,13 @@
             "zoom": 1
           },
           "media": [
-
+            {
+              "id": 147,
+              "sourceType": "mediaspirit",
+              "sourceId": "280f2ae5e8bacce9c41a25af745f48de",
+              "url": "https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Bali-Palasari-kathedraal.JPG",
+              "description": "De reusachtige kathedraal van Palasari op Bali, Indonesie"
+            }
           ],
           "olPrices": {
             "costPrice": "160.000",
@@ -647,7 +653,13 @@
             "zoom": 0
           },
           "media": [
-
+            {
+              "id": 151,
+              "sourceType": "mediaspirit",
+              "sourceId": "fe963e7c7ef799948f449e1ada562cc4",
+              "url": "https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Indonesie-Lombok-binnenland-weeftechniek.JPG",
+              "description": "De Sasak zijn gespecialiseerd in weefwerk, Lombok, Indonesie"
+            }
           ],
           "olPrices": {
             "costPrice": null,
@@ -762,7 +774,13 @@
   "officeId": 1,
   "officeName": "HBHousing",
   "cover": [
-
+    {
+      "id": 145,
+      "sourceType": "mediaspirit",
+      "sourceId": "1f4839431d239e7bffda14a7e01cc89e",
+      "url": "http:\/\/res.cloudinary.com\/hrscywv4p\/image\/upload\/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto\/v1\/457961\/Acatenango-1_yvzghd.jpg",
+      "description": "\/Indonesie-Bali-Mambal5.JPG"
+    }
   ],
   "totalDays": 6,
   "totalDaysAllocated": 6,

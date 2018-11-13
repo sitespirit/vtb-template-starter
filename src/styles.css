@@ -1,7 +1,166 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css";
+
 h1 {
-  color: red
+  color: #333333;
 }
-h2 {
-  color: green
+
+.titles {
+  text-align: center;
+}
+
+.titles h1 {
+  position: relative;
+  display: inline-block;
+}
+
+.titles h1:before,
+.titles h1:after {
+  content: " ";
+  display: inline-block;
+  height: 2px;
+  margin: 0 10px;
+  top: 50%;
+  width: 80px;
+  zoom: 1;
+  position: absolute;
+  background-color: #333;
+}
+
+.titles h1:before {
+  left:-100px;
+}
+
+.titles h1:after {
+  right:-100px;
+}
+
+.menu {
+  height:15vh;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0,0,0,.4);
+}
+
+  .menu ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+
+    .menu ul li {
+      float: left;
+      list-style: none;
+      margin: 0 20px;
+      line-height: 15vh;
+    }
+
+.header {
+  width:100%;
+  position:relative;
+  height: 85vh;
+  text-align: center;
+}
+
+.header > vtb-media {
+  position: absolute;
+  z-index:-1;
+  top:0;
+  left:0;
+  height: 85vh;
+}
+
+.header img {
+  display: block;
+  width: 100vw;
+  height: 85vh;
+  object-fit: cover;
+}
+
+.header .header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+  .header vtb-text h1,
+  .header vtb-text h2 {
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,.2);
+  }
+
+  .header .header-text h1:before,
+  .header .header-text h1:after {
+    background-color: #fff;
+  }
+
+    
+.map {
+  background-image:url(http://uploads.strikinglycdn.com/static/backgrounds/patterns/31.jpg);
+  width: 100%;
+  padding: 80px 0;
+}
+
+.container {
+  width: 1028px;
+  margin: 0 auto;
+}
+
+.program vtb-segment {
+  margin: 20px 0;
+  overflow: hidden;
+  display: block;
+}
+
+.program vtb-segment:nth-child(even) [ng-reflect-ng-switch="media"],
+.program vtb-segment:nth-child(odd) [ng-reflect-ng-switch="media"] {
+  width: 30%;
+}
+
+.program vtb-segment:nth-child(even) [ng-reflect-ng-switch="media"] {
+  float: left;
+  margin-right:20px;
+}
+
+.program vtb-segment:nth-child(odd) [ng-reflect-ng-switch="media"] {
+  float: right;
+  margin-left:20px;
+}
+
+  .program vtb-segment img {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  .program vtb-segment vtb-media >div:last-child img {
+    margin-bottom: 0;
+  }
+
+.accommodations vtb-segment {
+  float: left;
+  width: 25%;
+}
+
+.accommodations vtb-media {
+  display: block;
+	position: relative;
+	width: 100%;		/* desired width */
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+.accommodations vtb-media:before {
+	content: "";
+	display: block;
+	padding-top: 100%; 	/* initial ratio of 1:1*/
+}
+
+.accommodations img {
+  width: 133%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }

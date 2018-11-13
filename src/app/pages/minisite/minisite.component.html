@@ -1,0 +1,39 @@
+<div class="menu">
+    <vtb-menu [dataSource]="[{name: 'Programma', selector: '[data-block=program]'}, {name: 'Accommodatie', selector: '[data-block=accommodations]'}]"></vtb-menu>
+</div>
+
+<div class="header">
+    <div class="header-text titles">
+        <vtb-text [config]="{name: 'title', tag: 'h2', class: 'vtb-title'}" [dataSource]="itinerary"></vtb-text>
+        <vtb-text [config]="{name: 'subTitle', tag: 'h1', class: 'vtb-sub-title'}" [dataSource]="itinerary"></vtb-text>
+    </div>
+    <vtb-media [dataSource]="itinerary.cover"></vtb-media>
+</div>
+
+<div class="map">
+    <div class="titles">
+        <h1>Bestemming</h1>
+        <h3>Dit is waar jullie je bucket list gaan legen:</h3>
+        <div class="container">
+            <agm-map [latitude]="itinerary.segments[0].maps.latitude" [longitude]="itinerary.segments[0].maps.longitude"></agm-map>
+        </div>
+    </div>
+</div>
+
+<div class="program container" data-block="program">
+    <div class="titles">
+        <h1>Programma</h1>
+        <h3>Lees hieronder het programma van dag tot dag</h3>
+    </div>
+
+    <vtb-segments [dataSource]="itinerary.segments" [unitIds]="[2,3,4,14]" [reverseUnitIds]="false" [segmentFields]="['media', {name: 'day', prefix: 'Dag ', tag: 'h3'}, {name: 'title', tag: 'h4'},{name: 'subTitle', tag: 'h5'},'content']"></vtb-segments>
+</div>
+
+<div class="accommodations container" data-block="accommodations">
+    <div class="titles">
+        <h1>Accommodaties</h1>
+        <h3>In onderstaande accommodaties zullen jullie verblijven (indien beschikbaar)</h3>
+    </div>
+
+    <vtb-segments [dataSource]="itinerary.segments" [unitIds]="[2]" [reverseUnitIds]="false" [elementFields]="[{name: 'media', max: 1},{name:'title',tag:'h5'},{name:'subTitle',tag:'h6'}]"></vtb-segments>
+</div>

@@ -1,5 +1,6 @@
 <div class="menu">
-    <vtb-menu [dataSource]="[{name: 'Programma', selector: '[data-block=program]'}, {name: 'Accommodatie', selector: '[data-block=accommodations]'}]"></vtb-menu>
+    <img src="https://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_1440,w_720,f_auto,q_auto/v1/457961/logostrikingly_bb8die.png" alt="">
+    <vtb-menu [dataSource]="[{name: 'Programma', selector: '[data-block=program]'}, {name: 'Accommodatie', selector: '[data-block=accommodations]'}, {name: 'Investering', selector: '.overview'}, {name: 'Consultants', selector: '.consultants'}]"></vtb-menu>
 </div>
 
 <div class="header">
@@ -14,13 +15,12 @@
     <div class="titles">
         <h1>Bestemming</h1>
         <h3>Dit is waar jullie je bucket list gaan legen:</h3>
-        <div class="container">
-            <agm-map [latitude]="itinerary.segments[0].maps.latitude" [longitude]="itinerary.segments[0].maps.longitude"></agm-map>
-        </div>
     </div>
+
+    <agm-map [latitude]="itinerary.segments[0].maps.latitude" [longitude]="itinerary.segments[0].maps.longitude"></agm-map>
 </div>
 
-<div class="program container" data-block="program">
+<div class="program" data-block="program">
     <div class="titles">
         <h1>Programma</h1>
         <h3>Lees hieronder het programma van dag tot dag</h3>
@@ -29,11 +29,62 @@
     <vtb-segments [dataSource]="itinerary.segments" [unitIds]="[2,3,4,14]" [reverseUnitIds]="false" [segmentFields]="['media', {name: 'day', prefix: 'Dag ', tag: 'h3'}, {name: 'title', tag: 'h4'},{name: 'subTitle', tag: 'h5'},'content']"></vtb-segments>
 </div>
 
-<div class="accommodations container" data-block="accommodations">
+<div class="accommodations circled-images" data-block="accommodations">
     <div class="titles">
         <h1>Accommodaties</h1>
         <h3>In onderstaande accommodaties zullen jullie verblijven (indien beschikbaar)</h3>
     </div>
 
     <vtb-segments [dataSource]="itinerary.segments" [unitIds]="[2]" [reverseUnitIds]="false" [elementFields]="[{name: 'media', max: 1},{name:'title',tag:'h5'},{name:'subTitle',tag:'h6'}]"></vtb-segments>
+</div>
+
+<div class="overview">
+    <div class="titles">
+        <h1>Investering</h1>
+        <h3>Because, emptying your bucket list with Bohemian Birds is priceless. Consider this as an investment:</h3>
+    </div>
+    
+    <div class="lists">
+        <div>
+            <h3>Inclusief</h3>
+            <ul>
+                <li>Internationale vliegtickets&nbsp;(± €1.240,-)&nbsp;:<br>Amsterdam - Guatemala City<br>Cancun - Medellin<br>Cartagena - Amsterdam</li>
+                <li>Binnenlandse vliegtickets: Medellin - Santa Marta (± EUR 50,- p.p.)</li>
+                <li>Transfers van en naar het vliegveld</li>
+                <li>Transfers van en naar de accommodaties</li>
+                <li>Transfers van en naar bovengenoemde activiteiten</li>
+                <li>Maaltijden zoals per dag beschreven, op de volgende manier (Ontbijt/Lunch/Diner)</li>
+                <li>Sterrenlunch bij&nbsp;<strong><a target="_blank" href="https://www.tempocancun.com/">Restaurant Tempo By Martin Berasategui</a>!</strong></li>
+                <li>Een aantal unieke diners</li><li>1 x privé chef bij jullie privé villa</li>
+                <li>1 x privé chef bij jullie privé penthouse</li>
+                <li>24 overnachtingen in bovenstaande accommodaties (indien beschikbaar)</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Exclusief</h3>
+            <ul>
+                <li>Niet genoemde maaltijden/drankjes</li>
+                <li>Niet genoemde entrees</li>
+                <li>Niet genoemde activiteiten</li>
+                <li>Fooien</li>
+                <li>Persoonlijke uitgaven</li>
+                <li>Verzekeringen</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="consultants circled-images">
+    <div class="titles">
+        <h1>Bucket List Consultants</h1>
+        <h3>Bohemian Birds helpt jou bij het legen van je bucket list!</h3>
+    </div>
+
+    <vtb-media [dataSource]="itinerary.cover"></vtb-media>
+
+
+</div> 
+
+<div class="footer">
+    <p>Bohemian Birds BV's Boekingsvoorwaarden zijn van toepassing op dit voorstel. De Boekingsvoorwaarden kunnen <a target="_blank" href="https://uploads.strikinglycdn.com/files/8e326a73-10bf-42ba-a1d1-02e0e6e375b2/Terms and Conditions Bohemian Birds BV - 0316v2.pdf">hier</a> gevonden worden en op onze <a target="_blank" href="http://bohemianbirds.com/wp-content/uploads/Terms-and-Conditions-Bohemian-Birds-BV-0316v2.pdf">website</a>. Zorg dat je de Boekingsvoorwaarden hebt gelezen voordat je deze reis boekt. Wanneer je je boeking bij ons bevestigd gaan wij er van uit dat je de voorwaarden hebt gelezen en begrepen.</p>
 </div>

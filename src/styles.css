@@ -115,6 +115,13 @@ p {
     grid-column: 1 / span 9;
   }
 
+  .program vtb-segment.no-media .day,
+  .program vtb-segment.no-media .title,
+  .program vtb-segment.no-media .subTitle,
+  .program vtb-segment.no-media .content {
+    grid-column: 1 / -1;
+  }
+
   .program vtb-segment .day {
     grid-row: 1 / span 1;
   }

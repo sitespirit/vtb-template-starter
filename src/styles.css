@@ -1,6 +1,3 @@
-/* You can add global styles to this file, and also import other style files */
-
-
 /*********************
  *                   *
  *       RESET       *
@@ -11,11 +8,19 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6,ul,ol {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+p {
+  line-height: 1.45;
+  font-size:14px;
 }
 
 
@@ -34,12 +39,12 @@ vtb-minisite {
 
 .menu {
   grid-column: span 12;
-  height: 27vh;
+  height: 24vh;
   display: grid;
 }
 
   .menu img:first-child {
-    height: 15vh;
+    height: 13vh;
     justify-self: center;
   }
 
@@ -47,7 +52,7 @@ vtb-minisite {
   grid-column: span 12;
 
   display: grid;
-  grid-auto-rows: 73vh;
+  grid-auto-rows: 76vh;
   grid-template-columns: repeat(12, 1fr);
 }
 
@@ -134,13 +139,13 @@ vtb-minisite {
     grid-column: span 12;
   }
 
-  .accommodations vtb-segments {
+  .accommodations vtb-elements {
     display: grid;
 
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .accommodations vtb-segment {
+  .accommodations vtb-element {
     grid-row: span 3;
   }
 
@@ -260,7 +265,6 @@ h1 {
   color: #2d2d2c;
   font-size: 1.8em;
   text-transform: uppercase;
-  font-weight: normal;
 }
 
 .titles {
@@ -270,6 +274,7 @@ h1 {
 .titles h1 {
   position: relative;
   display: inline-block;
+  font-size:2em;
 }
 
 .titles h1:before,
@@ -296,6 +301,7 @@ h1 {
 .titles h3 {
   color: #0f4a62;
   font-weight: normals;
+  line-height: 2em;
 }
 
 /* Menu */
@@ -303,6 +309,17 @@ h1 {
 .menu {
   position: relative;
   box-shadow: 1px 1px 3px rgba(0,0,0,.3);
+}
+
+.menu.sticky {
+  position: fixed;
+  top:-15vh;
+  left:0;
+}
+
+.menu .logo {
+  max-width: 100%;
+  max-height: 150px;
 }
 
 .menu:after {
@@ -324,6 +341,16 @@ h1 {
   background-image:url(http://res.cloudinary.com/hrscywv4p/image/upload/c_fill,f_auto,g_faces:center,h_64,q_90,w_64/v1/457961/e082290856f649f199738d3f36d0dee3_mwiigx.jpg);
 }
 
+.menu:after {
+  -webkit-animation:spin .4s linear;
+  -moz-animation:spin .4s linear;
+  animation:spin .4s linear;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
 .menu vtb-menu {
   text-align: center;
 }
@@ -341,10 +368,14 @@ h1 {
       line-height: 10vh;
     }
 
-    .menu vtb-menu ul li a {
-      color:#0f4a62;
+    .menu vtb-menu ul li button {
+      color:#678;
       text-decoration: none;
+      font-weight:100;
       text-transform: uppercase;
+      border:none;
+      background:none;
+      cursor:pointer;
     }
 
 /* Header */
@@ -355,6 +386,13 @@ h1 {
   
   .header > vtb-media {
     z-index:-1;
+    position:relative;
+  }
+  
+  vtb-media > div {
+    position: absolute;
+    top:-50%;
+    left:0;
   }
   
   .header img {
@@ -370,6 +408,14 @@ h1 {
     .header vtb-text h2 {
       color: #fff;
       text-shadow: 0 1px 2px rgba(0,0,0,.2);
+      line-height:2em;
+    }
+
+    .header vtb-text h1 {
+      font-size:2.8em;
+    }
+    .header vtb-text h2 {
+      font-size:2em;
     }
   
     .header .header-text h1:before,
@@ -379,14 +425,20 @@ h1 {
       background-color: #fff;
     }
 
+
+.map,
+.program {
+  padding: 80px 0;
+} 
+
 /* Map */
 .map {
   background-image:url(http://uploads.strikinglycdn.com/static/backgrounds/patterns/31.jpg);
-  padding: 80px 0;
 }
 
   .map agm-map {
     height: 426px;
+    margin-top: 30px;
   }
 
 /* Accommodations */

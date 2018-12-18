@@ -1,6 +1,6 @@
-<div class="menu">
-    <img src="https://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_1440,w_720,f_auto,q_auto/v1/457961/logostrikingly_bb8die.png" alt="">
-    <vtb-menu [dataSource]="[{name: 'Programma', selector: '[data-block=program]'}, {name: 'Accommodatie', selector: '[data-block=accommodations]'}, {name: 'Investering', selector: '.overview'}, {name: 'Consultants', selector: '.consultants'}]"></vtb-menu>
+<div class="menu">  
+    <img src="https://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_1440,w_720,f_auto,q_auto/v1/457961/logostrikingly_bb8die.png" class="logo" alt="">
+    <vtb-menu [stickyAt]="300" [dataSource]="[{name: 'Programma', selector: '[data-block=program]'}, {name: 'Accommodatie', selector: '[data-block=accommodations]'}, {name: 'Investering', selector: '.overview'}, {name: 'Consultants', selector: '.consultants'}]"></vtb-menu>
 </div>
 
 <div class="header">
@@ -8,7 +8,7 @@
         <vtb-text [config]="{name: 'title', tag: 'h2', class: 'vtb-title'}" [dataSource]="itinerary"></vtb-text>
         <vtb-text [config]="{name: 'subTitle', tag: 'h1', class: 'vtb-sub-title'}" [dataSource]="itinerary"></vtb-text>
     </div>
-    <vtb-media [dataSource]="itinerary.cover"></vtb-media>
+    <vtb-media [dataSource]="itinerary.cover" [slider]="true" [sliderInterval]="5000"></vtb-media>
 </div>
 
 <div class="map">
@@ -26,7 +26,7 @@
         <h3>Lees hieronder het programma van dag tot dag</h3>
     </div>
 
-    <vtb-segments [dataSource]="itinerary.segments" [unitIds]="[2,3,4,14]" [reverseUnitIds]="false" [segmentFields]="['media', {name: 'day', prefix: 'Dag ', tag: 'h3'}, {name: 'title', tag: 'h4'},{name: 'subTitle', tag: 'h5'},'content']"></vtb-segments>
+    <vtb-segments [dataSource]="itinerary.segments" [unitIds]="[2,3,4,14]" [reverseUnitIds]="false" [segmentFields]="['media', {name: 'day', prefix: 'Dag ', tag: 'h3'}, {name: 'title', tag: 'h4'},{name: 'subTitle', tag: 'h5'},{name: 'content', tag: 'p'}]"></vtb-segments>
 </div>
 
 <div class="accommodations circled-images" data-block="accommodations">
@@ -35,7 +35,7 @@
         <h3>In onderstaande accommodaties zullen jullie verblijven (indien beschikbaar)</h3>
     </div>
 
-    <vtb-segments [dataSource]="itinerary.segments" [unitIds]="[2]" [reverseUnitIds]="false" [elementFields]="[{name: 'media', max: 1},{name:'title',tag:'h5'},{name:'subTitle',tag:'h6'}]"></vtb-segments>
+    <vtb-elements [dataSource]="itinerary.segments" [unitIds]="[2]" [reverseUnitIds]="false" [elementFields]="[{name: 'media', max: 1},{name:'title',tag:'h5'},{name:'subTitle',tag:'h6'}]"></vtb-elements>
 </div>
 
 <div class="overview">

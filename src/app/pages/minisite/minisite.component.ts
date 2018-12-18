@@ -2,7 +2,7 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'vtb-minisite',
+  selector: 'app-template',
   templateUrl: './minisite.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush
 })

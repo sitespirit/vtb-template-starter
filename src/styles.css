@@ -86,10 +86,11 @@ p {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 30px 30px 30px auto auto;
+    column-gap: 20px;
   }
 
   .program vtb-segment .media {
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 4;
     grid-row: 1 / -1;
   }
 
@@ -98,21 +99,21 @@ p {
   }
 
   .program vtb-segment:nth-child(even) .media {
-    grid-column: 10 / span 3;
+    grid-column: 9 / span 4;
   }
 
   .program vtb-segment .day,
   .program vtb-segment .title,
   .program vtb-segment .subTitle,
   .program vtb-segment .content {
-    grid-column: 4 / -1;
+    grid-column: 5 / -1;
   }
 
   .program vtb-segment:nth-child(even) .day,
   .program vtb-segment:nth-child(even) .title,
   .program vtb-segment:nth-child(even) .subTitle,
   .program vtb-segment:nth-child(even) .content {
-    grid-column: 1 / span 9;
+    grid-column: 1 / span 8;
   }
 
   .program vtb-segment.no-media .day,
@@ -148,6 +149,7 @@ p {
 
   .accommodations vtb-elements {
     display: grid;
+    column-gap: 20px;
 
     grid-template-columns: repeat(4, 1fr);
   }
@@ -175,6 +177,33 @@ p {
 .consultants {
   grid-column: 4 / span 6;
 }
+
+  .consultants-overview {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 20px;
+  }
+
+    .consultants-overview .consultant {
+      grid-column: span 3;
+    }
+
+    .consultants-overview .consultant:first-child {
+      grid-column: 4 / span 3;
+    }
+
+.social-media {
+  grid-column: 4 / span 6;
+}
+  .socials {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .socials div {
+    text-align: center;
+    grid-column: span 3;
+  }
 
 .footer {
   grid-column: 4 / span 6;
@@ -308,8 +337,14 @@ h1 {
 
 .titles h3 {
   color: #0f4a62;
-  font-weight: normals;
+  font-weight: 100;
   line-height: 2em;
+}
+
+.titles p {
+  font-size:1.17em;
+  font-weight: 100;
+  letter-spacing: -1px;
 }
 
 /* Menu */
@@ -384,6 +419,12 @@ h1 {
       border:none;
       background:none;
       cursor:pointer;
+      font-size:1.1em;
+    }
+
+    .menu vtb-menu ul li button:focus {
+      border:none;
+      outline:none;
     }
 
 /* Header */
@@ -456,8 +497,56 @@ h1 {
     height: 426px;
   }
 
+
+/* Program */
+.program vtb-segment {
+  margin-bottom: 40px;
+}
+
+.program vtb-segment .day {
+  color:#2d2d2c;
+  font-size: 1.2em;
+}
+
+.program vtb-segment .title h4 {
+  color:#0f4a62;
+  font-weight: bold;
+}
+
+
+.program vtb-segment .content p {
+  text-align: justify;
+
+  line-height: 1.45;
+  color: #50555c;
+}
+
 /* Accommodations */
-.circled-images vtb-media {
+
+.accommodations {
+  text-align:center;
+}
+
+.consultants h4 {
+  font-size:1.4em;
+}
+
+.accommodations h5,
+.consultants h5 {
+  color: #0f4a62;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.accommodations h6,
+.consultants h6 {
+  font-size: 1.1em; 
+  color:#50555c;
+}
+
+.circled-images vtb-media,
+.circled-images .consultant-image {
   display: block;
 	position: relative;
 	width: 100%;		/* desired width */
@@ -465,7 +554,8 @@ h1 {
   border-radius: 100%;
 }
 
-.circled-images vtb-media:before {
+.circled-images vtb-media:before,
+.circled-images .consultant-image:before {
 	content: "";
 	display: block;
 	padding-top: 100%; 	/* initial ratio of 1:1*/
@@ -488,7 +578,8 @@ h1 {
 }
 
   .overview h1,
-  .overview h3 {
+  .overview h3,
+  .overview .titles p {
     color: #fff;
   }
 
@@ -497,6 +588,7 @@ h1 {
   }
 
 
+  
 .lists div {
   border: 2px solid hsla(0,0%,100%,.7);
   box-shadow: 0 1px 1px rgba(0,0,0,.2);
@@ -506,11 +598,20 @@ h1 {
 .lists ul {
   margin-top: 20px;
   margin-left: 20px;
+  font-size:.9em;
 }
 
 .lists div ul li,
 .lists div ul li a {
   color: #fff;
+}
+
+.consultants {
+  text-align:center;
+}
+
+.consultant > .consultant-image {
+  margin-bottom: 20px;
 }
 
 .footer {

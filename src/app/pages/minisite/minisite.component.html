@@ -2,7 +2,7 @@
 
 <div class="menu">  
     <img src="https://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_1440,w_720,f_auto,q_auto/v1/457961/logostrikingly_bb8die.png" class="logo" alt="">
-    <vtb-menu [stickyAt]="300" [dataSource]="[{name: 'Programma', selector: '[data-block=program]'}, {name: 'Accommodatie', selector: '[data-block=accommodations]'}, {name: 'Investering', selector: '.overview'}, {name: 'Consultants', selector: '.consultants'}]"></vtb-menu>
+    <vtb-menu [stickyAt]="300" [dataSource]="[{name: 'Programma', selector: '[data-block=program]'}, {name: 'Accommodatie', selector: '[data-block=accommodations]'}, {name: 'Investering', selector: '.overview'}, {name: 'Consultants', selector: '.consultants'}, {name: 'Contact', 'selector': '.social-media'}]"></vtb-menu>
 </div>
 
 <div class="header">
@@ -43,7 +43,15 @@
 <div class="overview">
     <div class="titles">
         <h1>Investering</h1>
-        <h3>Because, emptying your bucket list with Bohemian Birds is priceless. Consider this as an investment:</h3>
+        <h3>
+            <em>Because, emptying your bucket list with Bohemian Birds is priceless. Consider this as an investment:</em>
+        </h3>
+        <p>€4.420,- per persoon, gebaseerd op een reis voor 10 personen.</p>
+        <p>
+            Prijs is afhankelijk van het aantal personen, de reisduur, de reisperiode en is onder voorbehoud van beschikbaarheid bij bevestiging.<br>
+            <strong>Inclusief </strong>internationale vliegtickets.<br>
+            <strong>Inclusief</strong> binnenlandse vliegtickets.
+        </p>
     </div>
     
     <div class="lists">
@@ -81,11 +89,50 @@
         <h1>Bucket List Consultants</h1>
         <h3>Bohemian Birds helpt jou bij het legen van je bucket list!</h3>
     </div>
+    
+    <div class="consultants-overview">
+        <div class="consultant">
+            <div class="consultant-image">
+                <img src="http://res.cloudinary.com/hrscywv4p/image/upload/c_fill,fl_lossy,h_320,w_320,f_auto,g_faces:auto,q_auto/v1/457961/16178890_1508135002548505_2952210858714519187_o-1_uzo79b.jpg" alt="">
+            </div>
 
-    <vtb-media [dataSource]="itinerary.cover"></vtb-media>
+            <h4>Harm Ligtenberg</h4>
+            <h5>Bucket List Consultant</h5>
+            <h6>+31 20 261 36 17<br>info@bohemianbirds.com</h6>
+        </div>
+        <div class="consultant">
+            <div class="consultant-image">
+                <img src="http:////res.cloudinary.com/hrscywv4p/image/upload/c_fill,fl_lossy,h_320,w_320,f_auto,g_faces:auto,q_auto/v1/457961/13495263_1480645608628051_1917530845204919790_n_cxmzhv_ly5bh9.jpg" alt="">
+            </div>
 
+            <h4>Michiel Stoffels</h4>
+            <h5>Bucket List Consultant</h5>
+            <h6>+31 20 261 36 17<br>info@bohemianbirds.com</h6>
+        </div>
+    </div>
+</div>
 
-</div> 
+<div class="social-media">
+    <div class="titles">
+        <h1>Wil je meer weten over Bohemian Birds?</h1>
+        <h3>Neem dan contact met ons op!</h3>
+    </div>
+
+    <div class="socials">
+        <div>
+            <img src="https://uploads.strikinglycdn.com/static/icons/blue/fb-icon.png" alt="">
+        </div>
+        <div>
+            <img src="https://assets.strikingly.com/static/icons/brown/instagram-icon.png" alt="">
+        </div>
+        <div>
+            <img src="https://uploads.strikinglycdn.com/static/icons/green/whatsapp-icon.png" alt="">
+        </div>
+        <div>
+            <img src="https://uploads.strikinglycdn.com/page/images/icons/email-icon.png" alt="">
+        </div>
+    </div>
+</div>
 
 <div class="footer">
     <p>Bohemian Birds BV's Boekingsvoorwaarden zijn van toepassing op dit voorstel. De Boekingsvoorwaarden kunnen <a target="_blank" href="https://uploads.strikinglycdn.com/files/8e326a73-10bf-42ba-a1d1-02e0e6e375b2/Terms and Conditions Bohemian Birds BV - 0316v2.pdf">hier</a> gevonden worden en op onze <a target="_blank" href="http://bohemianbirds.com/wp-content/uploads/Terms-and-Conditions-Bohemian-Birds-BV-0316v2.pdf">website</a>. Zorg dat je de Boekingsvoorwaarden hebt gelezen voordat je deze reis boekt. Wanneer je je boeking bij ons bevestigd gaan wij er van uit dat je de voorwaarden hebt gelezen en begrepen.</p>

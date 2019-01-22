@@ -1,16 +1,23 @@
-<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans">
-
 <div class="menu">  
-    <img src="https://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_1440,w_720,f_auto,q_auto/v1/457961/logostrikingly_bb8die.png" class="logo" alt="">
+    <img src="/assets/images/logo.png" class="logo" alt="">
     <vtb-menu [stickyAt]="300" [dataSource]="[{name: 'Programma', selector: '[data-block=program]'}, {name: 'Accommodatie', selector: '[data-block=accommodations]'}, {name: 'Investering', selector: '.overview'}, {name: 'Consultants', selector: '.consultants'}, {name: 'Contact', 'selector': '.social-media'}]"></vtb-menu>
 </div>
 
-<div class="header">
+<div [className]="itinerary.youtubeVideo ? 'header youtube-video' : 'header cover-images'">
     <div class="header-text titles">
         <vtb-text [config]="{name: 'title', tag: 'h2', class: 'vtb-title'}" [dataSource]="itinerary"></vtb-text>
         <vtb-text [config]="{name: 'subTitle', tag: 'h1', class: 'vtb-sub-title'}" [dataSource]="itinerary"></vtb-text>
     </div>
-    <vtb-media [dataSource]="itinerary.cover" [slider]="true" [sliderInterval]="5000"></vtb-media>
+    <vtb-media *ngIf="!itinerary.youtubeVideo" [dataSource]="itinerary.cover" [slider]="true" [sliderInterval]="5000"></vtb-media>
+    
+    <div class="youtube-wrapper" *ngIf="itinerary.youtubeVideo">
+        <vtb-youtube 
+            [dataSource]="itinerary.youtubeVideo"
+            [controls]="false"
+            [autoplay]="true"
+            [loop]="true"
+            [fullscreen]="false"></vtb-youtube>
+    </div>
 </div>
 
 <div class="map">
@@ -19,7 +26,7 @@
         <h3>Dit is waar jullie je bucket list gaan legen:</h3>
     </div>
 
-    <agm-map [latitude]="itinerary.segments[0].maps.latitude" [longitude]="itinerary.segments[0].maps.longitude"></agm-map>
+    <agm-map [latitude]="itinerary.segments[0].maps.latitude" [zoom]="itinerary.segments[0].maps.zoom" [longitude]="itinerary.segments[0].maps.longitude" [styles]="styles"></agm-map>
 </div>
 
 <div class="program" data-block="program">
@@ -28,7 +35,7 @@
         <h3>Lees hieronder het programma van dag tot dag</h3>
     </div>
 
-    <vtb-segments [dataSource]="itinerary.segments" [unitIds]="[2,3,4,14]" [reverseUnitIds]="false" [segmentFields]="['media', {name: 'day', prefix: 'Dag ', tag: 'h3'}, {name: 'title', tag: 'h4'},{name: 'subTitle', tag: 'h5'},{name: 'content', tag: 'p'}]"></vtb-segments>
+    <vtb-segments [dataSource]="itinerary.segments" [unitIds]="[2,3,4,14]" [reverseUnitIds]="false" [segmentFields]="['media', {name: 'day', prefix: 'Dag ', tag: 'span'}, {name: 'title', tag: 'h2'},{name: 'subTitle', tag: 'h4'},{name: 'content', tag: 'p'}]"></vtb-segments>
 </div>
 
 <div class="accommodations circled-images" data-block="accommodations">
@@ -46,7 +53,14 @@
         <h3>
             <em>Because, emptying your bucket list with Bohemian Birds is priceless. Consider this as an investment:</em>
         </h3>
-        <p>€4.420,- per persoon, gebaseerd op een reis voor 10 personen.</p>
+        <p>
+            <vtb-prices-average 
+                [dataSource]="itinerary"
+                [rounding]="'round'"
+                [prefix]="'&euro;'"
+                [postfix]="',- per persoon, gebaseerd op een reis voor %PARTICIPANTS% personen.'"></vtb-prices-average>
+        </p>
+
         <p>
             Prijs is afhankelijk van het aantal personen, de reisduur, de reisperiode en is onder voorbehoud van beschikbaarheid bij bevestiging.<br>
             <strong>Inclusief </strong>internationale vliegtickets.<br>

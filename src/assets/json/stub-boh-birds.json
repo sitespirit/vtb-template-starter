@@ -1,0 +1,2686 @@
+{
+    "startDate": "Tue Nov 13 2018 00:00:00 GMT+0100 ",
+    "TSOrder": {
+    "id": 594,
+    "sourceDescription": "#000594: Lena Test VTB"
+    },
+    "extraFieldValues": [
+    {
+        "id": 2,
+        "parent_id": null,
+        "link_type": "order",
+        "layout_data": null,
+        "display_at": null,
+        "sort_order": null,
+        "name": "Order Extra Fields",
+        "fields": [
+        {
+            "id": 2,
+            "name": "header_video",
+            "type_id": 1,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 2,
+            "sort_order": null,
+            "field_type": "TextBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Header Video",
+            "field_value_link_id": 5,
+            "link_type": "order",
+            "link_id": 594,
+            "value": "https:\/\/www.youtube.com\/watch?v=zp0udIPzWSc"
+        }
+        ]
+    }
+    ],
+    "participants": {
+    "party 1": [
+        {
+        "id": 5271,
+        "title_id": 2,
+        "title": "Mevr.",
+        "initials": "",
+        "name": "Bohemian",
+        "surname": "Birds",
+        "company": "",
+        "street": "",
+        "housenum": "",
+        "postalcode": "",
+        "city": "",
+        "country": "NL",
+        "birthdate": null,
+        "age_calc_type": "birthdate",
+        "informal": 1,
+        "language_id": 2,
+        "notes": "",
+        "created": "2018-12-07 12:36:10",
+        "created_by": null,
+        "modified": null,
+        "minimal": 1,
+        "use_maincontact_details": 0,
+        "nationality": null,
+        "passport_firstname": "",
+        "passport_number": "",
+        "passport_expiry_date": null,
+        "frequent_flyer_numbers": "",
+        "airline_preference": "",
+        "meal_preference": "",
+        "seat_preference": "",
+        "preferences_memo": "",
+        "smoking": null,
+        "lodging_preference": "",
+        "province": "",
+        "passport_issue_city": "",
+        "birth_city": "",
+        "contact_tag": null,
+        "surname_prefix": "",
+        "last_email_contact_ts": null,
+        "last_email_contact_id": null,
+        "last_email_contact_mailbox_id": null,
+        "last_call_contact_id": null,
+        "last_call_contact_ts": null,
+        "passport_surname": "",
+        "inserted_by": 9,
+        "inserted_at": "2018-12-07 12:36:10",
+        "inserted_audit_id": null,
+        "updated_by": 9,
+        "updated_at": "2018-12-07 12:36:10",
+        "updated_audit_id": null,
+        "general_info": null,
+        "passport_nr": null,
+        "boardingplace_id": null,
+        "groupnr": 1,
+        "sex": "female",
+        "has_linked_ols": 38,
+        "has_locked_ols": 0,
+        "partyName": "party 1"
+        }
+    ]
+    },
+    "segments": [
+    {
+        "nights": 2,
+        "day": 1,
+        "isFlight": false,
+        "typeId": 12,
+        "title": "Antigua",
+        "subTitle": null,
+        "content": null,
+        "TSBlock": {
+        "id": 3249
+        },
+        "flightInfo": [
+        
+        ],
+        "media": [
+        {
+            "id": 6,
+            "sourceType": "mediaspirit",
+            "sourceId": "d0673760e09133e15bce122e0d9f4e03",
+            "url": "https:\/\/media.bohemianbirds.com\/original\/lg\/scooter-huren-antigua-104212b3.jpg",
+            "description": ""
+        }
+        ],
+        "elements": [
+        {
+            "offset": 0,
+            "nights": 2,
+            "unitAmount": 2,
+            "unitId": 2,
+            "optional": false,
+            "not_calculated": true,
+            "title": "El Hostal Antigua",
+            "TSProduct": {
+            "id": 191,
+            "tag": "GUAACCELH",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8457
+            },
+            "media": [
+            {
+                "id": 1,
+                "sourceType": "mediaspirit",
+                "sourceId": "b87d869228aac78678cd0559d0225241",
+                "url": "https:\/\/media.bohemianbirds.com\/original\/lg\/el-hostal.jpg",
+                "description": null
+            }
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "El Hostal Antigua",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Gelegen in het centrum<br \/>Goede vibe<br \/>Dichtbij het uitgaansgebied",
+            "subAdditionalText": null,
+            "roomTypes": [
+            {
+                "defaultPrice": "0.0000",
+                "description": "Incl Ontbijt",
+                "minPerson": null,
+                "maxPerson": null,
+                "minUnit": null,
+                "maxUnit": null
+            }
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "hasPreviousElementParticipantOverlap": true,
+            "day": 1,
+            "date": "2018-11-12T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        }
+        ],
+        "inViewport": false,
+        "maps": {
+        "latitude": 52.212853,
+        "longitude": 5.2886923,
+        "zoom": 15
+        },
+        "carRentalElements": [
+        
+        ],
+        "date": "2018-11-12T23:00:00.000Z",
+        "missingBookableDays": false,
+        "elementsOrder": "8457",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "carRentalEnd": null,
+        "carRentalStart": null,
+        "endDate": "2018-11-14T23:00:00.000Z"
+    },
+    {
+        "nights": 0,
+        "day": 3,
+        "isFlight": false,
+        "typeId": 12,
+        "title": "Semuc Champey",
+        "subTitle": null,
+        "content": null,
+        "TSBlock": {
+        "id": 2991
+        },
+        "flightInfo": [
+        
+        ],
+        "media": [
+        {
+            "id": 2,
+            "sourceType": "mediaspirit",
+            "sourceId": "6ef21317bb6a50e1ede18bb9bd13d16d",
+            "url": "https:\/\/media.bohemianbirds.com\/original\/lg\/Full-day-tour-zonder-tuben-Semuc-Champey.jpg",
+            "description": ""
+        }
+        ],
+        "elements": [
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Transfer Antigua - Semuc Champey",
+            "TSProduct": {
+            "id": 199,
+            "tag": "GUATRAAN2",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8010
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Transfer Antigua - Semuc Champey",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "s Ochtends kunnen jullie rustig aan doen en de kater trotseren onder het genot van een heerlijk ontbijtje voordat jullie naar Semuc Champey vertrekken. Hier komen jullie aan het einde van de dag aan.     Semuc is een plek die je echt niet mag missen. De azuurblauwe watervallen liggen middenin de jungle. Het is een plek waar authenticiteit en avontuur samen komt!     Vanavond hebben jullie de tijd om het dorp te verkennen of flink te zuipen in jullie relaxte accommodatie!",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "needsOffsetRecalculation": true,
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 2,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "El Portal de Champey",
+            "TSProduct": {
+            "id": 200,
+            "tag": "GUAACCELP",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8011
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "El Portal de Champey",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "relaxte accommodatie!",
+            "subAdditionalText": null,
+            "roomTypes": [
+            {
+                "defaultPrice": "0.0000",
+                "description": "Incl Ontbijt",
+                "minPerson": null,
+                "maxPerson": null,
+                "minUnit": null,
+                "maxUnit": null
+            }
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "needsOffsetRecalculation": true,
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Rafting Semuc Champey",
+            "TSProduct": {
+            "id": 201,
+            "tag": "GUAACTRAF",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8012
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Rafting Semuc Champey",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Ontwaak met de geluiden van de jungle en leg een goede bodem bij het ontbijt. Vandaag gaan jullie namelijk raften! De Cahabon rivier \u00e9\u00e9n van de meest uitdagende rivieren van Midden-Amerika. Wie weet de rapids van grade 3 tot en met 5 te trotseren?!     In de middag hebben jullie de touwtjes in eigen handen. Geniet lekker na met een gouden rakker in de vuist. Cheers!",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        }
+        ],
+        "inViewport": false,
+        "maps": {
+        "latitude": 52.212853,
+        "longitude": 5.2886923,
+        "zoom": 15
+        },
+        "carRentalElements": [
+        
+        ],
+        "date": "2018-11-14T23:00:00.000Z",
+        "missingBookableDays": false,
+        "elementsOrder": "8010|8011|8012",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "carRentalEnd": null,
+        "carRentalStart": null,
+        "endDate": "2018-11-14T23:00:00.000Z"
+    },
+    {
+        "nights": 0,
+        "day": 3,
+        "isFlight": false,
+        "typeId": 12,
+        "title": "Flores",
+        "subTitle": null,
+        "content": null,
+        "TSBlock": {
+        "id": 2992
+        },
+        "flightInfo": [
+        
+        ],
+        "media": [
+        {
+            "id": 4,
+            "sourceType": "mediaspirit",
+            "sourceId": "518ab2b45169dd25618fb08c3019a2c4",
+            "url": "https:\/\/media.bohemianbirds.com\/original\/lg\/Hotel-Peten-Flores.jpg",
+            "description": ""
+        }
+        ],
+        "elements": [
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Transfer Semuc Champey - Flores",
+            "TSProduct": {
+            "id": 202,
+            "tag": "GUATRASEM",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8013
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Transfer Semuc Champey - Flores",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Na het ontbijt is het tijd voor het volgende avontuur - op naar Flores!     Flores is een plek waar het wemelt van de bars, restaurants in haar authentieke straten. Een heerlijk warm eiland met een fantastische sfeer dat d\u00e9 toegangspoort is tot het UNESCO Werelderfgoed - Tikal!     Na het droppen van de bagage hebben jullie tijd om Flores te ontdekken. Koop wat flessen rum en drink je aan het meer helemaal klem. Of blijf in het hostel waar de shotjes rijkelijk vloeien, oh yeaaah!",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "needsOffsetRecalculation": true,
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Los Amigos Hostal",
+            "TSProduct": {
+            "id": 203,
+            "tag": "GUAACCLOS",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8014
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Los Amigos Hostal",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "-",
+            "subAdditionalText": null,
+            "roomTypes": [
+            {
+                "defaultPrice": "0.0000",
+                "description": "Incl Ontbijt",
+                "minPerson": null,
+                "maxPerson": null,
+                "minUnit": null,
+                "maxUnit": null
+            }
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "needsOffsetRecalculation": true,
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Boot tour & Jorge's Rope Swing ",
+            "TSProduct": {
+            "id": 204,
+            "tag": "GUAACTJOR",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8015
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Boot tour & Jorge's Rope Swing ",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Het meer waar Flores mee omringd is gaan jullie vandaag op met een boot. Na aankomst bij Jorge's Rope Swing is het helemaal aan jullie: chill in de hangmatten, drink pils met Jorge himself of slinger je aan een lang touw het heerlijke frisse water in. Hier hebben jullie genoeg tijd voor een goede weddenschap wie die ziekste sprong maakt!",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Sunset tour Tikal",
+            "TSProduct": {
+            "id": 205,
+            "tag": "GUAACTSUN",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8016
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Sunset tour Tikal",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Na dit relaxte begin van de dag is het tijd voor wat cultuur bij \u00e9\u00e9n van de beter bewaard gebleven Maya ru\u00efnes van de wereld, Tikal! Jullie gaan op voor een indrukwekkende jungle hike waarbij de archeologische vindplaats voor zonsondergang wordt bereikt. Na een adembenemende sunset neemt de gids jullie mee om deze prachtige bouwwerken te bewonderen.     Wanneer het donker is hiken jullie terug door de dichtbegroeide jungle op zoek naar de camping waar overnacht wordt. Houd je ogen open voor wilde dieren!",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Jaguar inn",
+            "TSProduct": {
+            "id": 206,
+            "tag": "GUAACCJAG",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8017
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Jaguar inn",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Kamperen",
+            "subAdditionalText": null,
+            "roomTypes": [
+            {
+                "defaultPrice": "0.0000",
+                "description": "Incl Ontbijt",
+                "minPerson": null,
+                "maxPerson": null,
+                "minUnit": null,
+                "maxUnit": null
+            }
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        }
+        ],
+        "inViewport": false,
+        "maps": {
+        "latitude": 52.212853,
+        "longitude": 5.2886923,
+        "zoom": 15
+        },
+        "carRentalElements": [
+        
+        ],
+        "date": "2018-11-14T23:00:00.000Z",
+        "missingBookableDays": false,
+        "elementsOrder": "8013|8014|8015|8016|8017",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "carRentalEnd": null,
+        "carRentalStart": null,
+        "endDate": "2018-11-14T23:00:00.000Z"
+    },
+    {
+        "nights": 0,
+        "day": 3,
+        "isFlight": false,
+        "typeId": 12,
+        "title": "Bacalar",
+        "subTitle": null,
+        "content": null,
+        "TSBlock": {
+        "id": 2993
+        },
+        "flightInfo": [
+        
+        ],
+        "media": [
+        {
+            "id": 8,
+            "sourceType": "mediaspirit",
+            "sourceId": "4f7df00f0bd355d10cfc2c1dc1f64854",
+            "url": "https:\/\/media.bohemianbirds.com\/original\/lg\/bacalar.png",
+            "description": ""
+        }
+        ],
+        "elements": [
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Transfer Tikal - Bacalar ",
+            "TSProduct": {
+            "id": 207,
+            "tag": "GUATRATIK",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8018
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Transfer Tikal - Bacalar ",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Na het ontbijt staat onze chauffeur klaar om jullie naar Bacalar in Mexico te brengen. Een relatief lange rit, maar niet getreurd, onderweg hebben jullie prachtige uitzichten! Neem na aankomst een heerlijke duik in Laguna Bacalar - een kraakhelder blauw meer - om even af te koelen en bestel een lekkere cocktail!",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "needsOffsetRecalculation": true,
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 2,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Villas Ecotucan",
+            "TSProduct": {
+            "id": 209,
+            "tag": "GUAACCVIL",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8019
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Villas Ecotucan",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "-",
+            "subAdditionalText": null,
+            "roomTypes": [
+            {
+                "defaultPrice": "0.0000",
+                "description": "Incl Ontbijt",
+                "minPerson": null,
+                "maxPerson": null,
+                "minUnit": null,
+                "maxUnit": null
+            }
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "needsOffsetRecalculation": true,
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Sunrise zeiltour & Mountainbike tocht ",
+            "TSProduct": {
+            "id": 208,
+            "tag": "GUAACCSUN",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8020
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Sunrise zeiltour & Mountainbike tocht ",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Word wakker in absoluut paradijs - wow! Sta vroeg op voor het volgende avontuur! Vandaag stappen jullie op een boot en zeilen jullie tijdens zonsopgang over dit indrukwekkende meer. Het meer wordt niet voor niets 'la laguna de los siete colores' genoemd, oftewel 'het meer met de zeven kleuren'. Na de zonsopkomst is het tijd om te relaxen en maak jullie eigen feestje tijdens deze zeiltrip! Jullie stoppen op de mooiste spots om lekker te zwemmen en te chillen.     In de middag gaan jullie mountainbikes huren. Ontdek de prachtige en bijzondere omgeving met de mountainbikes. Wauw!",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        }
+        ],
+        "inViewport": false,
+        "maps": {
+        "latitude": 52.212853,
+        "longitude": 5.2886923,
+        "zoom": 15
+        },
+        "carRentalElements": [
+        
+        ],
+        "date": "2018-11-14T23:00:00.000Z",
+        "missingBookableDays": false,
+        "elementsOrder": "8018|8019|8020",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "carRentalEnd": null,
+        "carRentalStart": null,
+        "endDate": "2018-11-14T23:00:00.000Z"
+    },
+    {
+        "nights": 0,
+        "day": 3,
+        "isFlight": false,
+        "typeId": 12,
+        "title": "Tulum",
+        "subTitle": null,
+        "content": null,
+        "TSBlock": {
+        "id": 2994
+        },
+        "flightInfo": [
+        
+        ],
+        "media": [
+        {
+            "id": 10,
+            "sourceType": "mediaspirit",
+            "sourceId": "3364d262c4d8971d9ee55dce8fd7ded9",
+            "url": "https:\/\/media.bohemianbirds.com\/original\/lg\/Cenote-Tulum.jpg",
+            "description": ""
+        }
+        ],
+        "elements": [
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Transfer Bacalar - Tulum",
+            "TSProduct": {
+            "id": 210,
+            "tag": "GUATRABAC",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8021
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Transfer Bacalar - Tulum",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Check rustig uit en maak je klaar voor Tulum. De chauffeur brengt jullie naar deze hippe badplaats. Het wemelt er van de populaire beach bars en er hangt een heerlijke vibe.     Optioneel stappen jullie op robuuste machines om de prachtige omgeving te ontdekken met een quad tour. De tour gaat door de jungle, langs de hagelwitte stranden en culturele Maya dorpen. Hier kan een duik worden genomen in de cenotes.     Liever je tan bijwerken met pils in je vuist? Dan zit je goed in Tulum!",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "needsOffsetRecalculation": true,
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Bambu Gran Palas",
+            "TSProduct": {
+            "id": 237,
+            "tag": "MEXACCBAM",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8022
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Bambu Gran Palas",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "-",
+            "subAdditionalText": null,
+            "roomTypes": [
+            {
+                "defaultPrice": "0.0000",
+                "description": "Incl Ontbijt",
+                "minPerson": null,
+                "maxPerson": null,
+                "minUnit": null,
+                "maxUnit": null
+            }
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "needsOffsetRecalculation": true,
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Bike tour Tulum Temples",
+            "TSProduct": {
+            "id": 212,
+            "tag": "GUAACTBIK",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8023
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Bike tour Tulum Temples",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Buenos dias hombres! Wanneer jullie er klaar voor zijn staat onze gids klaar voor een bike tour naar de Tulum Tempels! Stap op je bike en fiets door de prachtige omgeving naar de archeologische vindplaats aan het strand.     De gids verteld jullie alles over de tempels en de interessante Maya geschiedenis. Zijn jullie het zat? Dump de fiets en relax op de hagelwitte stranden en zwem in de turquoise Caribische Zee!     De avond is geheel van jullie! Tip: Ga in de namiddag naar de leukste \u2018beachclub\u2019 van Tulum. Bij La Eufemia draaien ze goede muziek en serveren ze overheerlijke taco\u2019s. In de avond is het tijd om helemaal je kop eraf te schroeven! Dit is de plek voor een onvergetelijke avond!",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        }
+        ],
+        "inViewport": false,
+        "maps": {
+        "latitude": 52.212853,
+        "longitude": 5.2886923,
+        "zoom": 15
+        },
+        "carRentalElements": [
+        
+        ],
+        "date": "2018-11-14T23:00:00.000Z",
+        "missingBookableDays": false,
+        "elementsOrder": "8021|8022|8023",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "carRentalEnd": null,
+        "carRentalStart": null,
+        "endDate": "2018-11-14T23:00:00.000Z"
+    },
+    {
+        "nights": 0,
+        "day": 3,
+        "isFlight": false,
+        "typeId": 12,
+        "title": "Playa del Carmen ",
+        "subTitle": null,
+        "content": null,
+        "TSBlock": {
+        "id": 2995
+        },
+        "flightInfo": [
+        
+        ],
+        "media": [
+        {
+            "id": 12,
+            "sourceType": "mediaspirit",
+            "sourceId": "518ab2b45169dd25618fb08c306f6680",
+            "url": "https:\/\/media.bohemianbirds.com\/original\/lg\/Skydiven-Playa-del-Carmen.jpg",
+            "description": ""
+        }
+        ],
+        "elements": [
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Private snorkel & party cruise",
+            "TSProduct": {
+            "id": 213,
+            "tag": "GUAACTPRI",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8024
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Private snorkel & party cruise",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Recover met een goed ontbijt en op naar het volgende avontuur! De chauffeur brengt jullie vandaag naar Playa del Carmen. Deze veelzijdige badplaats staat bekend om haar hagelwitte stranden, azuurblauwe zee, palmbomen en eindeloze beach party's. Cheers!     Bij aankomt in jullie over-the-top villa hebben jullie even tijd om te relaxen bij het priv\u00e9 zwembad en om boodschappen in te slaan voor de komende dagen. Op verzoek van jullie kunnen wij de koelkast ook volproppen! Cre\u00eber je eigen priv\u00e9 pool party of ontdek Playa del Carmen!     In de namiddag is het tijd om jullie bucket list te legen. Stap aan boord van jullie priv\u00e9 zeilboot en laat je leiden naar de mooiste spots om te snorkelen en zwemmen. De onderwaterwereld is hier echt spectaculair, exotisch en kleurrijk! Genoeg gezwommen? Turn up the volume, knal die flessen rum open en gaan! We hebben ervoor gezorgd dat er een goede geluidsinstallatie aanwezig is, genoeg koelboxen en dat jullie zeilen tijdens de zonsondergang. Maak een priv\u00e9 zeil\/sunset cruise om nooit te vergeten! Tip: sla genoeg drank en wat snacks in bij een lokale supermarkt voordat jullie aan boord stappen.     Optioneel kunnen jullie vanavond heerlijk eten. Een tip in Playa del Carmen is: Alux, dit is een restaurant dat heerlijk eten bereid midden in een grot, echt een unieke locatie.",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "needsOffsetRecalculation": true,
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": " Private goodbye diner & Cocktail workshop",
+            "TSProduct": {
+            "id": 214,
+            "tag": "GUAACTPR2",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8025
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": " Private goodbye diner & Cocktail workshop",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Wake up in paradise! Vandaag is het helemaal aan jullie. Tijd om maximaal te genieten! Trek een ijskoude Corona open of drink je favoriete cocktail!     In de avond hebben we een grandioos 3-gangen diner met priv\u00e9 chef in de villa voor jullie geregeld. Laat de chef je verassen met zijn culinaire kunstwerken en proef de heerlijke Mexicaanse smaken! Het is nog niet genoeg.. Na de laatste avondmaal komt er een professional langs voor een cocktail workshop. Shake or stir jouw zelf gecre\u00eberde cocktail, wie maakt de lekkerste?     De laatste avond in Mexico is alweer aangebroken en dat moet gevierd worden! Maak een priv\u00e9 pool party in jullie eigen villa of ga vanavond naar een vette club of party op het strand bij \u00e9\u00e9n van de vele beach bars! E\u00e9n ding is zeker, je kan hier feesten tot in de vroege uurtjes!",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Sterrenlunch",
+            "TSProduct": {
+            "id": 215,
+            "tag": "GUAACTSTE",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8026
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Sterrenlunch",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Het is zo ver.. tijd voor een sterrenlunch! Nadat jullie hebben uitgecheckt, vervolgd de chauffeur de route naar Restaurant Tempo By Martin Berasategui (link)! Dit wordt een lunch om nooit te vergeten. Laat je verassen door de master chef en laat je smaakpapillen alle hoeken van de kamer zien.",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        }
+        ],
+        "inViewport": false,
+        "maps": {
+        "latitude": 52.212853,
+        "longitude": 5.2886923,
+        "zoom": 15
+        },
+        "carRentalElements": [
+        
+        ],
+        "date": "2018-11-14T23:00:00.000Z",
+        "missingBookableDays": false,
+        "elementsOrder": "8024|8025|8026",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "carRentalEnd": null,
+        "carRentalStart": null,
+        "endDate": "2018-11-14T23:00:00.000Z"
+    },
+    {
+        "nights": 0,
+        "day": 3,
+        "isFlight": false,
+        "typeId": 12,
+        "title": "Medellin ",
+        "subTitle": null,
+        "content": null,
+        "TSBlock": {
+        "id": 2996
+        },
+        "flightInfo": [
+        
+        ],
+        "media": [
+        {
+            "id": 14,
+            "sourceType": "mediaspirit",
+            "sourceId": "06df2ce7682af48f62a37979ba101591",
+            "url": "https:\/\/media.bohemianbirds.com\/original\/lg\/City-tour-Medellin.jpg",
+            "description": ""
+        }
+        ],
+        "elements": [
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Transfer Luchthaven - Medellin",
+            "TSProduct": {
+            "id": 216,
+            "tag": "COLTRAMED",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8027
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Transfer Luchthaven - Medellin",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Bienvenidos a Colombia se\u00f1ores! Op de luchthaven van Medellin staat de chauffeur jullie op te wachten bij de aankomsthal om jullie naar de eerste accommodatie te brengen. Uiteraard zijn de koude bakken tijdens de transfer geregeld! Luid de trip goed in bij jullie accommodatie middenin de leukste wijk van Medellin, El Poblado. Hier vind je de hipste restaurantjes, barretjes, dikke clubs en leuke pleinen.     Tip: Ga voor Aguardiente, deze drank is de nationale trots van de Colombianen en wordt als shotje aan iedereen uitgedeeld. Wie drinkt wie eruit? Holanda vs Colombiaaaaa.",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "needsOffsetRecalculation": true,
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 2,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Casa Kiwi",
+            "TSProduct": {
+            "id": 236,
+            "tag": "COLACCCA2",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8028
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Casa Kiwi",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "-",
+            "subAdditionalText": null,
+            "roomTypes": [
+            {
+                "defaultPrice": "0.0000",
+                "description": "Incl Ontbijt",
+                "minPerson": null,
+                "maxPerson": null,
+                "minUnit": null,
+                "maxUnit": null
+            }
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "needsOffsetRecalculation": true,
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Paragliding Medellin",
+            "TSProduct": {
+            "id": 234,
+            "tag": "COLACTPA2",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8029
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Paragliding Medellin",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Tijd om adrenaline te voelen tijdens paragliding, spring van de bergen en suis door de lucht! Geniet van de prachtige uitzichten en voel de rush tijdens deze vlucht. Jullie lijken wel de vliegende Hollander....",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Comuna 13 TOUR",
+            "TSProduct": {
+            "id": 219,
+            "tag": "COLACTCOM",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8030
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Comuna 13 TOUR",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Het is nog niet afgelopen want Laura (onze fantastische lokale partner) neemt jullie mee naar Comuna 13. Ontdek hoe de meest beruchte sloppenwijk van Medellin zichzelf opnieuw uitvond met haar indrukwekkende street art. Daarnaast leren jullie hier van alles over de geschiedenis van de drugskartels!     De rest van de dag hebben jullie de touwtjes in eigen handen, tips? Vraag gerust!",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        }
+        ],
+        "inViewport": false,
+        "maps": {
+        "latitude": 52.212853,
+        "longitude": 5.2886923,
+        "zoom": 15
+        },
+        "carRentalElements": [
+        
+        ],
+        "date": "2018-11-14T23:00:00.000Z",
+        "missingBookableDays": false,
+        "elementsOrder": "8027|8028|8029|8030",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "carRentalEnd": null,
+        "carRentalStart": null,
+        "endDate": "2018-11-14T23:00:00.000Z"
+    },
+    {
+        "nights": 0,
+        "day": 3,
+        "isFlight": false,
+        "typeId": 12,
+        "title": "Santa Marta",
+        "subTitle": null,
+        "content": null,
+        "TSBlock": {
+        "id": 2997
+        },
+        "flightInfo": [
+        
+        ],
+        "media": [
+        {
+            "id": 16,
+            "sourceType": "mediaspirit",
+            "sourceId": "3364d262c4d8971d9ee55dce8f7bba33",
+            "url": "https:\/\/media.bohemianbirds.com\/original\/lg\/Hike-Santa-Cruz-La-Laguna.jpg",
+            "description": ""
+        }
+        ],
+        "elements": [
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Vlucht Medellin - Santa Marta",
+            "TSProduct": {
+            "id": 220,
+            "tag": "COLVLUMED",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8031
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Vlucht Medellin - Santa Marta",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Buenos dias mannen! De chauffeur brengt jullie in de ochtend naar het vliegveld van Medellin voor de vlucht naar Santa Marta. De chauffeur staat klaar voor de transfer naar de volgende accommodatie.",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "needsOffsetRecalculation": true,
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Voetbalwedstrijd tegen de locals",
+            "TSProduct": {
+            "id": 239,
+            "tag": "COLACTVO2",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8032
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Voetbalwedstrijd tegen de locals",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Na de check in staat er een voetbalwedstrijd tegen de locals op het programma! Wie gaat er winnen? Colombia vs Holanda!",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "needsOffsetRecalculation": true,
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "La Brisa Loca",
+            "TSProduct": {
+            "id": 222,
+            "tag": "COLACCBRI",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8033
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "La Brisa Loca",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Vier daarna de overwinning (toch?) in jullie hostel dat erom bekend staat dat je er flink je kop eraf kan schroeven. Daarnaast heeft het een chill dakterras waar je kan tannen en een zwembad voor wat verfrissing.",
+            "subAdditionalText": null,
+            "roomTypes": [
+            {
+                "defaultPrice": "0.0000",
+                "description": "Incl Ontbijt",
+                "minPerson": null,
+                "maxPerson": null,
+                "minUnit": null,
+                "maxUnit": null
+            }
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "needsOffsetRecalculation": true,
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Kogi experience dag 1",
+            "TSProduct": {
+            "id": 223,
+            "tag": "COLACTKOG",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8034
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Kogi experience dag 1",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Weer helemaal ontspannen? Op naar de jungle! Vandaag is het tijd voor een uniek cultureel avontuur aan de voet van de Sierra Nevada de Santa Marta. Na een rit met de 4*4 jeeps en 2 uur te hiken door de jungle komen jullie aan bij een inheems dorp in the middel of nowhere! Hier komen jullie in contact met de inheemse bevolking die hier woont. De gids leert jullie van alles over de interessante tradities en hun leefomstandigheden. Wat is nu vetter dan interactie met deze inheemse bevolking?! Verder is hier de mogelijkheid om een frisse duik te nemen bij de rivier.",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        }
+        ],
+        "inViewport": true,
+        "maps": {
+        "latitude": 52.212853,
+        "longitude": 5.2886923,
+        "zoom": 15
+        },
+        "carRentalElements": [
+        
+        ],
+        "date": "2018-11-14T23:00:00.000Z",
+        "missingBookableDays": false,
+        "elementsOrder": "8031|8032|8033|8034",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "carRentalEnd": null,
+        "carRentalStart": null,
+        "endDate": "2018-11-14T23:00:00.000Z"
+    },
+    {
+        "nights": 0,
+        "day": 3,
+        "isFlight": false,
+        "typeId": 12,
+        "title": "Cartagena",
+        "subTitle": null,
+        "content": null,
+        "TSBlock": {
+        "id": 2998
+        },
+        "flightInfo": [
+        
+        ],
+        "media": [
+        
+        ],
+        "elements": [
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Kogi experience dag 2",
+            "TSProduct": {
+            "id": 224,
+            "tag": "COLACTKO2",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8035
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Kogi experience dag 2",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Na een goed ontbijt hebben jullie nog de ochtend om te relaxen. Zodra jullie er klaar voor zijn hiken jullie 2 uur door de jungle terug naar de 4*4 jeeps. In Santa Marta worden jullie opgewacht door de chauffeur die jullie naar Cartagena brengt, de Caribische parel van Colombia. Check in bij het hostel en geniet met een cocktail in je hand bij jullie zwembad. What a life!",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "needsOffsetRecalculation": true,
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Massage",
+            "TSProduct": {
+            "id": 225,
+            "tag": "COLACTMAS",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8036
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Massage",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Nog niet helemaal bijgekomen van je nacht in de hangmat? Wij hebben daarom een heerlijke massage voor jullie geregeld, wie heeft de knapste Colombiaanse masseuse?   Ga vanavond naar Plaza de la Trinidad, op dit plein is altijd wel wat te beleven. Koop drank bij de supermarkt op de hoek en eten bij de vele street food stalletjes en geniet van de live muzikanten en dansers. Wie waagt een salsa dansje met een Colombiaanse guapa, oh yeah vamanos hombres de Efteling!",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "needsOffsetRecalculation": true,
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Media Luna Hostel",
+            "TSProduct": {
+            "id": 226,
+            "tag": "COLACCMED",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8037
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Media Luna Hostel",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "-",
+            "subAdditionalText": null,
+            "roomTypes": [
+            {
+                "defaultPrice": "0.0000",
+                "description": "Incl Ontbijt",
+                "minPerson": null,
+                "maxPerson": null,
+                "minUnit": null,
+                "maxUnit": null
+            }
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "needsOffsetRecalculation": true,
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        }
+        ],
+        "inViewport": true,
+        "maps": {
+        "latitude": 52.212853,
+        "longitude": 5.2886923,
+        "zoom": 15
+        },
+        "carRentalElements": [
+        
+        ],
+        "date": "2018-11-14T23:00:00.000Z",
+        "missingBookableDays": false,
+        "elementsOrder": "8035|8036|8037",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "carRentalEnd": null,
+        "carRentalStart": null,
+        "endDate": "2018-11-14T23:00:00.000Z"
+    },
+    {
+        "nights": 0,
+        "day": 3,
+        "isFlight": false,
+        "typeId": 12,
+        "title": " Isla Tintipan",
+        "subTitle": null,
+        "content": null,
+        "TSBlock": {
+        "id": 2999
+        },
+        "flightInfo": [
+        
+        ],
+        "media": [
+        {
+            "id": 18,
+            "sourceType": "mediaspirit",
+            "sourceId": "30947fc7963a793506d347ea365683e3",
+            "url": "https:\/\/media.bohemianbirds.com\/original\/lg\/Inadelan-Island-tour.jpg",
+            "description": ""
+        }
+        ],
+        "elements": [
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Transfer Isla Tintipan - Cartagena",
+            "TSProduct": {
+            "id": 231,
+            "tag": "COLATRAISL",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8038
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Transfer Isla Tintipan - Cartagena",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Nog even genieten van de Caribische Zee. In de middag vertrekken jullie van het eiland met een speedboot! Rond 14:00 komen jullie aan in de haven van Cartagena. De chauffeur brengt je naar jullie priv\u00e9 villa waar de laatste dagen van deze legendarische, sprookjesachtige en magische reis doorgebracht gaan worden.",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "needsOffsetRecalculation": true,
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Zeiltocht Rosario Islands",
+            "TSProduct": {
+            "id": 227,
+            "tag": "COLACTZEI",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8039
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Zeiltocht Rosario Islands",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Na het ontbijt worden jullie naar de haven van Cartagena gebracht voor een nieuw avontuur! Stap aan boord van jullie priv\u00e9 zeilboot en beleef een dag om nooit te vergeten! De schipper is helemaal van jullie, de route is tailor made en alles valt te overleggen. Stop bij de beste snorkel spots, verborgen baaien en knal de muziek aan voor een priv\u00e9 fiesta.",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 2,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Isla Roots",
+            "TSProduct": {
+            "id": 228,
+            "tag": "COLACCISL",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8040
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Isla Roots",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Aan het eind van de middag leggen jullie aan bij Isla Tintipan, een prachtig eiland. Drop de koffers en geniet van dit legendarische hostel met de meest chille vibe ever. Hier is alles mogelijk - party's, zwemmen, chillen, bakken vouwen, it's up to you!",
+            "subAdditionalText": null,
+            "roomTypes": [
+            {
+                "defaultPrice": "0.0000",
+                "description": "Incl Ontbijt",
+                "minPerson": null,
+                "maxPerson": null,
+                "minUnit": null,
+                "maxUnit": null
+            }
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Vrije besteding Isla Tintipan",
+            "TSProduct": {
+            "id": 229,
+            "tag": "COLACTVRI",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8041
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Vrije besteding Isla Tintipan",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Ontwaak rustig, relax en geniet van dit paradijs! Vandaag hebben jullie de touwtjes zelf in handen op dit prachtige eiland m\u00e9t priv\u00e9 strand. Er is hier van alles te doen. Ahh.. What a life!",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        }
+        ],
+        "inViewport": false,
+        "maps": {
+        "latitude": 52.212853,
+        "longitude": 5.2886923,
+        "zoom": 15
+        },
+        "carRentalElements": [
+        
+        ],
+        "date": "2018-11-14T23:00:00.000Z",
+        "missingBookableDays": false,
+        "elementsOrder": "8038|8039|8040|8041",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "carRentalEnd": null,
+        "carRentalStart": null,
+        "endDate": "2018-11-14T23:00:00.000Z"
+    },
+    {
+        "nights": 0,
+        "day": 3,
+        "isFlight": false,
+        "typeId": 12,
+        "title": "Cartagena",
+        "subTitle": null,
+        "content": null,
+        "TSBlock": {
+        "id": 3000
+        },
+        "flightInfo": [
+        
+        ],
+        "media": [
+        
+        ],
+        "elements": [
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 2,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Villa Cartagena",
+            "TSProduct": {
+            "id": 232,
+            "tag": "COLACCVI2",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8042
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Villa Cartagena",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Geniet met zijn allen van de priv\u00e9 villa met zwembad, ga de historische binnenstad van Cartagena in of chill op de vele pleintjes van Getsemani.",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "needsOffsetRecalculation": true,
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Vrije besteding Cartagena",
+            "TSProduct": {
+            "id": 230,
+            "tag": "COLACTVR2",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8043
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Vrije besteding Cartagena",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "La vida buenaaaa.. Plof van je bed direct in je hangmat en scoor wat ontbijt en een lekker kop Colombiaanse koffie. Wat gaan jullie vandaag doen?     Ga aan het einde van de middag naar Caf\u00e9 del Mar, deze bar is gevestigd bovenop de oude stadsmuur! Onder het genot van een biertje en een DJ geniet je hier van een geweldige zonsondergang.     De laatste avond van jullie legendarische reis moet natuurlijk in klasse worden afgesloten. Zodra jullie er klaar voor zijn komt er een priv\u00e9 chef langs in het penthouse om een heerlijk diner uit deze regio te bereiden.",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 0,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Transfer Cartagena - Vliegveld",
+            "TSProduct": {
+            "id": 233,
+            "tag": "COLTRACAR",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8044
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Transfer Cartagena - Vliegveld",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "additionalText": "Helaas is de laatste dag van jullie geweldige reis aangebroken. Na uitgecheckt te hebben bij jullie penthouse vertrekken jullie met een priv\u00e9 transfer naar de luchthaven van Cartagena voor jullie vlucht terug naar ons koude kikkerlandje. De Efteling kan terug met een hoofd vol magische en sprookjesachtige herinneringen. Het nagenieten kan beginnen mannen!",
+            "subAdditionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        }
+        ],
+        "inViewport": false,
+        "maps": {
+        "latitude": 52.212853,
+        "longitude": 5.2886923,
+        "zoom": 15
+        },
+        "carRentalElements": [
+        
+        ],
+        "date": "2018-11-14T23:00:00.000Z",
+        "missingBookableDays": false,
+        "elementsOrder": "8042|8043|8044",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "carRentalEnd": null,
+        "carRentalStart": null,
+        "endDate": "2018-11-14T23:00:00.000Z"
+    },
+    {
+        "isFlight": false,
+        "typeId": 1,
+        "title": null,
+        "subTitle": null,
+        "content": null,
+        "TSBlock": {
+        "id": 3001
+        },
+        "flightInfo": [
+        
+        ],
+        "media": [
+        
+        ],
+        "elements": [
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 5,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Maatwerk Pakketreis Mexico",
+            "TSProduct": {
+            "id": 53,
+            "tag": "PAMEX",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8045
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": "0.000",
+            "discount": null,
+            "title": "Maatwerk Pakketreis Mexico",
+            "discountMethod": null,
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "USD",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "needsOffsetRecalculation": true,
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        },
+        {
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 0,
+            "unitId": 5,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Maatwerk Pakketreis Mexico",
+            "TSProduct": {
+            "id": 53,
+            "tag": "PAMEX",
+            "bookableDays": [
+                
+            ]
+            },
+            "TSOrderline": {
+            "id": 8265
+            },
+            "media": [
+            
+            ],
+            "olPrices": {
+            "costPrice": null,
+            "discount": null,
+            "title": "Maatwerk Pakketreis Mexico",
+            "discountMethod": null,
+            "exchangeRate": "0.880400000",
+            "purchaseCurrency": "USD",
+            "salesCurrency": "EUR",
+            "participants": {
+                "5271": {
+                "costPrice": "0.000",
+                "salesPrice": ""
+                }
+            },
+            "salesTotal": 0
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+            
+            ],
+            "supplierComment": null,
+            "missingBookableDays": [
+            
+            ],
+            "needsOffsetRecalculation": true,
+            "day": 3,
+            "date": "2018-11-14T23:00:00.000Z",
+            "endDate": "2018-11-14T23:00:00.000Z",
+            "roomTypeMatchesParticipants": true
+        }
+        ],
+        "inViewport": false,
+        "maps": {
+        "latitude": 52.212853,
+        "longitude": 5.2886923,
+        "zoom": 15
+        },
+        "carRentalElements": [
+        
+        ],
+        "day": 3,
+        "date": "2018-11-14T23:00:00.000Z",
+        "missingBookableDays": false,
+        "elementsOrder": "8045|8265",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "nights": 0,
+        "carRentalEnd": null,
+        "carRentalStart": null,
+        "endDate": "2018-11-14T23:00:00.000Z"
+    },
+    {
+        "isFlight": true,
+        "typeId": 4,
+        "title": "Vlucht Amsterdam - Antigua",
+        "subTitle": null,
+        "content": null,
+        "TSBlock": {
+        "id": 3248
+        },
+        "flightInfo": [
+        
+        ],
+        "media": [
+        
+        ],
+        "elements": [
+        
+        ],
+        "inViewport": false,
+        "maps": {
+        "latitude": 52.212853,
+        "longitude": 5.2886923,
+        "zoom": 15
+        },
+        "carRentalElements": [
+        
+        ],
+        "day": 3,
+        "date": "2018-11-14T23:00:00.000Z",
+        "missingBookableDays": false,
+        "nights": 0,
+        "carRentalEnd": null,
+        "carRentalStart": null,
+        "endDate": "2018-11-14T23:00:00.000Z"
+    }
+    ],
+    "liborderId": 594,
+    "cover": [
+    
+    ],
+    "hasNotCalculated": false,
+    "totalDays": 3,
+    "totalDaysAllocated": 3,
+    "endDate": "2018-11-14T23:00:00.000Z",
+    "notifications": [
+    
+    ]
+}

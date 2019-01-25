@@ -3,16 +3,18 @@
     <vtb-menu [stickyAt]="300" [dataSource]="[{name: 'Programma', selector: '[data-block=program]'}, {name: 'Accommodatie', selector: '[data-block=accommodations]'}, {name: 'Investering', selector: '.overview'}, {name: 'Consultants', selector: '.consultants'}, {name: 'Contact', 'selector': '.social-media'}]"></vtb-menu>
 </div>
 
-<div [className]="itinerary.youtubeVideo ? 'header youtube-video' : 'header cover-images'">
+<div [className]="itinerary.extraFieldValues[0].fields[0].value ? 'header youtube-video' : 'header cover-images'">
     <div class="header-text titles">
         <vtb-text [config]="{name: 'title', tag: 'h2', class: 'vtb-title'}" [dataSource]="itinerary"></vtb-text>
         <vtb-text [config]="{name: 'subTitle', tag: 'h1', class: 'vtb-sub-title'}" [dataSource]="itinerary"></vtb-text>
     </div>
-    <vtb-media *ngIf="!itinerary.youtubeVideo" [dataSource]="itinerary.cover" [slider]="true" [sliderInterval]="5000"></vtb-media>
+    <vtb-media *ngIf="!itinerary.extraFieldValues[0].fields[0].value" [dataSource]="itinerary.cover" [slider]="true" [sliderInterval]="5000"></vtb-media>
     
-    <div class="youtube-wrapper" *ngIf="itinerary.youtubeVideo">
+
+
+    <div class="youtube-wrapper" *ngIf="itinerary.extraFieldValues[0].fields[0].value">
         <vtb-youtube 
-            [dataSource]="itinerary.youtubeVideo"
+            [dataSource]="itinerary.extraFieldValues[0].fields[0].value"
             [controls]="false"
             [autoplay]="true"
             [loop]="true"
@@ -26,7 +28,7 @@
         <h3>Dit is waar jullie je bucket list gaan legen:</h3>
     </div>
 
-    <agm-map [latitude]="itinerary.segments[0].maps.latitude" [zoom]="itinerary.segments[0].maps.zoom" [longitude]="itinerary.segments[0].maps.longitude" [styles]="styles"></agm-map>
+    <agm-map [latitude]="itinerary.segments[0].maps.latitude" [zoom]="5" [longitude]="itinerary.segments[0].maps.longitude" [styles]="styles"></agm-map>
 </div>
 
 <div class="program" data-block="program">

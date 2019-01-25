@@ -1,16 +1,14 @@
-<div class="menu">  
-    <img src="/assets/images/logo.png" class="logo" alt="">
+<div class="menu">
+    <img src="//res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_1440,w_720,f_auto,q_auto/v1/457961/logostrikingly_bb8die.png" class="logo" alt="">
     <vtb-menu [stickyAt]="300" [dataSource]="[{name: 'Programma', selector: '[data-block=program]'}, {name: 'Accommodatie', selector: '[data-block=accommodations]'}, {name: 'Investering', selector: '.overview'}, {name: 'Consultants', selector: '.consultants'}, {name: 'Contact', 'selector': '.social-media'}]"></vtb-menu>
 </div>
 
 <div [className]="itinerary.extraFieldValues[0].fields[0].value ? 'header youtube-video' : 'header cover-images'">
     <div class="header-text titles">
-        <vtb-text [config]="{name: 'title', tag: 'h2', class: 'vtb-title'}" [dataSource]="itinerary"></vtb-text>
-        <vtb-text [config]="{name: 'subTitle', tag: 'h1', class: 'vtb-sub-title'}" [dataSource]="itinerary"></vtb-text>
+        <vtb-text *ngIf="itinerary.title" [config]="{name: 'title', tag: 'h2', class: 'vtb-title'}" [dataSource]="itinerary"></vtb-text>
+        <vtb-text *ngIf="itinerary.subTtile" [config]="{name: 'subTitle', tag: 'h1', class: 'vtb-sub-title'}" [dataSource]="itinerary"></vtb-text>
     </div>
     <vtb-media *ngIf="!itinerary.extraFieldValues[0].fields[0].value" [dataSource]="itinerary.cover" [slider]="true" [sliderInterval]="5000"></vtb-media>
-    
-
 
     <div class="youtube-wrapper" *ngIf="itinerary.extraFieldValues[0].fields[0].value">
         <vtb-youtube 
@@ -27,8 +25,7 @@
         <h1>Bestemming</h1>
         <h3>Dit is waar jullie je bucket list gaan legen:</h3>
     </div>
-
-    <agm-map [latitude]="itinerary.segments[0].maps.latitude" [zoom]="5" [longitude]="itinerary.segments[0].maps.longitude" [styles]="styles"></agm-map>
+    <agm-map [latitude]="itinerary.segments[0].maps.latitude" [zoom]="itinerary.segments[0].maps.zoom" [longitude]="itinerary.segments[0].maps.longitude" [scrollwheel]="false" [styles]="[{'featureType':'all','elementType':'labels','stylers':[{'visibility':'off'}]},{'featureType':'administrative','elementType':'all','stylers':[{'visibility':'on'}]},{'featureType':'administrative.country','elementType':'geometry','stylers':[{'visibility':'simplified'},{'hue':'#ff0000'}]},{'featureType':'administrative.country','elementType':'geometry.stroke','stylers':[{'weight':'0.75'},{'visibility':'on'},{'color':'#e5e9e2'}]},{'featureType':'administrative.country','elementType':'labels','stylers':[{'visibility':'off'},{'weight':'0.01'},{'lightness':'79'}]},{'featureType':'administrative.province','elementType':'geometry.stroke','stylers':[{'weight':'0.01'}]},{'featureType':'landscape','elementType':'geometry','stylers':[{'saturation':'-92'},{'lightness':'41'},{'gamma':'2'},{'visibility':'on'}]},{'featureType':'landscape.man_made','elementType':'geometry','stylers':[{'saturation':'-73'}]},{'featureType':'landscape.natural','elementType':'geometry','stylers':[{'hue':'#ffc600'},{'saturation':'27'},{'lightness':'24'}]},{'featureType':'landscape.natural.landcover','elementType':'geometry.stroke','stylers':[{'invert_lightness':true}]},{'featureType':'landscape.natural.terrain','elementType':'geometry','stylers':[{'hue':'#eaff00'},{'lightness':'0'},{'saturation':'-100'},{'gamma':'2'}]},{'featureType':'landscape.natural.terrain','elementType':'geometry.fill','stylers':[{'saturation':'-95'},{'lightness':'-100'}]},{'featureType':'poi.park','elementType':'geometry','stylers':[{'saturation':'-39'},{'lightness':'84'}]},{'featureType':'poi.park','elementType':'geometry.stroke','stylers':[{'visibility':'off'}]},{'featureType':'road','elementType':'geometry','stylers':[{'color':'#e9e8e2'},{'lightness':'-8'},{'saturation':'-100'},{'weight':'1.00'}]},{'featureType':'road','elementType':'geometry.stroke','stylers':[{'weight':'0.01'},{'lightness':'-50'}]},{'featureType':'road.highway','elementType':'geometry.fill','stylers':[{'visibility':'on'},{'weight':'0.20'},{'lightness':'-4'}]},{'featureType':'road.highway','elementType':'geometry.stroke','stylers':[{'weight':'0.01'},{'visibility':'off'}]},{'featureType':'road.arterial','elementType':'geometry.fill','stylers':[{'weight':'0.50'},{'lightness':'40'}]},{'featureType':'road.arterial','elementType':'geometry.stroke','stylers':[{'weight':'0.01'},{'visibility':'off'}]},{'featureType':'road.local','elementType':'all','stylers':[{'visibility':'off'}]},{'featureType':'road.local','elementType':'geometry','stylers':[{'weight':'6.79'},{'gamma':'0.94'}]},{'featureType':'road.local','elementType':'geometry.fill','stylers':[{'weight':'0.10'},{'lightness':'-23'},{'gamma':'7.23'}]},{'featureType':'road.local','elementType':'geometry.stroke','stylers':[{'weight':'.1'},{'color':'#ff0000'}]},{'featureType':'transit.line','elementType':'geometry','stylers':[{'color':'#8bc7d6'},{'weight':'0.3'}]},{'featureType':'transit.station.airport','elementType':'geometry.fill','stylers':[{'saturation':'-62'},{'lightness':'6'}]},{'featureType':'transit.station.airport','elementType':'geometry.stroke','stylers':[{'saturation':'-83'},{'lightness':'-71'},{'weight':'2.94'}]},{'featureType':'water','elementType':'geometry','stylers':[{'color':'#d4eaec'}]},{'featureType':'water','elementType':'geometry.fill','stylers':[{'color':'#00c2ff'}]},{'featureType':'water','elementType':'labels','stylers':[{'visibility':'off'},{'color':'#9fd0d6'}]},{'featureType':'water','elementType':'labels.text.stroke','stylers':[{'visibility':'off'}]}]"></agm-map>
 </div>
 
 <div class="program" data-block="program">

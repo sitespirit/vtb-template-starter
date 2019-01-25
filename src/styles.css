@@ -145,19 +145,18 @@ p {
     width: 50%;
     float: left;
     box-shadow: 0 0 50px 0 rgba(0,0,0,0.1);
-    
   }
 
   .program vtb-media > div:nth-child(2) {
     transform: scale(1.2) translate(10px, -40px);
   }
 
-  .program vtb-segment:nth-child(1) .day,
+  /* .program vtb-segment:nth-child(1) .day,
   .program vtb-segment:nth-child(1) .title,
   .program vtb-segment:nth-child(1) .subTitle,
   .program vtb-segment:nth-child(1) .content {
     grid-column: 2 / 10;
-  }
+  } */
 
   .program vtb-segment:nth-child(even) .media {
     grid-column: 7 / span 6;
@@ -451,7 +450,7 @@ h1 {
   background-repeat:no-repeat;
   padding:.5em;
   box-shadow: -1 2px 3px rgba(0,0,0,.3);
-  background-image:url(/assets/images/mini-logo.jpg);
+  background-image:url(//res.cloudinary.com/hrscywv4p/image/upload/c_fill,f_auto,g_faces:center,h_64,q_90,w_64/v1/457961/e082290856f649f199738d3f36d0dee3_mwiigx.jpg);
 }
 
 .menu:after {
@@ -670,7 +669,7 @@ h1 {
 .overview {
   background-repeat: no-repeat;
   background-color: transparent;
-  background-image: url(/assets/images/globe-background.jpg);
+  background-image: url(https://updates.fluffymedia.nl/sitespirit/globe-background.jpg);
   background-attachment: fixed;
 }
 

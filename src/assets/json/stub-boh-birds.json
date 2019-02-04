@@ -32,7 +32,7 @@
             "field_value_link_id": 5,
             "link_type": "order",
             "link_id": 594,
-            "value": "https:\/\/www.youtube.com\/watch?v=zp0udIPzWSc"
+            "value": "https:\/\/www.youtube.com\/embed\/Ioq1u3VvWRk"
         }
         ]
     }
@@ -2842,5 +2842,7 @@
     ],
     "salesPriceAfterRounding": 0,
     "salesPriceBeforeRounding": 0,
-    "costPriceBeforeRounding": 0
+    "costPriceBeforeRounding": 0,
+    "title":"JC Vice Versa naar de",
+    "subTitle":"Filipijnen"
 }

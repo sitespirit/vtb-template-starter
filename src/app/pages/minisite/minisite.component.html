@@ -1,9 +1,6 @@
-<div class="menu">
+<div class="menu" [ngClass]="{'active': showMobileMenu}">
     <img src="//res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_1440,w_720,f_auto,q_auto/v1/457961/logostrikingly_bb8die.png" class="logo" alt="">
-    <div class="menu-toggle">
-        <i class="fas fa-bars"></i>
-    </div>
-    <vtb-menu [stickyAt]="300" [dataSource]="[{name: 'Programma', selector: '[data-block=program]'}, {name: 'Accommodaties', selector: '[data-block=accommodations]'}, {name: 'Investering', selector: '.overview'}, {name: 'Consultants', selector: '.consultants'}, {name: 'Contact', 'selector': '.social-media'}]"></vtb-menu>
+    <vtb-menu [toggle]="true" [stickyAt]="300" [dataSource]="[{name: 'Programma', selector: '[data-block=program]'}, {name: 'Accommodaties', selector: '[data-block=accommodations]'}, {name: 'Investering', selector: '.overview'}, {name: 'Consultants', selector: '.consultants'}, {name: 'Contact', 'selector': '.social-media'}]"></vtb-menu>
 </div>
 
 <div [className]="(itinerary.extraFieldValues | extraField : 2 : 2) ? 'header youtube-video' : 'header cover-images'">

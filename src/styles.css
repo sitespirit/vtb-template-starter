@@ -356,32 +356,6 @@ h1 {
   max-height: 150px;
 }
 
-.menu:after {
-  content: " ";
-  display: block;
-  background-color: #fff;
-  border-radius: 3em;
-  width: 2em;
-  position: absolute;
-  height: 2em;
-  bottom:-1.5em;
-  z-index: 2;
-  left:50%;
-  margin-left: -1.5em;
-  background-size:contain;
-  background-origin: content-box;
-  background-repeat:no-repeat;
-  padding:.5em;
-  background-image:url(//res.cloudinary.com/hrscywv4p/image/upload/c_fill,f_auto,g_faces:center,h_64,q_90,w_64/v1/457961/e082290856f649f199738d3f36d0dee3_mwiigx.jpg);
-  -webkit-animation:spin .4s linear;
-  -moz-animation:spin .4s linear;
-  animation:spin .4s linear;
-}
-
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
 .menu vtb-menu {
   text-align: center;
 }

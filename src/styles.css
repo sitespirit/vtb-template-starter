@@ -264,23 +264,6 @@ p {
     grid-column: 3 / span 9;
   }
 
-.consultants {
-  grid-column: 3 / span 8;
-}
-
-  .consultants-overview {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    column-gap: 40px;
-  }
-
-    .consultants-overview .consultant {
-      grid-column: span 4;
-    }
-
-    .consultants-overview .consultant:first-child {
-      grid-column: 3 / span 4;
-    }
 
 .social-media {
   grid-column: 1 / span 12;
@@ -372,32 +355,6 @@ h1 {
   max-width: 100%;
   max-height: 150px;
 }
-
-.menu:after {
-  content: " ";
-  display: block;
-  background-color: #fff;
-  border-radius: 3em;
-  width: 2em;
-  position: absolute;
-  height: 2em;
-  bottom:-1.5em;
-  z-index: 2;
-  left:50%;
-  margin-left: -1.5em;
-  background-size:contain;
-  background-origin: content-box;
-  background-repeat:no-repeat;
-  padding:.5em;
-  background-image:url(//res.cloudinary.com/hrscywv4p/image/upload/c_fill,f_auto,g_faces:center,h_64,q_90,w_64/v1/457961/e082290856f649f199738d3f36d0dee3_mwiigx.jpg);
-  -webkit-animation:spin .4s linear;
-  -moz-animation:spin .4s linear;
-  animation:spin .4s linear;
-}
-
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 .menu vtb-menu {
   text-align: center;
@@ -520,8 +477,7 @@ h1 {
 
 .map,
 .program,
-.overview,
-.consultants {
+.overview {
   padding: 80px 0;
 }
 
@@ -618,27 +574,16 @@ h1 {
   text-align:center;
 }
 
-.consultants h4 {
-  font-size:1.4em;
-}
-
-.accommodations h5,
-.consultants h5 {
+.accommodations h5 {
   color: #fff;
   font-size: 1.2em;
   font-weight: bold;
   margin: 20px 0;
 }
 
-.accommodations h6,
-.consultants h6 {
+.accommodations h6 {
   font-size: 1.1em; 
   color:#fff;
-}
-
-.consultants h5,
-.consultants h6 {
-  color: #111;
 }
 
 .accommodations vtb-media,
@@ -748,14 +693,6 @@ h1 {
   color: #FAA;
   font-family: "Font Awesome 5 Free";
   content: "";
-}
-
-.consultants {
-  text-align:center;
-}
-
-.consultant > .consultant-image {
-  margin-bottom: 20px;
 }
 
 .social-media {

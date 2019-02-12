@@ -1,6 +1,6 @@
 <div class="menu" [ngClass]="{'active': showMobileMenu}">
-    <img src="//res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_1440,w_720,f_auto,q_auto/v1/457961/logostrikingly_bb8die.png" class="logo" alt="">
-    <vtb-menu [toggle]="true" [stickyAt]="300" [dataSource]="[{name: 'Programma', selector: '[data-block=program]'}, {name: 'Accommodaties', selector: '[data-block=accommodations]'}, {name: 'Investering', selector: '.overview'}, {name: 'Consultants', selector: '.consultants'}, {name: 'Contact', 'selector': '.social-media'}]"></vtb-menu>
+    <img src="https://1.cms.s81c.com/sites/default/files/2017-10-26/Sitespirit.png" class="logo" alt="">
+    <vtb-menu [toggle]="true" [stickyAt]="300" [dataSource]="[{name: 'Programma', selector: '[data-block=program]'}, {name: 'Accommodaties', selector: '[data-block=accommodations]'}, {name: 'Investering', selector: '.overview'}, {name: 'Contact', 'selector': '.social-media'}]"></vtb-menu>
 </div>
 
 <div [className]="(itinerary.extraFieldValues | extraField : 2 : 2) ? 'header youtube-video' : 'header cover-images'">
@@ -23,7 +23,7 @@
 <div class="map">
     <div class="titles">
         <h1>Bestemming</h1>
-        <h3>Dit is waar jullie je bucket list gaan legen:</h3>
+        <h3>Hier gaat de reis naartoe</h3>
     </div>
     <agm-map [latitude]="itinerary.segments[0].maps.latitude" [zoom]="itinerary.segments[0].maps.zoom" [longitude]="itinerary.segments[0].maps.longitude" [scrollwheel]="false" [styles]="[{'featureType':'all','elementType':'labels','stylers':[{'visibility':'off'}]},{'featureType':'administrative','elementType':'all','stylers':[{'visibility':'on'}]},{'featureType':'administrative.country','elementType':'geometry','stylers':[{'visibility':'simplified'},{'hue':'#ff0000'}]},{'featureType':'administrative.country','elementType':'geometry.stroke','stylers':[{'weight':'0.75'},{'visibility':'on'},{'color':'#e5e9e2'}]},{'featureType':'administrative.country','elementType':'labels','stylers':[{'visibility':'off'},{'weight':'0.01'},{'lightness':'79'}]},{'featureType':'administrative.province','elementType':'geometry.stroke','stylers':[{'weight':'0.01'}]},{'featureType':'landscape','elementType':'geometry','stylers':[{'saturation':'-92'},{'lightness':'41'},{'gamma':'2'},{'visibility':'on'}]},{'featureType':'landscape.man_made','elementType':'geometry','stylers':[{'saturation':'-73'}]},{'featureType':'landscape.natural','elementType':'geometry','stylers':[{'hue':'#ffc600'},{'saturation':'27'},{'lightness':'24'}]},{'featureType':'landscape.natural.landcover','elementType':'geometry.stroke','stylers':[{'invert_lightness':true}]},{'featureType':'landscape.natural.terrain','elementType':'geometry','stylers':[{'hue':'#eaff00'},{'lightness':'0'},{'saturation':'-100'},{'gamma':'2'}]},{'featureType':'landscape.natural.terrain','elementType':'geometry.fill','stylers':[{'saturation':'-95'},{'lightness':'-100'}]},{'featureType':'poi.park','elementType':'geometry','stylers':[{'saturation':'-39'},{'lightness':'84'}]},{'featureType':'poi.park','elementType':'geometry.stroke','stylers':[{'visibility':'off'}]},{'featureType':'road','elementType':'geometry','stylers':[{'color':'#e9e8e2'},{'lightness':'-8'},{'saturation':'-100'},{'weight':'1.00'}]},{'featureType':'road','elementType':'geometry.stroke','stylers':[{'weight':'0.01'},{'lightness':'-50'}]},{'featureType':'road.highway','elementType':'geometry.fill','stylers':[{'visibility':'on'},{'weight':'0.20'},{'lightness':'-4'}]},{'featureType':'road.highway','elementType':'geometry.stroke','stylers':[{'weight':'0.01'},{'visibility':'off'}]},{'featureType':'road.arterial','elementType':'geometry.fill','stylers':[{'weight':'0.50'},{'lightness':'40'}]},{'featureType':'road.arterial','elementType':'geometry.stroke','stylers':[{'weight':'0.01'},{'visibility':'off'}]},{'featureType':'road.local','elementType':'all','stylers':[{'visibility':'off'}]},{'featureType':'road.local','elementType':'geometry','stylers':[{'weight':'6.79'},{'gamma':'0.94'}]},{'featureType':'road.local','elementType':'geometry.fill','stylers':[{'weight':'0.10'},{'lightness':'-23'},{'gamma':'7.23'}]},{'featureType':'road.local','elementType':'geometry.stroke','stylers':[{'weight':'.1'},{'color':'#ff0000'}]},{'featureType':'transit.line','elementType':'geometry','stylers':[{'color':'#8bc7d6'},{'weight':'0.3'}]},{'featureType':'transit.station.airport','elementType':'geometry.fill','stylers':[{'saturation':'-62'},{'lightness':'6'}]},{'featureType':'transit.station.airport','elementType':'geometry.stroke','stylers':[{'saturation':'-83'},{'lightness':'-71'},{'weight':'2.94'}]},{'featureType':'water','elementType':'geometry','stylers':[{'color':'#d4eaec'}]},{'featureType':'water','elementType':'geometry.fill','stylers':[{'color':'#00c2ff'}]},{'featureType':'water','elementType':'labels','stylers':[{'visibility':'off'},{'color':'#9fd0d6'}]},{'featureType':'water','elementType':'labels.text.stroke','stylers':[{'visibility':'off'}]}]"></agm-map>
 </div>
@@ -34,7 +34,7 @@
         <h3>Lees hieronder het programma van dag tot dag</h3>
     </div>
 
-    <vtb-segments [dataSource]="itinerary.segments" [unitIds]="[2,3,4,14]" [reverseUnitIds]="false" [segmentFields]="['media', {name: 'day', prefix: 'Dag ', tag: 'span'}, {name: 'title', tag: 'h2'},{name: 'subTitle', tag: 'h4'},{name: 'content', tag: 'p'}]"></vtb-segments>
+    <vtb-segments [dataSource]="itinerary.segments" [segmentFields]="['media', {name: 'day', prefix: 'Dag ', tag: 'span'}, {name: 'title', tag: 'h2'},{name: 'subTitle', tag: 'h4'},{name: 'content', tag: 'p'}]"></vtb-segments>
 </div>
 
 <div class="accommodations circled-images" data-block="accommodations">
@@ -50,7 +50,7 @@
     <div class="titles">
         <h1>Investering</h1>
         <h3>
-            <em>Because, emptying your bucket list with Bohemian Birds is priceless. Consider this as an investment:</em>
+            <em>Overzicht kosten</em>
         </h3>
         <p>
             <vtb-prices-average 
@@ -70,46 +70,18 @@
     <div class="lists">
         <div>
             <h3>Inclusief</h3>
-            <vtb-elements-list [optional]="false" [dataSource]="itinerary.segments"></vtb-elements-list>
+            <vtb-elements-list [optional]="false" [unitIds]="[2]" [reverseUnitIds]="true" [dataSource]="itinerary.segments"></vtb-elements-list>
         </div>
         <div>
             <h3>Exclusief</h3>
-            <vtb-elements-list [optional]="true" [dataSource]="itinerary.segments"></vtb-elements-list>
-        </div>
-    </div>
-</div>
-
-<div class="consultants circled-images">
-    <div class="titles">
-        <h1>Bucket List Consultants</h1>
-        <h3>Bohemian Birds helpt jou bij het legen van je bucket list!</h3>
-    </div>
-    
-    <div class="consultants-overview">
-        <div class="consultant">
-            <div class="consultant-image">
-                <img src="http://res.cloudinary.com/hrscywv4p/image/upload/c_fill,fl_lossy,h_320,w_320,f_auto,g_faces:auto,q_auto/v1/457961/16178890_1508135002548505_2952210858714519187_o-1_uzo79b.jpg" alt="">
-            </div>
-
-            <h4>Harm Ligtenberg</h4>
-            <h5>Bucket List Consultant</h5>
-            <h6>+31 20 261 36 17<br>info@bohemianbirds.com</h6>
-        </div>
-        <div class="consultant">
-            <div class="consultant-image">
-                <img src="http:////res.cloudinary.com/hrscywv4p/image/upload/c_fill,fl_lossy,h_320,w_320,f_auto,g_faces:auto,q_auto/v1/457961/13495263_1480645608628051_1917530845204919790_n_cxmzhv_ly5bh9.jpg" alt="">
-            </div>
-
-            <h4>Michiel Stoffels</h4>
-            <h5>Bucket List Consultant</h5>
-            <h6>+31 20 261 36 17<br>info@bohemianbirds.com</h6>
+            <vtb-elements-list [optional]="true" [unitIds]="[2]" [reverseUnitIds]="true" [dataSource]="itinerary.segments"></vtb-elements-list>
         </div>
     </div>
 </div>
 
 <div class="social-media">
     <div class="titles">
-        <h1>Wil je meer weten over Bohemian Birds?</h1>
+        <h1>Wil je meer weten over ons?</h1>
         <h3>Neem dan contact met ons op!</h3>
     </div>
 
@@ -130,5 +102,5 @@
 </div>
 
 <div class="footer">
-    <p>Bohemian Birds BV's Boekingsvoorwaarden zijn van toepassing op dit voorstel. De Boekingsvoorwaarden kunnen <a target="_blank" href="https://uploads.strikinglycdn.com/files/8e326a73-10bf-42ba-a1d1-02e0e6e375b2/Terms and Conditions Bohemian Birds BV - 0316v2.pdf">hier</a> gevonden worden en op onze <a target="_blank" href="http://bohemianbirds.com/wp-content/uploads/Terms-and-Conditions-Bohemian-Birds-BV-0316v2.pdf">website</a>. Zorg dat je de Boekingsvoorwaarden hebt gelezen voordat je deze reis boekt. Wanneer je je boeking bij ons bevestigd gaan wij er van uit dat je de voorwaarden hebt gelezen en begrepen.</p>
+    <p>Etiam sodales vel elit id finibus. Etiam a lorem a mi pulvinar condimentum. Nunc ullamcorper ipsum eu aliquam placerat. Quisque quis dignissim mauris. Phasellus pulvinar arcu dolor, et mollis quam maximus quis. Curabitur nec posuere dolor. Donec aliquam purus interdum eros convallis, ac aliquet mi ullamcorper.</p>
 </div>

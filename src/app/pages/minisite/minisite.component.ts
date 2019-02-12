@@ -8,6 +8,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class MinisiteComponent implements OnInit {
   itinerary: any;
+  showMobileMenu: boolean;
 
   constructor(private _activatedRoute: ActivatedRoute) {
     const data = this._activatedRoute.snapshot.data;

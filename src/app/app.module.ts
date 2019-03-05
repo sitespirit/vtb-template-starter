@@ -31,7 +31,7 @@ import { AgmCoreModule } from '@agm/core';
     }
   ]),
   AgmCoreModule.forRoot({
-    apiKey: 'AIzaSyDa6wr3FY1sGlEpAzL2riOeMVGxdUGmCjI'
+    apiKey: 'AIzaSyDbQRG8PPZbPN0EUsOEm-Lbj0sYN4Ho_VI'
   }),
   HttpClientModule,
   VtbComponentsModule.forRoot(environment)

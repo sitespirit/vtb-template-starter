@@ -1,7 +1,8 @@
 import { Injectable, Inject } from '@angular/core';
 import { Resolve } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
-import { vtbDataTransformer } from '@sitespirit/vtb-transformer';
+declare const require: any;
+const vtbDataTransformer = require('@sitespirit/vtb-transformer');
 
 @Injectable()
 export class ItineraryResolver implements Resolve<any> {

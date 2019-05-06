@@ -31,7 +31,7 @@ import { AgmCoreModule } from '@agm/core';
     }
   ]),
   AgmCoreModule.forRoot({
-    apiKey: 'AIzaSyDbQRG8PPZbPN0EUsOEm-Lbj0sYN4Ho_VI'
+    apiKey: 'ASK_SITESPIRIT'
   }),
   HttpClientModule,
   VtbComponentsModule.forRoot(environment)

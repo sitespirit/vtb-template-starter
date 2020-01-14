@@ -1,5 +1,6 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { PricesService } from '../services/prices.service';
 
 @Component({
   selector: 'app-template',
@@ -10,9 +11,9 @@ export class MinisiteComponent implements OnInit {
   itinerary: any;
   showMobileMenu: boolean;
 
-  constructor(private _activatedRoute: ActivatedRoute) {
+  constructor(private _activatedRoute: ActivatedRoute, private pricesService:PricesService) {
     const data = this._activatedRoute.snapshot.data;
-    this.itinerary = data.itinerary;
+    this.itinerary = this.pricesService.init(data.itinerary);
   }
 
   ngOnInit() {

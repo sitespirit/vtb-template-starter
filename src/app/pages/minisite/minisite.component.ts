@@ -1,6 +1,6 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { PricesService } from '../services/prices.service';
+import { PricesService } from '../../services/prices.service';
 
 @Component({
   selector: 'app-template',

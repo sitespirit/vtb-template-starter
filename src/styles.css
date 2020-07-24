@@ -3,18 +3,22 @@
  *       RESET       *
  *                   *
  *********************/
-
+ 
  body {
   width: 100%;
   padding: 0;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif; 
+  /* font-family: 'PT Sans Narrow', sans-serif; */
+
 }
 
 h1,h2,h3,h4,h5,h6,ul,ol {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto', sans-serif; 
+  /* font-family: 'PT Sans Narrow', sans-serif; */
+
   font-weight: 100;
 }
 
@@ -46,14 +50,35 @@ p {
 
 .menu {
   grid-column: span 12;
-  height: 24vh;
+  /* height: 24vh; */
   display: grid;
   z-index: 3;
 }
 
   .menu img:first-child {
-    height: 13vh;
-    justify-self: center;
+     height: 11vh; 
+     justify-self: center;
+     margin: 10px 0;
+  }
+
+  table, td, th {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 4px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    height: 50px;
+    line-height: 1.2;
+  }
+  td{
+    padding: 0 10px;
+    font-size: 14px;
   }
 
 .header {
@@ -102,39 +127,42 @@ p {
     column-gap: 100px;
   }
 
-  .program vtb-segment .media {
+  /* .program vtb-segment .media {
     grid-column: 1 / span 6;
     grid-row: 1 / -1;
-  }
+  } */
 
   .program vtb-segment .media vtb-media > div {
-    overflow: hidden;
-    position: relative!important;
-    padding-bottom: 56.25%;
+    /* overflow: hidden; */
+    /* position: relative!important; */
+    /* padding-bottom: 56.25%; */
+    height: 100%;
+    display: block;
+    width: 100%;
   }
-
-  .program vtb-segment .media vtb-media > div:before {
+/* 
+   .program vtb-segment .media vtb-media > div:before {
     content: "";
     display: block;
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: #fff;
-    z-index: 2;
+    z-index: 0;
     top: 0;
     left: 0;
     transition: transform 0.6s ease-out 0.3s;
     transition-delay: .3s;
     transform-origin: right;
     transform: scaleX(1);
-  }
+  }  */
 
   .program vtb-segment .media vtb-media > div.is-shown:before {
     transform: scaleX(0);
   }
 
   .program vtb-segment .media vtb-media > div > .ng-star-inserted {
-    position: absolute;
+    position: relative;
     left:0;
     right:0;
   }
@@ -149,17 +177,17 @@ p {
     transform: scale(1.25);
   }
 
-  .program vtb-media > div:nth-child(2),
+  /* .program vtb-media > div:nth-child(2),
   .program vtb-media > div:nth-child(3) {
     width: 50%;
     float: left;
     box-shadow: 0 0 50px 0 rgba(0,0,0,0.1);
     padding-bottom:28.1% !important;
-  }
+  } */
 
-  .program vtb-media > div:nth-child(2) {
+  /* .program vtb-media > div:nth-child(2) {
     transform: scale(1.2) translate(10px, -40px);
-  }
+  } */
 
   /* .program vtb-segment:nth-child(1) .day,
   .program vtb-segment:nth-child(1) .title,
@@ -229,7 +257,7 @@ p {
     grid-row: 5 / span 1;
   }
 
-.accommodations {
+.accommodations , .villas {
   grid-column: 1 / span 12;
 }
 
@@ -239,8 +267,7 @@ p {
 
   .accommodations vtb-elements {
     display: grid;
-
-    grid-template-columns: repeat(4, 1fr);
+     grid-template-columns: repeat(4, 1fr);
   }
 
   .accommodations vtb-element {
@@ -339,6 +366,7 @@ h1 {
 .menu {
   position: relative;
   box-shadow: 1px 1px 3px rgba(0,0,0,.3);
+  background-color: #2F7C86;
 }
 
 .menu .menu-toggle {
@@ -358,6 +386,7 @@ h1 {
 
 .menu vtb-menu {
   text-align: center;
+  display: block; 
 }
 
   .menu vtb-menu ul {
@@ -367,14 +396,21 @@ h1 {
   }
 
     .menu vtb-menu ul li {
-      float: left;
+      /* float: left; */
       list-style: none;
-      margin: 0 20px;
-      line-height: 10vh;
+      line-height: 6vh;
+      display: inline-block;
+      /* margin: 0 20px; */
+      /* line-height: 10vh; */
+      
     }
-
+    .menu vtb-menu ul li + li{
+      margin-left: 20px;
+    }
     .menu vtb-menu ul li button {
-      color:#678;
+      /* color:#678; */
+      color: #fff;
+      font-family: 'PT Sans Narrow', sans-serif;
       text-decoration: none;
       font-weight:100;
       text-transform: uppercase;
@@ -477,7 +513,7 @@ h1 {
 
 .map,
 .program,
-.overview {
+.overview, .vluchten , .consultants {
   padding: 80px 0;
 }
 
@@ -497,7 +533,7 @@ h1 {
 }
 
 .accommodations vtb-element .element-field:nth-child(1):after {
-  content: "";
+  /* content: "";
   background-color: #fff;
   width: 200px;
   left: 50%;
@@ -506,7 +542,7 @@ h1 {
   height: 1px;
   position: absolute;
   transition: transform 0.3s ease-out 0.3s;
-  transform: scaleX(0);
+  transform: scaleX(0); */
 
 }
 .accommodations vtb-element .element-field:nth-child(2) {
@@ -547,9 +583,9 @@ h1 {
 
 
 /* Program */
-.program vtb-segment {
+/* .program vtb-segment {
   margin-bottom: 40px;
-}
+} */
 
 .program vtb-segment .day {
   color: #0f4a62;
@@ -579,8 +615,27 @@ h1 {
   font-size: 1.2em;
   font-weight: bold;
   margin: 20px 0;
+  /* padding-bottom: 30px; */
+  position: relative
 }
 
+.accommodations h5::after{
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 0;
+  background-color: #fff;
+  bottom:-10px;
+  left: 50%;
+  margin-left: -100px;
+  transform: translateY(-50%);
+  transition: transform 0.3s ease-out 0.3s;
+  /* transform: scaleX(0);  */
+}
+.accommodations vtb-element:hover h5::after{
+  width:200px;
+  transition: transform 0.3s ease-out 0.3s;
+}
 .accommodations h6 {
   font-size: 1.1em; 
   color:#fff;
@@ -668,6 +723,7 @@ h1 {
   color: #fff;
   font-size: 1.1em;
   line-height: 1.7;
+  text-decoration: none;
 }
 
 .lists div ul li {
@@ -834,7 +890,7 @@ body .footer p a {
     grid-column: 1 / span 12;
   }
 
-  .program {
+  /* .program {
     grid-column: 1 / -1;
   }
     
@@ -863,15 +919,9 @@ body .footer p a {
     .program vtb-segment .media {
       grid-column: 1 / span 12 !important;
       margin-bottom: 30px;
-    }
+    } */
 
-    .program vtb-segment .subTitle {
-      
-    }
 
-    .program vtb-segment .content {
-
-    }
 
     .overview .lists {
       grid-column: 2 / 12;
@@ -1003,3 +1053,691 @@ body .footer p a {
 @media only screen and (min-width: 1600px) {
 
 }
+
+/* anand css start here  */
+.vluchten{grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);}
+.vluchten .titles{grid-column : span 12; text-align: center;}
+.flight-overiew{grid-column: 1/span 12;
+  text-align: center;}
+
+.flight-overiew table {
+  display: inline-block;
+  border-spacing: 0;
+  width:inherit;
+  border:0;
+}
+.flight-overiew table th{
+  padding: 15px;
+  border: 0;
+  border-left: 1px solid #d0d0d0;
+  border-top: 1px solid #d0d0d0;
+}
+.flight-overiew table th:first-child{
+  border-left: none;
+}
+.flight-overiew table tbody tr:nth-child(odd){
+  background-color: #f5f5f5;
+}
+.flight-overiew table td{
+  border: 0;
+  border-top: 1px solid #d0d0d0;
+  border-left: 1px solid #d0d0d0;
+  font-size: inherit;
+  padding: 15px;
+}
+.flight-overiew table td:first-child{
+  border-left: none;
+}
+.flight-overiew tr.seperator td{padding: 0; height: 3px;    background-color: #d0d0d0;}
+.menu-list{
+    background-color: #1F5158;
+    padding: 0 40px;
+  }
+
+
+
+
+/* program css start here  */
+.program {
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 12;
+	grid-column: 1/span 12
+}
+
+.program vtb-elements-per-day>.day,
+.program vtb-segment {
+	display: -ms-grid;
+	display: grid;
+	
+	grid-template-columns: repeat(12, 1fr);
+	
+	column-gap: 100px
+}
+
+.program vtb-segment {
+	-ms-grid-rows: 4vh 60px auto auto auto;
+   grid-template-rows: 4vh 60px auto auto auto; 
+   /* grid-template-rows: 4vh 60px 30px 50px auto;;  */
+}
+
+.program vtb-elements-per-day>.day {
+	-ms-grid-rows: 4vh 60px auto;
+	grid-template-rows: 4vh 60px auto
+}
+
+.program .media {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 5;
+	grid-column: 2/span 5;
+	grid-row: 1/-1;
+	overflow: hidden
+}
+
+.program vtb-media {
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+	/* border: 1px solid #f0f0f0; */
+	border-radius: 5px;
+	padding-bottom: 56%;
+	margin-top: 4vh;
+	overflow: hidden
+}
+
+.program vtb-media>div.media-items>div {
+	position: absolute!important;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	display: none;
+	max-width: calc(100% - 2px);
+	width: 100%
+}
+
+.program vtb-media>div.media-items>div.slide-active {
+	display: block;
+	left: -50%;
+	-webkit-animation: .5s forwards slide;
+	animation: .5s forwards slide
+}
+
+.program vtb-media>div.media-items.slide-dir-right>div.slide-active {
+	left: 150%
+}
+
+.program vtb-media>div.media-items.slide-dir-left>div.last-active-slide {
+	-webkit-animation: .5s forwards slideAwayRight;
+	animation: .5s forwards slideAwayRight;
+	display: block
+}
+
+.program vtb-media>div.media-items.slide-dir-right>div.last-active-slide {
+	-webkit-animation: .5s forwards slideAwayLeft;
+	animation: .5s forwards slideAwayLeft;
+	display: block
+}
+
+.program vtb-media>div.media-items img {
+	max-width: 100%
+}
+
+@-webkit-keyframes slide {
+	100% {
+		left: 50%
+	}
+}
+
+@-webkit-keyframes slideAwayLeft {
+	100% {
+		left: -50%
+	}
+}
+
+@-webkit-keyframes slideAwayRight {
+	100% {
+		left: 150%
+	}
+}
+
+.program .media-slider-control {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%)
+}
+
+.program .media-slider-control:after {
+	font-family: "Font Awesome 5 Free";
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
+	font-weight: 900;
+	font-size: 30px;
+	cursor: pointer
+}
+
+.program .media-slider-control:hover:after {
+	color: #f0f0f0
+}
+
+.program .media-slider-prev {
+	left: 10px
+}
+
+.program .media-slider-prev:after {
+	content: "\f053"
+}
+
+.program .media-slider-next {
+	right: 10px
+}
+
+.program .media-slider-next:after {
+	content: "\f054"
+}
+
+.no-media .media {
+	display: none
+}
+
+.program vtb-elements-per-day>.day:nth-child(even) .media,
+.program vtb-segment:nth-child(even) .media {
+	-ms-grid-column: 7;
+	-ms-grid-column-span: 5;
+	grid-column: 7/span 5
+}
+
+.program vtb-elements-per-day>.day:nth-child(even) .media vtb-media>div:before,
+.program vtb-segment:nth-child(even) .media vtb-media>div:before {
+	-webkit-transform-origin: left;
+	transform-origin: left
+}
+
+.program vtb-elements-per-day>.day .media vtb-media>div img {
+	margin: 0 auto;
+	display: block
+}
+
+.program vtb-elements-per-day .dates,
+.program vtb-elements-per-day .elements,
+.program vtb-elements-per-day>.day .day,
+.program vtb-segment .content,
+.program vtb-segment .day,
+.program vtb-segment .subTitle,
+.program vtb-segment .title {
+	grid-column: 7/-2;
+	opacity: .25;
+	transition: 1s ease-out .3s;
+	-webkit-transform: translateY(100px);
+	transform: translateY(100px)
+}
+
+.program vtb-elements-per-day>.day:nth-child(even) .dates,
+.program vtb-elements-per-day>.day:nth-child(even) .day,
+.program vtb-elements-per-day>.day:nth-child(even) .elements,
+.program vtb-segment:nth-child(even) .content,
+.program vtb-segment:nth-child(even) .day,
+.program vtb-segment:nth-child(even) .subTitle,
+.program vtb-segment:nth-child(even) .title {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 5;
+	grid-column: 2/span 5
+}
+
+.program vtb-elements-per-day .media {
+	transition: 1s ease-out .3s;
+	-webkit-transform: translateY(100px);
+	transform: translateY(100px)
+}
+
+.program vtb-elements-per-day>.day.is-shown .dates,
+.program vtb-elements-per-day>.day.is-shown .day,
+.program vtb-elements-per-day>.day.is-shown .elements,
+.program vtb-elements-per-day>.day.is-shown .media,
+.program vtb-segment.is-shown .content,
+.program vtb-segment.is-shown .day,
+.program vtb-segment.is-shown .subTitle,
+.program vtb-segment.is-shown .title {
+	opacity: 1;
+	-webkit-transform: translateY(0);
+	transform: translateY(0)
+}
+
+.program vtb-elements-per-day>.day.no-media .dates,
+.program vtb-elements-per-day>.day.no-media .day,
+.program vtb-elements-per-day>.day.no-media .elements,
+.program vtb-segment.no-media .content,
+.program vtb-segment.no-media .day,
+.program vtb-segment.no-media .subTitle,
+.program vtb-segment.no-media .title {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 10;
+	grid-column: 2/12
+}
+
+.program vtb-elements-per-day .dates {
+	-ms-grid-row: 2;
+	-ms-grid-row-span: 1;
+	grid-row: 2/span 1;
+	-ms-grid-row-align: center;
+	align-self: center;
+	padding-left: 57px
+}
+
+.program vtb-elements-per-day .day-1 .dates,
+.program vtb-elements-per-day .day-2 .dates,
+.program vtb-elements-per-day .day-3 .dates,
+.program vtb-elements-per-day .day-4 .dates,
+.program vtb-elements-per-day .day-5 .dates,
+.program vtb-elements-per-day .day-6 .dates,
+.program vtb-elements-per-day .day-7 .dates,
+.program vtb-elements-per-day .day-8 .dates,
+.program vtb-elements-per-day .day-9 .dates {
+	padding-left: 51px
+}
+
+.program vtb-elements-per-day>.day .day,
+.program vtb-segment .day {
+	-ms-grid-row: 2;
+	-ms-grid-row-span: 1;
+	grid-row: 2/span 1;
+	-ms-grid-row-align: center;
+	align-self: center
+}
+
+.program vtb-elements-per-day .elements,
+.program vtb-segment .title {
+	-ms-grid-row: 3;
+	-ms-grid-row-span: 1;
+	grid-row: 3/span 1
+}
+
+.program vtb-segment .subTitle {
+	-ms-grid-row: 4;
+	-ms-grid-row-span: 1;
+	grid-row: 4/span 1
+}
+
+.program vtb-segment .content {
+	-ms-grid-row: 5;
+	-ms-grid-row-span: 1;
+	grid-row: 5/span 1
+}
+
+/* consultant */
+.consultants-overview{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  column-gap: 40px;
+}
+.consultants {
+  grid-column: 3/span 8;
+    text-align: center;
+}
+.consultants-overview .consultant {
+  grid-column: span 4;
+}
+.consultants-overview .consultant:first-child{    grid-column: 3/span 4;}
+.circled-images .consultant-image{border-radius: 100%;}
+.circled-images .consultant-image{
+  display: block;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.circled-images img{
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    top: 0;
+}
+.consultants h4 {
+  font-size: 1.4em;
+  margin-top: 30px;
+}
+.consultants h5, .consultants h6 {
+  color: #111;
+}
+.consultants h5{
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.consultants h6{
+  font-size: 1.1em;
+
+}
+
+
+/* villa css start here */
+.villas {
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 12;
+	grid-column: 1/span 12
+}
+
+.villas {
+	z-index: 2
+}
+
+.villas h3 {
+	margin-bottom: 30px
+}
+
+
+.villas vtb-media .media-items {
+	display: -ms-grid;
+	display: grid;
+	grid-template-columns: repeat(300, 1fr)
+}
+
+.villas vtb-media .media-items>div {
+	position: relative;
+	height: 24.8vw;
+	grid-column: span 75
+}
+
+.villas vtb-media .media-items>div:first-child:nth-last-child(3),
+.villas vtb-media .media-items>div:first-child:nth-last-child(3)~div {
+	grid-column: span 100;
+	height: 29.8vw
+}
+
+.villas vtb-media .media-items>div:first-child:nth-last-child(5),
+.villas vtb-media .media-items>div:first-child:nth-last-child(5)~div {
+	grid-column: span 60;
+	height: 19.8vw
+}
+
+.villas img {
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover
+}
+
+
+/* light box css start here  */
+.media-lightbox {
+  display: none;
+  position: fixed!important;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: 0 0!important;
+  width: 100%!important;
+  height: 100%!important;
+}
+.media-lightbox-overlay {
+  position: fixed!important;
+  width: 100%!important;
+  height: 100%!important;
+  background-color: rgba(0,0,0,.7);
+  z-index: 2;
+}
+.media-lightbox .media-lightbox-images>div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: 3;
+}
+.media-lightbox .media-lightbox-control {
+  position: absolute;
+  width: 40px;
+  z-index: 3;
+  height: 40px;
+}
+.media-lightbox .media-lightbox-next, .media-lightbox .media-lightbox-prev {
+  top: 50%;
+  -webkit-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+  cursor: pointer;
+}
+.media-lightbox .media-lightbox-prev {
+  left: 10px;
+}
+.media-lightbox .media-lightbox-next {
+  right: 10px;
+}
+/* Custom list css start here */
+
+/* .overview .list .custom-list{
+  padding:0;
+  margin:0;
+}
+.overview .list .custom-list li{
+    list-style-type: none;
+    position: relative;
+    padding-left: 24px;
+    box-sizing: border-box;
+}
+.overview .list .custom-list li::before{
+  content: "";
+    font-family: "Font Awesome 5 Free";
+    display: block;
+    position: absolute;
+    color: rgb(170, 255, 170);
+    left: 0px;
+    top: 0px;
+    font-weight: 700
+}
+.overview .list .custom-list li a{
+  display: inline-block;
+  text-decoration: none;
+  pointer-events: none;
+} */
+
+@media only screen and (max-width: 767px) {
+  app-template {
+    max-width: 100vw;
+    overflow: hidden;
+  }
+
+  .menu img:first-child {
+    justify-self: left;
+    margin: 10px;
+    height: 8vh;
+  }
+  
+  .menu {
+    height: 100px;
+  }
+
+    .menu .logo {
+      max-height:100px;
+    }
+
+  .header > .youtube-wrapper {
+    height: 120vh;
+    margin-top: -5vh;
+  }
+
+  .header vtb-youtube > div {
+    display:block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position-y: -80px;
+    background-position-x: 50%;
+  }
+
+  .header vtb-youtube > iframe {
+    display:none;
+  }
+
+  .map agm-map {
+    grid-column: 1 / span 12;
+  }
+
+   .program {
+    grid-column: 1 / -1;
+  }
+    
+    .program vtb-segment {
+      column-gap: 10px;
+      grid-template-rows: auto;
+    }
+    .program vtb-segment div {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(6, auto);
+    }
+
+
+    .program vtb-segment vtb-text {
+      grid-column: 1 / span 12;
+    }
+
+    .program vtb-segment .day,
+    .program vtb-segment .title,
+    .program vtb-segment .subTitle,
+    .program vtb-segment .content {
+      grid-column: 2 / span 10 !important;
+    }
+
+    .program vtb-segment .media {
+      grid-column: 1 / span 12 !important;
+      margin-bottom: 30px;
+    }
+
+
+
+    .overview .lists {
+      grid-column: 2 / 12;
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .consultants-overview {
+      grid-template-columns: repeat(1, 1fr);
+      column-gap: 0;
+    }
+
+    .consultants-overview .consultant:first-child {
+      grid-column: 1 / span 4;
+      margin-bottom: 40px;
+    }
+
+    .accommodations vtb-elements {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .accommodations vtb-element {
+      height: 50vw;
+    }
+
+    .header {
+      grid-auto-rows: calc(100vh - 100px);
+    }
+
+    .header img {
+      height: calc(100vh - 100px);
+    }
+
+    .menu:after {
+      display: none;
+    }
+
+    .menu .menu-toggle {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      color: #fff;
+      font-size: 30px;
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      text-align: center;
+    }
+    
+    .menu vtb-menu ul {
+      position: fixed;
+      background-color: #222;
+      width: 100%;
+      height: 100vh;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 10;
+      transition: all 0.6s ease-out;
+      transform: translateY(-100vh);
+    }
+
+    .menu vtb-menu ul {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .menu vtb-menu ul li button{
+      color: #fff;
+    }
+  
+    .menu vtb-menu ul.toggled {
+      transform: translateY(0);
+    } 
+
+    .menu .menu-toggle.toggled {
+      z-index: 20;
+      color: #fff;
+      position: fixed;
+    }
+
+    .menu .menu-toggle.toggled i:before {
+      content: '';
+    }
+  
+    .titles h1 {
+      font-size: 1.4em;
+    }
+  
+    .titles h3 {
+      font-size: 0.75em;
+    }
+  
+    .titles h1:before,
+    .titles h1:after {
+      width: 60px !important;
+    }
+  
+    .titles h1:before {
+      left: -80px !important;
+    }
+  
+    .titles h1:after {
+      right: -80px !important;
+    }
+  
+    .lists > div {
+      width: 100%;
+    }
+  
+    .accommodations vtb-element .element-field:nth-child(1):after {
+      width: 100px;
+      margin-left: -50px;
+    }
+    .accommodations vtb-element .element-field:nth-child(2) {
+      margin-top: calc(19.5vw - 12px);
+    }
+
+  .footer p {
+    margin:20px;
+  }
+  .flight-overiew{
+    overflow-x: auto;
+  }
+  
+
+}
+

@@ -1,1038 +1,2485 @@
 {
-  "startDate":"Tue Nov 13 2018 00:00:00 GMT+0100 ",
-  "TSOrder":{
-     "id":594,
-     "sourceDescription":"Test VTB"
-  },
-  "extraFieldValues":[
-     {
-        "id":1,
-        "parent_id":null,
-        "link_type":"order",
-        "layout_data":null,
-        "display_at":null,
-        "sort_order":null,
-        "name":"Order Extra Fields",
-        "fields":[
-           {
-              "id":2,
-              "name":"header_video",
-              "type_id":1,
-              "valid_regex":"",
-              "defaults":null,
-              "category_id":2,
-              "sort_order":null,
-              "field_type":"TextBox",
-              "display_at":"both",
-              "show_in_product":0,
-              "layout_data":null,
-              "maxlength":null,
-              "maxlength_enforce":0,
-              "translated_name":"Header Video",
-              "field_value_link_id":5,
-              "link_type":"order",
-              "link_id":594,
-              "value":"https:\/\/www.youtube.com\/watch?v=Ioq1u3VvWRk"
-           }
-        ]
-     }
-  ],
-  "participants":{
-     "party 1":[
+  "startDate": "2020-03-05",
+  "extraFieldValues": [{
+      "id": 2,
+      "parent_id": null,
+      "link_type": "order",
+      "layout_data": null,
+      "display_at": null,
+      "sort_order": null,
+      "name": "Extra order field",
+      "fields": [{
+          "id": 12,
+          "name": "bestemming1",
+          "type_id": 3,
+          "valid_regex": "",
+          "defaults": "AU;AU|NZ|HW|FJ|CK|FP|VN|SM|PNG|NC|SOL|US|CA|ZA|NAM|ZAM|MAL|KEN|TAN|RUN|SEY|MU|MDG|BOT|MOZ|SP|TG|ZIM|EU",
+          "category_id": 2,
+          "sort_order": 1,
+          "field_width": null,
+          "field_type": "FilteringSelect",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Not translated",
+          "selected": "AU",
+          "options": [
+            "AU",
+            "NZ",
+            "HW",
+            "FJ",
+            "CK",
+            "FP",
+            "VN",
+            "SM",
+            "PNG",
+            "NC",
+            "SOL",
+            "US",
+            "CA",
+            "ZA",
+            "NAM",
+            "ZAM",
+            "MAL",
+            "KEN",
+            "TAN",
+            "RUN",
+            "SEY",
+            "MU",
+            "MDG",
+            "BOT",
+            "MOZ",
+            "SP",
+            "TG",
+            "ZIM",
+            "EU"
+          ],
+          "field_value_link_id": 11615,
+          "link_type": "order",
+          "link_id": 6637,
+          "value": "AU",
+          "vtbObjectId": "sbof8y0q7de9p8bbd6er5b"
+        },
         {
-           "id":5271,
-           "title_id":2,
-           "title":"Mevr.",
-           "initials":"",
-           "name":"Jane",
-           "surname":"Doe",
-           "company":"",
-           "street":"",
-           "housenum":"",
-           "postalcode":"",
-           "city":"",
-           "country":"NL",
-           "birthdate":null,
-           "age_calc_type":"birthdate",
-           "informal":1,
-           "language_id":2,
-           "notes":"",
-           "created":"2018-12-07 12:36:10",
-           "created_by":null,
-           "modified":null,
-           "minimal":1,
-           "use_maincontact_details":0,
-           "nationality":null,
-           "passport_firstname":"",
-           "passport_number":"",
-           "passport_expiry_date":null,
-           "frequent_flyer_numbers":"",
-           "airline_preference":"",
-           "meal_preference":"",
-           "seat_preference":"",
-           "preferences_memo":"",
-           "smoking":null,
-           "lodging_preference":"",
-           "province":"",
-           "passport_issue_city":"",
-           "birth_city":"",
-           "contact_tag":null,
-           "surname_prefix":"",
-           "last_email_contact_ts":null,
-           "last_email_contact_id":null,
-           "last_email_contact_mailbox_id":null,
-           "last_call_contact_id":null,
-           "last_call_contact_ts":null,
-           "passport_surname":"",
-           "inserted_by":9,
-           "inserted_at":"2018-12-07 12:36:10",
-           "inserted_audit_id":null,
-           "updated_by":9,
-           "updated_at":"2018-12-07 12:36:10",
-           "updated_audit_id":null,
-           "general_info":null,
-           "passport_nr":null,
-           "boardingplace_id":null,
-           "groupnr":1,
-           "sex":"female",
-           "has_linked_ols":38,
-           "has_locked_ols":0,
-           "partyName":"party 1"
+          "id": 14,
+          "name": "bestemming2",
+          "type_id": 3,
+          "valid_regex": "",
+          "defaults": "AU;AU|NZ|HW|FJ|CK|FP|VN|SM|PNG|NC|SOL|US|CA|ZA|NAM|ZAM|MAL|KEN|TAN|RUN|SEY|MU|MDG|BOT|MOZ|SP|TG|ZIM",
+          "category_id": 2,
+          "sort_order": 2,
+          "field_width": null,
+          "field_type": "FilteringSelect",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Not translated",
+          "selected": "AU",
+          "options": [
+            "AU",
+            "NZ",
+            "HW",
+            "FJ",
+            "CK",
+            "FP",
+            "VN",
+            "SM",
+            "PNG",
+            "NC",
+            "SOL",
+            "US",
+            "CA",
+            "ZA",
+            "NAM",
+            "ZAM",
+            "MAL",
+            "KEN",
+            "TAN",
+            "RUN",
+            "SEY",
+            "MU",
+            "MDG",
+            "BOT",
+            "MOZ",
+            "SP",
+            "TG",
+            "ZIM"
+          ],
+          "vtbObjectId": "lvmsbm6pj35alz7sv7bgl"
+        },
+        {
+          "id": 3,
+          "name": "Afhaakredenen",
+          "type_id": 3,
+          "valid_regex": "",
+          "defaults": "Te duur;Te duur|Andere bestemming gekozen|Andere aanbieder gekozen|Reis wordt uitgesteld|Slechte service|Te lang moeten wachten|Stopgezet door PIT zelf|Geen reactie klant|Geen vrij van werk|Gaan de reis zelf regelen|Andere bestemming bij ons gekozen|Is nog in ori\u00ebnterende fase|Nieuwe offerte gemaakt voor klant|Gaat naar CheapCampers|Geen beschikbaarheid|Afzegging zonder reden",
+          "category_id": 2,
+          "sort_order": 5,
+          "field_width": null,
+          "field_type": "FilteringSelect",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Not translated",
+          "selected": "Te duur",
+          "options": [
+            "Te duur",
+            "Andere bestemming gekozen",
+            "Andere aanbieder gekozen",
+            "Reis wordt uitgesteld",
+            "Slechte service",
+            "Te lang moeten wachten",
+            "Stopgezet door PIT zelf",
+            "Geen reactie klant",
+            "Geen vrij van werk",
+            "Gaan de reis zelf regelen",
+            "Andere bestemming bij ons gekozen",
+            "Is nog in ori\u00ebnterende fase",
+            "Nieuwe offerte gemaakt voor klant",
+            "Gaat naar CheapCampers",
+            "Geen beschikbaarheid",
+            "Afzegging zonder reden"
+          ],
+          "vtbObjectId": "54t29bkw03ijezlu9ur7ih"
+        },
+        {
+          "id": 4,
+          "name": "Betaalmethode",
+          "type_id": 3,
+          "valid_regex": "",
+          "defaults": "Creditcard;Creditcard|Bankbetaling|Cash|iDeal",
+          "category_id": 2,
+          "sort_order": 5,
+          "field_width": null,
+          "field_type": "FilteringSelect",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Payment methode",
+          "selected": "Creditcard",
+          "options": [
+            "Creditcard",
+            "Bankbetaling",
+            "Cash",
+            "iDeal"
+          ],
+          "vtbObjectId": "rlzm84ro47c0xl8yfz1g1n"
+        },
+        {
+          "id": 13,
+          "name": "order_bron",
+          "type_id": 3,
+          "valid_regex": "",
+          "defaults": "Vakantiebeurs;Vakantiebeurs|Nieuwsbrief|Verre Reizen Event|Beurs voor bijzondere reizen in Amsterdam|Beurs voor bijzondere reizen in Breda|Flying Dutchman|Getaway|Australi\u00eb.nl|Nieuw-Zeeland.nl|Oceani\u00eb.nl|Eerder bij ons geboekt|Familie of vrienden|Facebook|Brochure|Financieel Dagblad|ABN AMRO|Master of LXRY|Chat|Love & Marriage|Onbekend|Telefonisch|Adwords|Internet -SEO|Reisbureau|Volkskrant|Via Cheap Campers|Via PIT|Via Via|Direct",
+          "category_id": 2,
+          "sort_order": 5,
+          "field_width": null,
+          "field_type": "FilteringSelect",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Not translated",
+          "selected": "Vakantiebeurs",
+          "options": [
+            "Vakantiebeurs",
+            "Nieuwsbrief",
+            "Verre Reizen Event",
+            "Beurs voor bijzondere reizen in Amsterdam",
+            "Beurs voor bijzondere reizen in Breda",
+            "Flying Dutchman",
+            "Getaway",
+            "Australi\u00eb.nl",
+            "Nieuw-Zeeland.nl",
+            "Oceani\u00eb.nl",
+            "Eerder bij ons geboekt",
+            "Familie of vrienden",
+            "Facebook",
+            "Brochure",
+            "Financieel Dagblad",
+            "ABN AMRO",
+            "Master of LXRY",
+            "Chat",
+            "Love & Marriage",
+            "Onbekend",
+            "Telefonisch",
+            "Adwords",
+            "Internet -SEO",
+            "Reisbureau",
+            "Volkskrant",
+            "Via Cheap Campers",
+            "Via PIT",
+            "Via Via",
+            "Direct"
+          ],
+          "field_value_link_id": 12001,
+          "link_type": "order",
+          "link_id": 6637,
+          "value": "Internet -SEO",
+          "vtbObjectId": "7u6rvgtsk968mkq6qclbyd"
+        },
+        {
+          "id": 16,
+          "name": "CC Online boeking",
+          "type_id": 2,
+          "valid_regex": "",
+          "defaults": null,
+          "category_id": 2,
+          "sort_order": 6,
+          "field_width": null,
+          "field_type": "CheckBox",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Not translated",
+          "vtbObjectId": "lcef45y28f4rjm9ecun3q"
         }
-     ]
+      ],
+      "vtbObjectId": "onl1dus5z1mnqpyse6ln"
+    },
+    {
+      "id": 6,
+      "parent_id": null,
+      "link_type": "order",
+      "layout_data": {
+        "width": "300px"
+      },
+      "display_at": null,
+      "sort_order": null,
+      "name": "Camper fields",
+      "fields": [{
+          "id": 17,
+          "name": "pickup_address",
+          "type_id": 7,
+          "valid_regex": "",
+          "defaults": null,
+          "category_id": 6,
+          "sort_order": 1,
+          "field_width": null,
+          "field_type": "TextArea",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Pickup address",
+          "vtbObjectId": "cfmcjklm3wavw95g1zah3o"
+        },
+        {
+          "id": 6,
+          "name": "pickup_location",
+          "type_id": 1,
+          "valid_regex": "",
+          "defaults": null,
+          "category_id": 6,
+          "sort_order": 2,
+          "field_width": null,
+          "field_type": "TextBox",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Pickup location",
+          "vtbObjectId": "om922qlyyvneb9m7lelh"
+        },
+        {
+          "id": 7,
+          "name": "pickup_date",
+          "type_id": 6,
+          "valid_regex": "",
+          "defaults": null,
+          "category_id": 6,
+          "sort_order": 2,
+          "field_width": null,
+          "field_type": "Date",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Pickup date",
+          "vtbObjectId": "3lrlao4xckxhxsf2nsjhn"
+        },
+        {
+          "id": 18,
+          "name": "dropoff_address",
+          "type_id": 7,
+          "valid_regex": "",
+          "defaults": null,
+          "category_id": 6,
+          "sort_order": 3,
+          "field_width": null,
+          "field_type": "TextArea",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Dropoff address",
+          "vtbObjectId": "gwar2vcnqyv2oh2itt0cqr"
+        },
+        {
+          "id": 8,
+          "name": "dropoff_location",
+          "type_id": 1,
+          "valid_regex": "",
+          "defaults": null,
+          "category_id": 6,
+          "sort_order": 4,
+          "field_width": null,
+          "field_type": "TextBox",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Dropoff location",
+          "vtbObjectId": "xkf5acbckta4vmw8pi2uu"
+        },
+        {
+          "id": 9,
+          "name": "dropoff_date",
+          "type_id": 6,
+          "valid_regex": "",
+          "defaults": null,
+          "category_id": 6,
+          "sort_order": 5,
+          "field_width": null,
+          "field_type": "Date",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Dropoff date",
+          "vtbObjectId": "k6w2qz94rljaglwerarcw7"
+        },
+        {
+          "id": 10,
+          "name": "departure_date",
+          "type_id": 6,
+          "valid_regex": "",
+          "defaults": null,
+          "category_id": 6,
+          "sort_order": 5,
+          "field_width": null,
+          "field_type": "Date",
+          "display_at": null,
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Departure date",
+          "vtbObjectId": "jvfdf02x33jur1fh4dukl"
+        },
+        {
+          "id": 11,
+          "name": "pdf_link",
+          "type_id": 1,
+          "valid_regex": "",
+          "defaults": null,
+          "category_id": 6,
+          "sort_order": 6,
+          "field_width": null,
+          "field_type": "TextBox",
+          "display_at": null,
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "PDF link",
+          "vtbObjectId": "isti13vteekdlir87oajy"
+        },
+        {
+          "id": 19,
+          "name": "confirm_code",
+          "type_id": 1,
+          "valid_regex": "",
+          "defaults": null,
+          "category_id": 6,
+          "sort_order": 10,
+          "field_width": null,
+          "field_type": "TextBox",
+          "display_at": "both",
+          "show_in_product": 0,
+          "layout_data": null,
+          "maxlength": null,
+          "maxlength_enforce": 0,
+          "translated_name": "Confirmation code",
+          "vtbObjectId": "vf8qtcz1kb8afns3t7sb2g"
+        }
+      ],
+      "vtbObjectId": "ueqeae4d28pu1b4dvdd5l"
+    }
+  ],
+  "participants": {
+    "party 1": [{
+      "id": "28",
+      "name": "Mike",
+      "surname": "Schouten",
+      "surname_prefix": "",
+      "title": "1",
+      "sex": "male",
+      "birthdate": "1989-04-08",
+      "partyName": "party 1"
+    }]
   },
-  "segments":[
-     {
-        "nights":2,
-        "day":1,
-        "isFlight":false,
-        "typeId":12,
-        "title":"Consectetur adipiscing elit",
-        "subTitle":"Donec iaculis enim",
-        "content":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ligula mauris, consequat quis leo maximus, pellentesque condimentum urna. Pellentesque vel metus non ligula efficitur condimentum. Donec enim nisi, mollis sed aliquet id, tempor quis risus. Pellentesque neque massa, ultrices sed eros eu, pretium porta urna. Curabitur nulla ipsum, fringilla convallis quam in, pretium cursus justo. Cras aliquam orci sed lorem rhoncus, ac tincidunt elit interdum. Cras nec tortor augue. Donec vehicula nulla posuere ante rutrum, ultrices facilisis eros accumsan. Donec elementum finibus arcu, ut viverra nisi porttitor vitae. Nunc sed ullamcorper libero, ac condimentum purus. Nunc aliquet, velit nec egestas vestibulum, nulla arcu hendrerit justo, at tincidunt magna nisl eu orci. Vestibulum a nisi varius, egestas orci id, commodo ex. Donec iaculis enim quis libero viverra, eget tempus tellus posuere. Aliquam sit amet lectus eros. Mauris posuere ex dolor, a luctus ante tempus eu. Proin imperdiet mattis odio, ut lobortis tellus imperdiet nec.<\/p>",
-        "TSBlock":{
-           "id":3249
+  "segments": [{
+      "nights": 0,
+      "day": 1,
+      "isFlight": true,
+      "typeId": 4,
+      "title": " Vliegticket van Amsterdam Schiphol naar Hong Kong  <CXL3B2RS>",
+      "subTitle": null,
+      "content": "U vertrekt op donderdag  5 maart 2020 om 12:45 uur  van Amsterdam Schiphol. U vliegt met Cathay Pacific, het vluchtnummer is CX 270. De reisduur bedraagt 11 uren en 10 minuten (Non-stop). U komt aan op vrijdag  6 maart 2020 om 06:55 uur 's morgens op Hong Kong. <br \/> <br \/>  <table><tr> <th>Vlucht vertrek<\/th> <th>Van<\/th> <th>Naar<\/th> <th>Aankomst<\/th> <th>Vluchtnr<\/th> <th>Duur<\/th> <th>Stop<\/th> <\/tr><tr> <td>donderdag  5 maart 2020 12:45 uur <\/td> <td>Amsterdam Schiphol<\/td> <td>Hong Kong<\/td> <td>vrijdag  6 maart 2020 06:55 uur 's morgens<\/td> <td>CX 270<\/td> <td>11 uren en 10 minuten<\/td> <td>(Non-stop)<\/td> <\/tr><\/table>",
+      "TSBlock": {
+        "id": 101006
+      },
+      "flightInfo": [{
+        "id": 1542,
+        "airlineCode": "CX",
+        "flightNumber": " 270",
+        "departureAirport": "AMS",
+        "departureDt": "2020-03-05 12:45:00",
+        "arrivalAirport": "HKG",
+        "arrivalDt": "2020-03-06 06:55:00",
+        "arrivalDate": "2020-03-06",
+        "arrivalTime": "06:55",
+        "departureDate": "2020-03-05",
+        "departureTime": "12:45",
+        "stopoverAirport": "*",
+        "duration": 11,
+        "farebase": ""
+      }],
+      "media": [
+         {
+           "id":1,
+           "sourceType":"mediaspirit",
+           "sourceId":"b87d869228aac78678cd0559d0225241",
+           "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/P1030133_gu329s.JPG",
+           "description":null
         },
-        "flightInfo":[
+        {
+          "id":2,
+          "sourceType":"mediaspirit",
+          "sourceId":"b87d869228aac78678cd0559d0225241",
+          "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/P1030133_gu329s.JPG",
+          "description":null
+       }
+        
+      ],
+      "elements": [{
+          "emptyOlStartDT": false,
+          "offset": 0,
+          "nights": 0,
+          "unitAmount": 1,
+          "unitId": 3,
+          "optional": false,
+          "not_calculated": true,
+          "title": "Vliegreis inbegrepen bij de arrangementskosten",
+          "TSProduct": {
+            "id": 4,
+            "tag": null,
+            "bookableDays": [
 
-        ],
-        "media":[
-           {
-              "sourceType":"mediaspirit",
-              "sourceId":"09eea36db78f48a52450481ffc13c3b3",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Zuid-Afrika-Fauna-babyolifant.JPG"
-           },
-           {
-              "sourceType":"mediaspirit",
-              "sourceId":"677a2ed7fe35b9d5f8b300bb67823f5b",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Zuid-Afrika-BlydeRiverCanyon.JPG"
-           },
-           {
-              "sourceType":"mediaspirit",
-              "sourceId":"804f8c2ccbce001f14a2b3640bf60fd5",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/route%20van%20Johannesburg%20naar%20Hazyview%20Machadodorp%20(1).jpg"
-           }
-        ],
-        "elements":[
-           {
-              "offset":0,
-              "nights":2,
-              "unitAmount":2,
-              "unitId":2,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Hotel Iaculis Ligula",
-              "TSProduct":{
-                 "id":191,
-                 "tag":"GUAACCELH",
-                 "bookableDays":[
+            ]
+          },
+          "TSOrderline": {
+            "id": 204538
+          },
+          "media": [
 
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8457
-              },
-              "media":[
-                 {
-                    "id":1,
-                    "sourceType":"mediaspirit",
-                    "sourceId":"b87d869228aac78678cd0559d0225241",
-                    "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Manggis,%20Alila%20Manggis%20(8).jpg",
-                    "description":null
-                 }
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Hotel Iaculis Ligula",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000",
-                 "hasError":"Bad Request: failed fetching live prices: error_no_matrixline_found",
-                 "usedParams":{
-                    "productId":191,
-                    "startDate":"2018-11-13",
-                    "nrOfItems":2,
-                    "nrOfAdults":1,
-                    "nrOfChildren":0,
-                    "nrOfBabies":0,
-                    "nrOfAdolescent":0,
-                    "matrixDescription":"Vulputate ut"
-                 }
-              },
-              "additionalText":"Glass aptent taciti sociosqu ad litora torquent per conubia",
-              "subAdditionalText":null,
-              "roomTypes":[
-                 {
-                    "defaultPrice":"0.0000",
-                    "description":"Vulputate ut",
-                    "minPerson":null,
-                    "maxPerson":null,
-                    "minUnit":null,
-                    "maxUnit":null
-                 }
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
+          ],
+          "olPrices": {
+            "costPrice": "0.000",
+            "discount": "0.000",
+            "title": "Vliegreis inbegrepen bij de arrangementskosten",
+            "discountMethod": "absolute",
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": [
 
-              ],
-              "hasPreviousElementParticipantOverlap":true,
-              "day":1,
-              "date":"2018-11-12T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "manual_calc":false,
-              "oldPricesUsed":false,
-              "subTitle":"Vulputate ut"
-           },
-           {
-              "offset":0,
-              "nights":2,
-              "unitAmount":2,
-              "unitId":2,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Hotel Iaculis Ligula",
-              "TSProduct":{
-                 "id":191,
-                 "tag":"GUAACCELH",
-                 "bookableDays":[
+            ],
+            "salesTotal": 1200
+          },
+          "subAdditionalText": null,
+          "additionalText": null,
+          "roomTypes": [
 
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8457
-              },
-              "media":[
-                 {
-                    "id":1,
-                    "sourceType":"mediaspirit",
-                    "sourceId":"b87d869228aac78678cd0559d0225241",
-                    "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/P1030133_gu329s.JPG",
-                    "description":null
-                 }
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Hotel Iaculis Ligula",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000",
-                 "hasError":"Bad Request: failed fetching live prices: error_no_matrixline_found",
-                 "usedParams":{
-                    "productId":191,
-                    "startDate":"2018-11-13",
-                    "nrOfItems":2,
-                    "nrOfAdults":1,
-                    "nrOfChildren":0,
-                    "nrOfBabies":0,
-                    "nrOfAdolescent":0,
-                    "matrixDescription":"Libero gravida"
-                 }
-              },
-              "additionalText":"Class aptent taciti sociosqu ad litora torquent per conubia",
-              "subAdditionalText":null,
-              "roomTypes":[
-                 {
-                    "defaultPrice":"0.0000",
-                    "description":"Libero gravida",
-                    "minPerson":null,
-                    "maxPerson":null,
-                    "minUnit":null,
-                    "maxUnit":null
-                 }
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
+          ],
+          "supplierComment": null,
+          "sellingAmount": "11.300",
+          "sellingMarkupType": "percentage",
+          "missingBookableDays": [
 
-              ],
-              "hasPreviousElementParticipantOverlap":true,
-              "day":1,
-              "date":"2018-11-12T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "manual_calc":false,
-              "oldPricesUsed":false,
-              "subTitle":"Libero gravida"
-           },
-           {
-              "offset":0,
-              "nights":2,
-              "unitAmount":2,
-              "unitId":2,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Hotel Etiam Sodales",
-              "TSProduct":{
-                 "id":191,
-                 "tag":"GUAACCELH",
-                 "bookableDays":[
-
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8457
-              },
-              "media":[
-                 {
-                    "id":1,
-                    "sourceType":"mediaspirit",
-                    "sourceId":"b87d869228aac78678cd0559d0225241",
-                    "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Manggis,%20Alila%20Manggis%20(20).jpg",
-                    "description":null
-                 }
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Hotel Etiam Sodales",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000",
-                 "hasError":"Bad Request: failed fetching live prices: error_no_matrixline_found",
-                 "usedParams":{
-                    "productId":191,
-                    "startDate":"2018-11-13",
-                    "nrOfItems":2,
-                    "nrOfAdults":1,
-                    "nrOfChildren":0,
-                    "nrOfBabies":0,
-                    "nrOfAdolescent":0,
-                    "matrixDescription":"Ex Ontbijt"
-                 }
-              },
-              "additionalText":"Class aptent taciti sociosqu ad litora torquent per conubia",
-              "subAdditionalText":null,
-              "roomTypes":[
-                 {
-                    "defaultPrice":"0.0000",
-                    "description":"Proin faucibus",
-                    "minPerson":null,
-                    "maxPerson":null,
-                    "minUnit":null,
-                    "maxUnit":null
-                 }
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "hasPreviousElementParticipantOverlap":true,
-              "day":1,
-              "date":"2018-11-12T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "manual_calc":false,
-              "oldPricesUsed":false,
-              "subTitle":"Proin faucibus"
-           },
-           {
-              "offset":0,
-              "nights":2,
-              "unitAmount":2,
-              "unitId":2,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Hotel Sed Porttitor Lacus",
-              "TSProduct":{
-                 "id":191,
-                 "tag":"GUAACCELH",
-                 "bookableDays":[
-
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8457
-              },
-              "media":[
-                 {
-                    "id":1,
-                    "sourceType":"mediaspirit",
-                    "sourceId":"b87d869228aac78678cd0559d0225241",
-                    "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/IMG_0360_8iylui.JPG",
-                    "description":null
-                 }
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Hotel Sed Porttitor Lacus",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"5.000",
-                 "hasError":"Bad Request: failed fetching live prices: error_no_matrixline_found",
-                 "usedParams":{
-                    "productId":191,
-                    "startDate":"2018-11-13",
-                    "nrOfItems":2,
-                    "nrOfAdults":1,
-                    "nrOfChildren":0,
-                    "nrOfBabies":0,
-                    "nrOfAdolescent":0,
-                    "matrixDescription":"Hotel Sed Porttitor Lacus"
-                 }
-              },
-              "additionalText":"Glass aptent taciti sociosqu ad litora torquent per conubia",
-              "subAdditionalText":null,
-              "roomTypes":[
-                 {
-                    "defaultPrice":"0.0000",
-                    "description":"Hotel Sed Porttitor Lacus",
-                    "minPerson":null,
-                    "maxPerson":null,
-                    "minUnit":null,
-                    "maxUnit":null
-                 }
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "hasPreviousElementParticipantOverlap":true,
-              "day":1,
-              "date":"2018-11-12T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "manual_calc":false,
-              "oldPricesUsed":false,
-              "subTitle":"Posuere dolor"
-           }
-        ],
-        "inViewport":false,
-        "maps":{
-           "latitude":-24.238182,
-           "longitude":19.801568,
-           "zoom":5
+          ],
+          "needsOffsetRecalculation": true,
+          "vtbObjectId": "vx7macf3hsla5bs7smb0ra",
+          "day": 1,
+          "date": "2020-03-05",
+          "endDate": "2020-03-05",
+          "roomTypeMatchesParticipants": true
         },
-        "carRentalElements":[
+        {
+          "emptyOlStartDT": false,
+          "offset": 0,
+          "nights": 0,
+          "unitAmount": 1,
+          "unitId": 3,
+          "optional": false,
+          "not_calculated": true,
+          "title": "Luchthavenbelastingen en toeslagen",
+          "TSProduct": {
+            "id": 1206,
+            "tag": null,
+            "bookableDays": [
 
-        ],
-        "date":"2018-11-12T23:00:00.000Z",
-        "missingBookableDays":false,
-        "elementsOrder":"8457",
-        "elementsMapActive":"",
-        "hasElementsOverlap":false,
-        "carRentalEnd":null,
-        "carRentalStart":null,
-        "endDate":"2018-11-14T23:00:00.000Z"
-     },
-     {
-        "nights":0,
-        "day":2,
-        "isFlight":false,
-        "typeId":12,
-        "title":"Nullam in augue",
-        "subTitle":"Vivamus nisl est",
-        "content":"<p>Nullam in augue et eros congue dictum. Vivamus nisl est, interdum et molestie non, pulvinar quis leo. Morbi convallis est leo, ut fermentum velit malesuada non. Phasellus nec enim sapien. In nec iaculis ligula. Donec viverra, libero ut blandit condimentum, velit orci finibus turpis, vel accumsan nibh eros vel eros. Fusce libero sapien, accumsan eu massa quis, efficitur iaculis elit. Sed sed tincidunt enim, quis faucibus massa. Vestibulum vel risus vitae enim sagittis ornare sed et est.<\/p>",
-        "TSBlock":{
-           "id":2991
+            ]
+          },
+          "TSOrderline": {
+            "id": 204539
+          },
+          "media": [
+
+          ],
+          "olPrices": {
+            "costPrice": "0.000",
+            "discount": "0.000",
+            "title": "Luchthavenbelastingen en toeslagen",
+            "discountMethod": "absolute",
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": [
+
+            ],
+            "salesTotal": 0
+          },
+          "subAdditionalText": null,
+          "additionalText": null,
+          "roomTypes": [
+
+          ],
+          "supplierComment": null,
+          "sellingAmount": "0.000",
+          "sellingMarkupType": "margin",
+          "missingBookableDays": [
+
+          ],
+          "needsOffsetRecalculation": true,
+          "vtbObjectId": "exijuogc20eoyaark22i88",
+          "day": 1,
+          "date": "2020-03-05",
+          "endDate": "2020-03-05",
+          "roomTypeMatchesParticipants": true
+        }
+      ],
+      "inViewport": false,
+      "maps": [
+
+      ],
+      "vtbObjectId": "0iuwzyatxzgimsr3vfz7rp",
+      "carRentalElements": [
+
+      ],
+      "date": "2020-03-05",
+      "missingBookableDays": false,
+      "elementsOrder": "204538|204539",
+      "elementsMapActive": "",
+      "hasElementsOverlap": false,
+      "endDate": "2020-03-05"
+    },
+    {
+      "nights": 0,
+      "day": 1,
+      "isFlight": true,
+      "typeId": 4,
+      "title": " Vliegticket van Hong Kong naar Cairns Airport  <CXL3B2RS>",
+      "subTitle": null,
+      "content": "U vertrekt op zaterdag  7 maart 2020 om 21:35 uur  van Hong Kong. U vliegt met Cathay Pacific, het vluchtnummer is CX 147. De reisduur bedraagt 07 uren en 10 minuten (Non-stop). U komt aan op zondag  8 maart 2020 om 06:45 uur 's morgens op Cairns Airport. <br \/> <br \/>  <table><tr> <th>Vlucht vertrek<\/th> <th>Van<\/th> <th>Naar<\/th> <th>Aankomst<\/th> <th>Vluchtnr<\/th> <th>Duur<\/th> <th>Stop<\/th> <\/tr><tr> <td>zaterdag  7 maart 2020 21:35 uur <\/td> <td>Hong Kong<\/td> <td>Cairns Airport<\/td> <td>zondag  8 maart 2020 06:45 uur 's morgens<\/td> <td>CX 147<\/td> <td>07 uren en 10 minuten<\/td> <td>(Non-stop)<\/td> <\/tr><\/table><br \/><br \/>",
+      "TSBlock": {
+        "id": 101007
+      },
+      "flightInfo": [{
+        "id": 1543,
+        "airlineCode": "CX",
+        "flightNumber": " 147",
+        "departureAirport": "HKG",
+        "departureDt": "2020-03-07 21:35:00",
+        "arrivalAirport": "CNS",
+        "arrivalDt": "2020-03-08 06:45:00",
+        "arrivalDate": "2020-03-08",
+        "arrivalTime": "06:45",
+        "departureDate": "2020-03-07",
+        "departureTime": "21:35",
+        "stopoverAirport": "*",
+        "duration": 7,
+        "farebase": ""
+      }],
+      "media": [
+        
+      ],
+      "elements": [{
+          "emptyOlStartDT": false,
+          "offset": 0,
+          "nights": 0,
+          "unitAmount": 1,
+          "unitId": 3,
+          "optional": false,
+          "not_calculated": false,
+          "title": "Vliegreis inbegrepen bij de arrangementskosten",
+          "TSProduct": {
+            "id": 4,
+            "tag": null,
+            "bookableDays": [
+
+            ]
+          },
+          "TSOrderline": {
+            "id": 204540
+          },
+          "media": [
+
+          ],
+          "olPrices": {
+            "costPrice": "0.000",
+            "discount": "0.000",
+            "title": "Vliegreis inbegrepen bij de arrangementskosten",
+            "discountMethod": "absolute",
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": [
+
+            ],
+            "salesTotal": 0
+          },
+          "subAdditionalText": null,
+          "additionalText": null,
+          "roomTypes": [
+
+          ],
+          "supplierComment": null,
+          "sellingAmount": "11.300",
+          "sellingMarkupType": "percentage",
+          "missingBookableDays": [
+
+          ],
+          "needsOffsetRecalculation": true,
+          "vtbObjectId": "z56pp9lv3sehnkw048agk4",
+          "day": 1,
+          "date": "2020-03-05",
+          "endDate": "2020-03-05",
+          "roomTypeMatchesParticipants": true
         },
-        "flightInfo":[
+        {
+          "emptyOlStartDT": false,
+          "offset": 0,
+          "nights": 0,
+          "unitAmount": 1,
+          "unitId": 3,
+          "optional": false,
+          "not_calculated": false,
+          "title": "Luchthavenbelastingen en toeslagen",
+          "TSProduct": {
+            "id": 1206,
+            "tag": null,
+            "bookableDays": [
 
-        ],
-        "media":[
-           {
-              "sourceType":"mediaspirit",
-              "sourceId":"09eea36db78f48a52450481ffc13c3b3",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Zuid-Afrika-Krugerpark-Neushoorn.JPG"
-           },
-           {
-              "id":2,
-              "sourceType":"mediaspirit",
-              "sourceId":"6ef21317bb6a50e1ede18bb9bd13d16d",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Krugerpark%20(1).JPG",
-              "description":""
-           },
-           {
-              "sourceType":"mediaspirit",
-              "sourceId":"804f8c2ccbce001f14a2b3640bf28b0c",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Krugerpark%20selfdrive%20(1).JPG"
-           }
-        ],
-        "elements":[
-           {
-              "offset":0,
-              "nights":0,
-              "unitAmount":0,
-              "unitId":1,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Nam mollis hendrerit",
-              "TSProduct":{
-                 "id":199,
-                 "tag":"GUATRAAN2",
-                 "bookableDays":[
+            ]
+          },
+          "TSOrderline": {
+            "id": 204541
+          },
+          "media": [
 
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8010
-              },
-              "media":[
+          ],
+          "olPrices": {
+            "costPrice": "0.000",
+            "discount": "0.000",
+            "title": "Luchthavenbelastingen en toeslagen",
+            "discountMethod": "absolute",
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": [
 
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Nam mollis hendrerit",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000"
-              },
-              "additionalText":"In nec iaculis ligula. Donec viverra, libero ut blandit condimentum",
-              "subAdditionalText":null,
-              "roomTypes":[
+            ],
+            "salesTotal": 0
+          },
+          "subAdditionalText": null,
+          "additionalText": null,
+          "roomTypes": [
 
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
+          ],
+          "supplierComment": null,
+          "sellingAmount": "0.000",
+          "sellingMarkupType": "margin",
+          "missingBookableDays": [
 
-              ],
-              "needsOffsetRecalculation":true,
-              "day":3,
-              "date":"2018-11-14T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "manual_calc":false,
-              "oldPricesUsed":false
-           },
-           {
-              "offset":0,
-              "nights":0,
-              "unitAmount":2,
-              "unitId":5,
-              "optional":true,
-              "not_calculated":true,
-              "title":"Proin et dolor",
-              "TSProduct":{
-                 "id":200,
-                 "tag":"GUAACCELP",
-                 "bookableDays":[
+          ],
+          "needsOffsetRecalculation": true,
+          "vtbObjectId": "dnkjx7in6hja18ziqmvcsm",
+          "day": 1,
+          "date": "2020-03-05",
+          "endDate": "2020-03-05",
+          "roomTypeMatchesParticipants": true
+        }
+      ],
+      "inViewport": false,
+      "maps": [
 
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8011
-              },
-              "media":[
+      ],
+      "vtbObjectId": "0eyz1ydet3ivaxvcbwdf444",
+      "carRentalElements": [
 
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Proin et dolor",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"20.000"
-              },
-              "additionalText":"Proin et dolor vel dui tincidunt sodales",
-              "subAdditionalText":null,
-              "roomTypes":[
-                 {
-                    "defaultPrice":"0.0000",
-                    "description":"Incl Ontbijt",
-                    "minPerson":null,
-                    "maxPerson":null,
-                    "minUnit":null,
-                    "maxUnit":null
-                 }
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
+      ],
+      "date": "2020-03-05",
+      "missingBookableDays": false,
+      "elementsOrder": "204540|204541",
+      "elementsMapActive": "",
+      "hasElementsOverlap": false,
+      "endDate": "2020-03-05"
+    },
+    {
+      "nights": 3,
+      "day": 1,
+      "isFlight": false,
+      "typeId": 1,
+      "title": "Accommodations",
+      "subTitle": null,
+      "content": "<html>\n<head>\n\t<title><\/title>\n<\/head>\n<body>Text for accommodations. Show product text.<\/body>\n<\/html>\n",
+      "TSBlock": {
+        "id": 99597
+      },
+      "flightInfo": [
 
-              ],
-              "needsOffsetRecalculation":true,
-              "day":3,
-              "date":"2018-11-14T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "manual_calc":false,
-              "oldPricesUsed":false
-           },
-           {
-              "offset":0,
-              "nights":0,
-              "unitAmount":0,
-              "unitId":5,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Etiam a lorem a mi pulvinar condimentum",
-              "TSProduct":{
-                 "id":201,
-                 "tag":"GUAACTRAF",
-                 "bookableDays":[
+      ],
+      "media": [
+        {
+          "sourceType":"mediaspirit",
+          "sourceId":"09eea36db78f48a52450481ffc13c3b3",
+          "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Zuid-Afrika-Fauna-babyolifant.JPG"
+       }
+      ],
+      "elements": [
+        {
+          "emptyOlStartDT": false,
+          "offset": 0,
+          "nights": 2,
+          "unitAmount": 2,
+          "unitId": 2,
+          "optional": false,
+          "not_calculated": false,
+          "subTitle": "Apartment standaard -2 bedrooms 2 badkamers",
+          "title": "Adina Apartment Hotel Sydney, Town Hall",
+          "TSProduct": {
+            "id": 8054,
+            "tag": null,
+            "bookableDays": [
 
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8012
-              },
-              "media":[
+            ]
+          },
+          "TSOrderline": {
+            "id": 204531
+          },
+          "media": [
+                {
+            "id":1,
+            "sourceType":"mediaspirit",
+            "sourceId":"b87d869228aac78678cd0559d0225241",
+            "url":"https://via.placeholder.com/300x300",
+            "description":null
+            }
+          ],
+          "olPrices": {
+            "costPrice": "20.000",
+            "discount": null,
+            "title": "Adina Apartment Hotel Sydney, Town Hall [Apartment standaard -2 bedrooms 2 badkamers]",
+            "discountMethod": "absolute",
+            "exchangeRate": "0.670000000",
+            "purchaseCurrency": "AUD",
+            "salesCurrency": "EUR",
+            "participants": {
+              "28": {
+                "costPrice": "20.000",
+                "salesPrice": 60
+              }
+            },
+            "salesTotal": 60
+          },
+          "additionalText": "<html><head><title><\/title><\/head><body><p><strong>Ligging:<\/strong> Het Adina Apartment Hotel ligt in het centrum van Sydney op 2 minuten lopen van het treinstation Town Hall, waar u een trein kunt nemen naar alle belangrijke bezienswaardigheden van Sydney. Darling Harbour en Chinatown zijn beide binnen 5 minuten lopen te bereiken. Het hotel ligt op 11 minuten lopen van de Qantas Credit Union Arena en op 25 minuten rijden van de internationale luchthaven van Sydney.<br \/><br \/><strong>Faciliteiten: <\/strong>Het hotel beschikt over een verwarmd binnenzwembad, een fitnesscentrum en een sauna. Gratis Wifi.<br \/><br \/><strong>Kamers:<\/strong>&nbsp;De ruime, modern ingerichte appartementen van het Adina Apartment Hotel Sydney zijn voorzien van een keuken of kitchenette, kabel-tv, airconditioning en een eigen balkon. De grote ramen bieden een prachtig uitzicht op de skyline van de stad.<br \/><br \/><strong>Inclusief: <\/strong>Logies<\/p><div class=\"default-hidden reisbescheiden_text\" style=\"background-color:#a3d771;\"><strong>Adres:<\/strong><br \/>511 Kent Street, Sydney NSW 2000<br \/>Tel: (02) 9274 0000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br \/>E-mail: townhall@adinahotels.com.au<br \/>&nbsp;<br \/><strong>Inclusief:<\/strong> Logies<\/div><br\/><br\/><div class=\"default-hidden reisbescheiden_text\" style=\"background-color:#a3d771;\"><strong>Adres:<\/strong><br \/>511 Kent Street, Sydney NSW 2000<br \/>Tel: (02) 9274 0000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br \/>E-mail: townhall@adinahotels.com.au<br \/>&nbsp;<br \/><strong>Inclusief:<\/strong> Logies<\/div><\/body><\/html>",
+          "subAdditionalText": null,
+          "roomTypes": [{
+              "defaultPrice": "0.0000",
+              "description": "1 Bedroom Guest Apartment",
+              "minPerson": null,
+              "maxPerson": null,
+              "minUnit": null,
+              "maxUnit": null
+            },
+            {
+              "defaultPrice": "0.0000",
+              "description": "Guest 2 Bedroom Apartment",
+              "minPerson": null,
+              "maxPerson": null,
+              "minUnit": null,
+              "maxUnit": null
+            },
+            {
+              "defaultPrice": "0.0000",
+              "description": "Apartment standaard -2 bedrooms 2 badkamers",
+              "minPerson": null,
+              "maxPerson": null,
+              "minUnit": null,
+              "maxUnit": null
+            }
+          ],
+          "supplierComment": null,
+          "sellingAmount": "20.000",
+          "sellingMarkupType": "margin",
+          "missingBookableDays": [
 
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Etiam a lorem a mi pulvinar condimentum",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"75.000"
-              },
-              "additionalText":"Phasellus pulvinar arcu dolor, et mollis quam maximus quis",
-              "subAdditionalText":null,
-              "roomTypes":[
-
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "day":3,
-              "date":"2018-11-14T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "needsOffsetRecalculation":true,
-              "manual_calc":false,
-              "oldPricesUsed":false
-           }
-        ],
-        "inViewport":false,
-        "maps":{
-           "latitude":52.212853,
-           "longitude":5.2886923,
-           "zoom":15
+          ],
+          "vtbObjectId": "2isk216wsd7rwr3xa1v8np",
+          "linkedParty": "party 1",
+          "hasPreviousElementParticipantOverlap": true,
+          "day": 1,
+          "date": "2020-03-05",
+          "endDate": "2020-03-07",
+          "roomTypeMatchesParticipants": true
         },
-        "carRentalElements":[
+        {
+          "emptyOlStartDT": false,
+          "offset": 0,
+          "nights": 2,
+          "unitAmount": 2,
+          "unitId": 1,
+          "optional": false,
+          "not_calculated": false,
+          "subTitle": "Apartment standaard -2 bedrooms 2 badkamers",
+          "title": "Demo",
+          "TSProduct": {
+            "id": 8054,
+            "tag": null,
+            "bookableDays": [
 
-        ],
-        "date":"2018-11-14T23:00:00.000Z",
-        "missingBookableDays":false,
-        "elementsOrder":"8010|8011|8012",
-        "elementsMapActive":"",
-        "hasElementsOverlap":false,
-        "carRentalEnd":null,
-        "carRentalStart":null,
-        "endDate":"2018-11-14T23:00:00.000Z"
-     },
-     {
-        "nights":0,
-        "day":3,
-        "isFlight":false,
-        "typeId":12,
-        "title":"Sed porttitor lacus",
-        "subTitle":"In pellentesque",
-        "content":"<p>Praesent accumsan eros vel odio semper, sed porttitor lacus pellentesque. In pellentesque, orci ut porta porttitor, felis ipsum varius ligula, a facilisis nunc orci eu sapien. Proin et dolor vel dui tincidunt sodales ac ut augue. Aliquam malesuada sodales enim et efficitur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris vulputate luctus nisl, ut finibus lectus ultricies at. Cras vulputate velit eu libero volutpat commodo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi eu tellus a nunc ullamcorper facilisis. Ut ut luctus sapien, eget convallis ex. Proin elementum ultrices augue, id gravida urna porta eu. Phasellus nunc risus, bibendum non pharetra eu, vulputate ut leo. Donec viverra faucibus elit eu scelerisque. Morbi eu gravida turpis. Aenean ultrices arcu non quam tempor, ut vulputate nisi ultricies.<\/p>",
-        "TSBlock":{
-           "id":2992
+            ]
+          },
+          "TSOrderline": {
+            "id": 204531
+          },
+          "media": [
+                {
+            "id":1,
+            "sourceType":"mediaspirit",
+            "sourceId":"b87d869228aac78678cd0559d0225241",
+            "url":"https://via.placeholder.com/300x300",
+            "description":null
+            }
+          ],
+          "olPrices": {
+            "costPrice": "20.000",
+            "discount": null,
+            "title": "Adina Apartment Hotel Sydney, Town Hall [Apartment standaard -2 bedrooms 2 badkamers]",
+            "discountMethod": "absolute",
+            "exchangeRate": "0.670000000",
+            "purchaseCurrency": "AUD",
+            "salesCurrency": "EUR",
+            "participants": {
+              "28": {
+                "costPrice": "20.000",
+                "salesPrice": 60
+              }
+            },
+            "salesTotal": 60
+          },
+          "additionalText": "<html><head><title><\/title><\/head><body><p><strong>Ligging:<\/strong> Het Adina Apartment Hotel ligt in het centrum van Sydney op 2 minuten lopen van het treinstation Town Hall, waar u een trein kunt nemen naar alle belangrijke bezienswaardigheden van Sydney. Darling Harbour en Chinatown zijn beide binnen 5 minuten lopen te bereiken. Het hotel ligt op 11 minuten lopen van de Qantas Credit Union Arena en op 25 minuten rijden van de internationale luchthaven van Sydney.<br \/><br \/><strong>Faciliteiten: <\/strong>Het hotel beschikt over een verwarmd binnenzwembad, een fitnesscentrum en een sauna. Gratis Wifi.<br \/><br \/><strong>Kamers:<\/strong>&nbsp;De ruime, modern ingerichte appartementen van het Adina Apartment Hotel Sydney zijn voorzien van een keuken of kitchenette, kabel-tv, airconditioning en een eigen balkon. De grote ramen bieden een prachtig uitzicht op de skyline van de stad.<br \/><br \/><strong>Inclusief: <\/strong>Logies<\/p><div class=\"default-hidden reisbescheiden_text\" style=\"background-color:#a3d771;\"><strong>Adres:<\/strong><br \/>511 Kent Street, Sydney NSW 2000<br \/>Tel: (02) 9274 0000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br \/>E-mail: townhall@adinahotels.com.au<br \/>&nbsp;<br \/><strong>Inclusief:<\/strong> Logies<\/div><br\/><br\/><div class=\"default-hidden reisbescheiden_text\" style=\"background-color:#a3d771;\"><strong>Adres:<\/strong><br \/>511 Kent Street, Sydney NSW 2000<br \/>Tel: (02) 9274 0000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br \/>E-mail: townhall@adinahotels.com.au<br \/>&nbsp;<br \/><strong>Inclusief:<\/strong> Logies<\/div><\/body><\/html>",
+          "subAdditionalText": null,
+          "roomTypes": [{
+              "defaultPrice": "0.0000",
+              "description": "1 Bedroom Guest Apartment",
+              "minPerson": null,
+              "maxPerson": null,
+              "minUnit": null,
+              "maxUnit": null
+            },
+            {
+              "defaultPrice": "0.0000",
+              "description": "Guest 2 Bedroom Apartment",
+              "minPerson": null,
+              "maxPerson": null,
+              "minUnit": null,
+              "maxUnit": null
+            },
+            {
+              "defaultPrice": "0.0000",
+              "description": "Apartment standaard -2 bedrooms 2 badkamers",
+              "minPerson": null,
+              "maxPerson": null,
+              "minUnit": null,
+              "maxUnit": null
+            }
+          ],
+          "supplierComment": null,
+          "sellingAmount": "20.000",
+          "sellingMarkupType": "margin",
+          "missingBookableDays": [
+
+          ],
+          "vtbObjectId": "2isk216wsd7rwr3xa1v8np",
+          "linkedParty": "party 1",
+          "hasPreviousElementParticipantOverlap": true,
+          "day": 1,
+          "date": "2020-03-05",
+          "endDate": "2020-03-07",
+          "roomTypeMatchesParticipants": true
         },
-        "flightInfo":[
+        {
+          "emptyOlStartDT": false,
+          "offset": 0,
+          "nights": 2,
+          "unitAmount": 2,
+          "unitId": 4,
+          "optional": false,
+          "not_calculated": false,
+          "subTitle": "Apartment standaard -2 bedrooms 2 badkamers",
+          "title": "Demo1",
+          "TSProduct": {
+            "id": 8054,
+            "tag": null,
+            "bookableDays": [
 
-        ],
-        "media":[
-           {
-              "sourceType":"mediaspirit",
-              "sourceId":"3dd2a2bb0d796cb070ee31b1c16113de",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Zuid-Afrika-Krugerpark-olifanten.JPG"
-           },
-           {
-              "id":4,
-              "sourceType":"mediaspirit",
-              "sourceId":"518ab2b45169dd25618fb08c3019a2c4",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Krugerpark%20safari%20(3).jpg",
-              "description":""
-           },
-           {
-              "sourceType":"mediaspirit",
-              "sourceId":"0fc160a85361066719014f668aadd86d",
-              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Krugerpark%20wrattenzwijn.jpg"
-           }
-        ],
-        "elements":[
-           {
-              "offset":0,
-              "nights":0,
-              "unitAmount":0,
-              "unitId":4,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Luctus libero gravida",
-              "TSProduct":{
-                 "id":202,
-                 "tag":"GUATRASEM",
-                 "bookableDays":[
+            ]
+          },
+          "TSOrderline": {
+            "id": 204531
+          },
+          "media": [
+                {
+            "id":1,
+            "sourceType":"mediaspirit",
+            "sourceId":"b87d869228aac78678cd0559d0225241",
+            "url":"https://via.placeholder.com/300x300",
+            "description":null
+            }
+          ],
+          "olPrices": {
+            "costPrice": "20.000",
+            "discount": null,
+            "title": "Adina Apartment Hotel Sydney, Town Hall [Apartment standaard -2 bedrooms 2 badkamers]",
+            "discountMethod": "absolute",
+            "exchangeRate": "0.670000000",
+            "purchaseCurrency": "AUD",
+            "salesCurrency": "EUR",
+            "participants": {
+              "28": {
+                "costPrice": "20.000",
+                "salesPrice": 60
+              }
+            },
+            "salesTotal": 60
+          },
+          "additionalText": "<html><head><title><\/title><\/head><body><p><strong>Ligging:<\/strong> Het Adina Apartment Hotel ligt in het centrum van Sydney op 2 minuten lopen van het treinstation Town Hall, waar u een trein kunt nemen naar alle belangrijke bezienswaardigheden van Sydney. Darling Harbour en Chinatown zijn beide binnen 5 minuten lopen te bereiken. Het hotel ligt op 11 minuten lopen van de Qantas Credit Union Arena en op 25 minuten rijden van de internationale luchthaven van Sydney.<br \/><br \/><strong>Faciliteiten: <\/strong>Het hotel beschikt over een verwarmd binnenzwembad, een fitnesscentrum en een sauna. Gratis Wifi.<br \/><br \/><strong>Kamers:<\/strong>&nbsp;De ruime, modern ingerichte appartementen van het Adina Apartment Hotel Sydney zijn voorzien van een keuken of kitchenette, kabel-tv, airconditioning en een eigen balkon. De grote ramen bieden een prachtig uitzicht op de skyline van de stad.<br \/><br \/><strong>Inclusief: <\/strong>Logies<\/p><div class=\"default-hidden reisbescheiden_text\" style=\"background-color:#a3d771;\"><strong>Adres:<\/strong><br \/>511 Kent Street, Sydney NSW 2000<br \/>Tel: (02) 9274 0000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br \/>E-mail: townhall@adinahotels.com.au<br \/>&nbsp;<br \/><strong>Inclusief:<\/strong> Logies<\/div><br\/><br\/><div class=\"default-hidden reisbescheiden_text\" style=\"background-color:#a3d771;\"><strong>Adres:<\/strong><br \/>511 Kent Street, Sydney NSW 2000<br \/>Tel: (02) 9274 0000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br \/>E-mail: townhall@adinahotels.com.au<br \/>&nbsp;<br \/><strong>Inclusief:<\/strong> Logies<\/div><\/body><\/html>",
+          "subAdditionalText": null,
+          "roomTypes": [{
+              "defaultPrice": "0.0000",
+              "description": "1 Bedroom Guest Apartment",
+              "minPerson": null,
+              "maxPerson": null,
+              "minUnit": null,
+              "maxUnit": null
+            },
+            {
+              "defaultPrice": "0.0000",
+              "description": "Guest 2 Bedroom Apartment",
+              "minPerson": null,
+              "maxPerson": null,
+              "minUnit": null,
+              "maxUnit": null
+            },
+            {
+              "defaultPrice": "0.0000",
+              "description": "Apartment standaard -2 bedrooms 2 badkamers",
+              "minPerson": null,
+              "maxPerson": null,
+              "minUnit": null,
+              "maxUnit": null
+            }
+          ],
+          "supplierComment": null,
+          "sellingAmount": "20.000",
+          "sellingMarkupType": "margin",
+          "missingBookableDays": [
 
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8013
-              },
-              "media":[
-
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Luctus libero gravida",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000"
-              },
-              "additionalText":"Class aptent taciti sociosqu",
-              "subAdditionalText":null,
-              "roomTypes":[
-
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "needsOffsetRecalculation":true,
-              "day":3,
-              "date":"2018-11-14T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "manual_calc":false,
-              "oldPricesUsed":false
-           },
-           {
-              "offset":0,
-              "nights":0,
-              "unitAmount":1,
-              "unitId":3,
-              "optional":true,
-              "not_calculated":true,
-              "title":"Nunc ullamcorper ipsum eu",
-              "TSProduct":{
-                 "id":203,
-                 "tag":"GUAACCLOS",
-                 "bookableDays":[
-
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8014
-              },
-              "media":[
-
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Nunc ullamcorper ipsum eu",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000"
-              },
-              "additionalText":"-",
-              "subAdditionalText":null,
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "needsOffsetRecalculation":true,
-              "day":3,
-              "date":"2018-11-14T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "manual_calc":false,
-              "oldPricesUsed":false
-           },
-           {
-              "offset":0,
-              "nights":0,
-              "unitAmount":0,
-              "unitId":3,
-              "optional":true,
-              "not_calculated":true,
-              "title":"Nullam sed lectus felis",
-              "TSProduct":{
-                 "id":204,
-                 "tag":"GUAACTJOR",
-                 "bookableDays":[
-
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8015
-              },
-              "media":[
-
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Nullam sed lectus felis",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000"
-              },
-              "additionalText":"Sed commodo mattis orci at viverra",
-              "subAdditionalText":null,
-              "roomTypes":[
-
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "day":3,
-              "date":"2018-11-14T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "needsOffsetRecalculation":true,
-              "maps":{
-                 "latitude":52.212853,
-                 "longitude":5.2886923,
-                 "zoom":13
-              },
-              "manual_calc":false,
-              "oldPricesUsed":false
-           },
-           {
-              "offset":0,
-              "nights":0,
-              "unitAmount":0,
-              "unitId":1,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Proin elementum ultrices",
-              "TSProduct":{
-                 "id":205,
-                 "tag":"GUAACTSUN",
-                 "bookableDays":[
-
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8016
-              },
-              "media":[
-
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Proin elementum ultrices",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000"
-              },
-              "additionalText":"Sed commodo mattis orci at viverra",
-              "subAdditionalText":null,
-              "roomTypes":[
-
-              ],
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "day":3,
-              "date":"2018-11-14T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "needsOffsetRecalculation":true,
-              "manual_calc":false,
-              "oldPricesUsed":false
-           },
-           {
-              "offset":0,
-              "nights":0,
-              "unitAmount":0,
-              "unitId":1,
-              "optional":false,
-              "not_calculated":true,
-              "title":"Donec aliquam purus interdum eros",
-              "TSProduct":{
-                 "id":206,
-                 "tag":"GUAACCJAG",
-                 "bookableDays":[
-
-                 ]
-              },
-              "TSOrderline":{
-                 "id":8017
-              },
-              "media":[
-
-              ],
-              "olPrices":{
-                 "costPrice":"0.000",
-                 "discount":null,
-                 "title":"Donec aliquam purus interdum eros",
-                 "discountMethod":null,
-                 "exchangeRate":"1.000000000",
-                 "purchaseCurrency":"EUR",
-                 "salesCurrency":"EUR",
-                 "participants":{
-                    "5271":{
-                       "costPrice":"0.000",
-                       "salesPrice":"0.000"
-                    }
-                 },
-                 "salesTotal":"0.000"
-              },
-              "additionalText":"Donec aliquam purus interdum eros",
-              "subAdditionalText":null,
-              "supplierComment":null,
-              "missingBookableDays":[
-
-              ],
-              "day":3,
-              "date":"2018-11-14T23:00:00.000Z",
-              "endDate":"2018-11-14T23:00:00.000Z",
-              "roomTypeMatchesParticipants":true,
-              "needsOffsetRecalculation":true,
-              "manual_calc":false,
-              "oldPricesUsed":false
-           }
-        ],
-        "inViewport":true,
-        "maps":{
-           "latitude":52.212853,
-           "longitude":5.2886923,
-           "zoom":15
+          ],
+          "vtbObjectId": "2isk216wsd7rwr3xa1v8np",
+          "linkedParty": "party 1",
+          "hasPreviousElementParticipantOverlap": true,
+          "day": 1,
+          "date": "2020-03-05",
+          "endDate": "2020-03-07",
+          "roomTypeMatchesParticipants": true
         },
-        "carRentalElements":[
+        {
+          "emptyOlStartDT": false,
+          "offset": 2,
+          "nights": 1,
+          "unitAmount": 1,
+          "unitId": 3,
+          "optional": false,
+          "not_calculated": false,
+          "subTitle": "Superior City View Room",
+          "title": "Shangri-La Hotel The Marina",
+          "TSProduct": {
+            "id": 350,
+            "tag": null,
+            "bookableDays": [
+
+            ]
+          },
+          "TSOrderline": {
+            "id": 201551
+          },
+          "maps": {
+            "addressInfo": null,
+            "fiendOfView": 84.46979999999999,
+            "heading": -113.98678414096915,
+            "latitude": -16.92066166666667,
+            "longitude": 145.7804133333334,
+            "pitch": 7.339867232944727,
+            "searchPlace": "Pier Point Rd, Cairns City QLD 4870, Australi\u00eb",
+            "staticImageZoom": null,
+            "zoom": 1
+          },
+          "media": [
+            {
+              "id":1,
+              "sourceType":"mediaspirit",
+              "sourceId":"b87d869228aac78678cd0559d0225241",
+              "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/P1030133_gu329s.JPG",
+              "description":null
+           }
+           
+          ],
+          "olPrices": {
+            "costPrice": "177.550",
+            "discount": null,
+            "title": "Shangri-La Hotel The Marina [Superior City View Room]",
+            "discountMethod": null,
+            "exchangeRate": "0.670000000",
+            "purchaseCurrency": "AUD",
+            "salesCurrency": "EUR",
+            "participants": {
+              "28": {
+                "costPrice": "177.550",
+                "salesPrice": 224.747
+              }
+            },
+            "salesTotal": 224.75
+          },
+          "additionalText": "<b>Omschrijving:<\/b> Uitstekend gelegen, een van de topadressen in Cairns.<br \/><br \/><b>Ligging:<\/b> direct aan het water, naast de moderne marina, het uitgangspunt voor excursies naar het Great Barrier Reef. Maar ook de promenade en de binnenstad zijn te voet bereikbaar.<br \/><br \/><b>Faciliteiten:<\/b> Het hotel beschikt over een restaurant en bar, buitenzwembad, fitnessruimte, 24\/7 roomservice en gratis wifi. Vanuit de lobby heeft u toegang tot verschillende winkels en restaurants.<br \/><br \/><b>Kamers:<\/b> 255 kamers, modern en comfortabel uitgerust met bad\/douche\/wc, airco, telefoon, tv, kluisje, minibar, koffie-\/theefaciliteiten en balkon.<br \/><br \/><b>Inclusief:<\/b> logies.<br\/><br\/><div class=\"default-hidden reisbescheiden_text\" style=\"background-color:#a3d771;\"><strong>Adres:<\/strong><br \/>Pierpoint Road, Cairns QLD 4870<br \/>Tel: (07) 4031 1411<br \/>E-mail: slmc@shangri-la.com<br \/>&nbsp;<br \/><strong>Inclusief:<\/strong> Logies<br \/>&nbsp;<\/div>",
+          "subAdditionalText": null,
+          "roomTypes": [{
+              "defaultPrice": "280.0000",
+              "description": "Superior Sea View Room",
+              "minPerson": 1,
+              "maxPerson": 3,
+              "minUnit": null,
+              "maxUnit": null
+            },
+            {
+              "defaultPrice": "265.0000",
+              "description": "Superior City View Room",
+              "minPerson": 1,
+              "maxPerson": 3,
+              "minUnit": null,
+              "maxUnit": null
+            },
+            {
+              "defaultPrice": "316.0000",
+              "description": "Executive Marina View",
+              "minPerson": 1,
+              "maxPerson": 3,
+              "minUnit": null,
+              "maxUnit": null
+            }
+          ],
+          "supplierComment": null,
+          "sellingAmount": "21.000",
+          "sellingMarkupType": "margin",
+          "missingBookableDays": [
+
+          ],
+          "vtbObjectId": "a7wbhoc30mm5synz7hcek6",
+          "linkedParty": "party 1",
+          "hasPreviousElementParticipantOverlap": true,
+          "day": 3,
+          "date": "2020-03-07",
+          "endDate": "2020-03-08",
+          "roomTypeMatchesParticipants": true
+        }
+      ],
+      "inViewport": false,
+      "maps": [
+
+      ],
+      "vtbObjectId": "b694o1cpymwwyoidqx165q",
+      "carRentalElements": [
+
+      ],
+      "date": "2020-03-05",
+      "missingBookableDays": false,
+      "elementsOrder": "204531|201551",
+      "elementsMapActive": "",
+      "hasElementsOverlap": false,
+      "endDate": "2020-03-08"
+    },
+    {
+      "nights": 12,
+      "day": 4,
+      "isFlight": false,
+      "typeId": 1,
+      "title": "Campers",
+      "subTitle": null,
+      "content": "<!DOCTYPE html>\n<html>\n<head>\n<title><\/title>\n<\/head>\n<body>\n<br>\nCairns, met ruim 80.000 inwoners, is de belangrijkste stad in\nnoordelijk Queensland. De stad heeft een ongedwongen en\naantrekkelijke sfeer en onder de invloed van het tropische klimaat\nspeelt het dagelijks leven zich buiten af. E\u00e9n van de drukste\ngedeeltes van de stad is de Esplanade, een lange boulevard met\nwinkels, hotels, caf\u00e9s en restaurants en aan de andere kant het\nwater van Trinity Bay met heel in de verte het Great Barrier Reef.\nU vindt er een zwembad, picknickplekken, speeltuintjes en\nskatebanen. Op de Esplanade hangt altijd een ontspannen sfeer waar\nzowel inwoners van Cairns als reizigers op afkomen om te zonnen, te\njoggen of te lunchen. Cairns wordt aan de landzijde ingesloten door\nhoge bergen. Bij Kuranda is de indrukwekkende Barron Gorge\nuitgesleten, die u gemakkelijk kunt zien vanuit de trein of vanuit\nde Skyrail (kabelbaan).<br>\n<br>\n<\/body>\n<\/html>",
+      "TSBlock": {
+        "id": 99596
+      },
+      "flightInfo": [
+
+      ],
+      "media": [
+        {
+          "sourceType":"mediaspirit",
+          "sourceId":"09eea36db78f48a52450481ffc13c3b3",
+          "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Zuid-Afrika-Fauna-babyolifant.JPG"
+        },
+        {
+            "sourceType":"mediaspirit",
+            "sourceId":"677a2ed7fe35b9d5f8b300bb67823f5b",
+            "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Zuid-Afrika-Fauna-babyolifant.JPG"
+        },
+        {
+            "sourceType":"mediaspirit",
+            "sourceId":"804f8c2ccbce001f14a2b3640bf60fd5",
+            "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Zuid-Afrika-Fauna-babyolifant.JPG"
+        }
+      ],
+      "elements": [{
+        "emptyOlStartDT": false,
+        "offset": 0,
+        "nights": 12,
+        "unitAmount": 12,
+        "unitId": 6,
+        "optional": false,
+        "not_calculated": false,
+        "subTitle": "Euro Slider",
+        "title": "Apollo Australia camper",
+        "TSProduct": {
+          "id": 1207,
+          "tag": null,
+          "bookableDays": [
+
+          ]
+        },
+        "TSOrderline": {
+          "id": 201549
+        },
+        "media": [
+          
+        ],
+        "olPrices": {
+          "costPrice": "804.000",
+          "discount": "0.000",
+          "title": "Apollo Australia camper [Euro Slider]",
+          "discountMethod": null,
+          "exchangeRate": "0.670000000",
+          "purchaseCurrency": "AUD",
+          "salesCurrency": "EUR",
+          "participants": {
+            "28": {
+              "costPrice": "804.000",
+              "salesPrice": 960
+            }
+          },
+          "salesTotal": 960
+        },
+        "subAdditionalText": "<b>Beschrijving voertuig:\u2022<\/b> 2 zitplaatsen in de bestuurderscabine (draaibaar naar woongedeelte) en 2 in het woongedeelte \u2022 doorgang van het woongedeelte naar de bestuurderscabine \u2022 Fiat Ducato 3,0 l turbodiesel, automaat \u2022 125 l dieseltank, verbruik ca. 14 l\/100km \u2022 stuurbekrachtiging \u2022 lengte 7,90 m, breedte 2,40 m, hoogte 3,40 m en binnenhoogte 2,10 m\n\n<b>Bedden:\u2022<\/b> tweepersoonsbed in alkoof: 2,10 x 1,40 m \u2022 tweepersoonsbed achterin: 1,90 m x 1,50 m\n\n<b>Voertuiguitrusting:\u2022<\/b> airco in bestuurderscabine tijdens het rijden \u2022 airco\/verwarming in woongedeelte (240 V) \u2022 dubbel accusysteem, sigarettenaansteker (opladen van accu's) \u2022 AM\/FM radio met cd-speler, ipod docking station \u2022 tv\/dvd-speler (240V) \u2022 aanrecht met warm en koud water \u2022 douche met warm en koud water en wc \u2022 100 l verswatertank en 150 l afvalwatertank \u2022 1 x 4,5 kg en 1 x 2 kg gasfles \u2022 2-pits gasfornuis, elekrische kookplaat, grill, oven, magnetron (240V) \u2022 koelkast met vriesvak (175 l, 240V, 12V) \u2022 zonneluifel, vliegenraam voor enkele ramen \u2022 brandblusapparaat \u2022 geen baby- of kinderzitjes mogelijk",
+        "additionalText": "<html><head><title><\/title><\/head><body><p>Apollo Motorhomes Holidays maakt samen met Cheapa Campa en Hippie Camper deel uit van de Apollo groep. Deze groep verhuurt de voertuigen in Australi&euml;, Nieuw-Zeeland en VS. De voertuigen van Apollo zijn schoon, goed uitgerust, in uitstekende conditie en zijn 0-3 jaar oud.<br \/><br \/><strong>Inclusief: <\/strong>Voertuig met een voertuigverzekering met eigen risico en borg van AUD 5000 voor HiTop\/Endeavour\/Vivid\/Euro Tourer en AUD 7500 voor de andere 2WD voertuigen, onbeperkt aantal kilometers, GST-belasting, extra bestuurder en complete voertuiguitrusting (beddengoed, handdoeken, slaapzakken, linnen, kookgerei, servies en bestek).<br \/><strong>*Zie voorwaarden 1 april 2019-31 maart 2020&nbsp;voor meer details.<\/strong><br \/><br \/><strong>Exclusief: <\/strong>Kosten eerste gasvulling (AUD 25 voor HiTop, Endeavour, Euro Tourer en 4WD resp. AUD 35 voor 4 en 6 personen motorhome), toilet chemicali&euml;n (AUD 2,5 per stuk), brandstof, creditcardkosten, one way fee AUD 165,&nbsp; Hobart toeslag&nbsp; AUD 90, Broome toeslag AUD 750.&nbsp;Borg ter plaatse te betalen (afhankelijk van de afgesloten verzekering AUD 5000 - AUD 7.500 per huur).<br \/><br \/><strong>Extra te boeken:<\/strong><br \/><strong>Apollo Value Pack:<\/strong> bijkomend inbegrepen is een voertuigverzekering zonder eigen risico, verzekering voor voorruit en benden, verzekering voor dak en onderkant, eerste gasvulling, chemische producten voor toilet, kampeertafel en -stoel(en), baby- resp. kinderzitje (op aanvraag). Borg ter plaatse te betalen: AUD 250. Alleen vooraf te boeken.<br \/><strong>4WD Additional Cover<\/strong> (enkel in combinatie met VIP Cover en X-Terrain uitgezonderd): dekt schade aan banden, voorruit en luifel, sleep- en bergingskosten op vooraf goedgekeurde 4x4-routes. GPS-systeem (meerdere talen): AUD 10\/dag - max. AUD 100\/huur).<br \/><strong>GPS-systeem<\/strong> (meerdere talen): AUD 10\/dag - max. AUD 100\/huur).<br \/><strong>RAP<\/strong> Roadside Assistance Program voor AU$ 4 per dag. Voertuigen die op een verharde weg en niet door onvoorzichtig of roekeloos gedrag van de bestuurder(s) in problemen raken, zijn gedekt voor: openen van het voertuig als de sleutels ontoegankelijk zijn, verlorene sleutels namaken (tot AUD&nbsp;120), sleepkosten (eerste 25 km), jump start, wisselen van een lekke band (gebruik makend van de extra band in het voertuig) en levering van max. 20 liter benzine.<br \/><strong>Camperverzekering van de Europeesche:<\/strong> Extra bij te boeken (vanuit Nederland) voor voor &euro; 9,00 per dag en &euro;3,50&nbsp;poliskosten ( excl. 21% assurantiebelasting). Cascoverzekering (gelimiteerd), dekt&nbsp;ook schade aan dak en onderkant en single vehicle roll over. Gedetailleerde voorwaarden op aanvraag. Deze verzekering verlaagt de borg niet!<br \/><br \/><strong>Inleveren camper:<\/strong><br \/>U dient het voertuig schoon, met lege afwater en wc-tank, volle benzine\/diesel tank in te leveren. Apollo brengt kosten in rekening voor het schoonmaken van de camper en\/of het vullen van de tanken. Het is mogelijk bij het ophalen van de camper een optionele Cleaning Fee te betalen van AUD 75.00 &quot;Drop &amp;&nbsp;Go&quot;, zodat u de camper niet zelf schoon hoeft te maken. Houdt u er rekening mee dat u bij de aanschaf van de Drop &amp;&nbsp;Go Cleaning Fee nog de camper wel met lege afwater- en wc-tanks en een volle brandstoftank dient in te leveren.\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br \/><br \/><strong>Ophalen:<\/strong>&nbsp;* 09:00 uur * Depot<br \/><strong>Inleveren:<\/strong>&nbsp;* 16:00 uur * Depot&nbsp;<br \/><br \/><strong>Type voertuig<\/strong><br \/>Campers kunnen wat betreft merk, model, jaargang, motor en technische specificaties iets van elkaar verschillen. Dit geldt ook&nbsp;voor de uitrusting en de slaapplaatsen. De verhuurder behoudt het recht een voertuig van een hogere categorie ter beschikking te stellen. Daaruit resulterende kosten zoals een hoger brandstofverbruik zijn voor rekening van de klant.<\/p><div class=\"default-hidden reisbescheiden_text\" style=\"background-color:#a3d771;\"><strong>Ophalen:<\/strong> * 09.00 uur Sydney Depot<br \/><strong>Inleveren:<\/strong> * 16.00 uur Sydney Depot<br \/>&nbsp;<br \/><strong>Inclusief:<\/strong> Basisverzekering met een eigen risico van AUD 5000.00 voor HiTop, Endeavour en Euro Tourer, AUD 7500.00 voor de overige 2WD campers en AUD 8000.00 voor 4WD campers,<span style=\"color:#ff0000;\"> <\/span>ongelimiteerd aantal kilometers (<em>300 km per dag voor 4WD voertuigen<\/em>),<span style=\"color:#ff0000;\"> <\/span>10% GST (BTW), 3% administratie kosten, extra bestuurder, volledige keukenuitrusting, linnen pakket (beddengoed en handdoeken), kampeertafel en -stoelen en 24 uur pechhulp. Ter plaatse ontvangt u een campinggids.<br \/><br \/><strong>Ter plaatse te betalen<\/strong>: Eerste gasvulling (AUD **), One Way Fee (AUD 260.00) en borg (AUD 250.00 &ndash; credit card imprint)<br \/><br \/>In de camper is alles aanwezig wat u tijdens uw reis nodig heeft, zoals lakens, dekens, kussens, handdoeken, pannen, keukengerei, bestek, borden, glazen etc. Wij raden u echter wel aan een extra theedoek en badlakens mee te nemen. Wanneer u meerdere apparaten wil opladen in de camper is het aan te raden een stekkerdoos (met adaptor!) mee te nemen.<br \/><br \/><em>Het depot van Sydney ligt ongeveer 25 kilometer ten zuiden van het centrum. Een taxi vanuit de stad kost ongeveer AUD 100.00. Een andere mogelijkheid is de trein. Met lijn T4 (Eastern Suburbs &amp; Illawarra Line) rijdt u naar het Rockdale Station of een halte verder naar Kogarah Station. Een enkeltje kost ongeveer AUD 5.00 per persoon. Vanaf beide stations kunt u een taxi nemen naar het depot, kosten ongeveer AUD 25.00.<\/em><br \/><br \/><em>Bij een huur van een 4WD voertuig mag u 300 kilometer per dag rijden. Extra kilometers kosten AUD 0.40 per kilometer. U kan ter plaatse een kilometer pakket van 500 kilometer bijkopen voor AUD 155.00. U dient deze voor vertrek te betalen en er wordt geen restitutie gegeven op ongebruikte kilometers. Wanneer u heeft gekozen voor een 4WD Additional Cover heeft u ongelimiteerde kilometers en hoeft u dus geen kilometer pakket aan te schaffen.<\/em><br \/><br \/>Wij raden u aan voor vertrek uit Nederland online een &lsquo;pre-registration&rsquo; formulier invullen. Door deze gegevens op de websitevan Apollo in te vullen kunt u sneller uw camper ophalen bij het depot. Het adres is: https:\/\/bookings.apollorv.com\/PreReg. Uw reserveringsnummer bij Apollo Motorhomes is:<br \/><br \/>U dient het voertuig schoon, met lege afwater en wc-tank, volle benzine\/diesel tank in te leveren. Apollo brengt kosten in rekening voor het schoonmaken van de camper en\/of het vullen van de tanken. Het is mogelijk bij het ophalen van de camper&nbsp;<span style=\"text-decoration:underline;\">optionele<\/span> schoonmaakkosten (Drop &amp; Go) te betalen van AUD 75.00, zodat u de camper niet zelf schoon hoeft te maken&nbsp;en de bedden niet hoeft converteren tot eettafel. Houdt u er rekening mee dat u bij de aanschaf van de Drop &amp; Go nog de camper wel met lege afwater- en wc-tanks en een volle brandstoftank dient in te leveren en de vuilnis (inclusief restanten uit de koelkast) weg te gooien.<br \/><br \/>Voor het huren van een camper in Australi&euml; dient u in het bezit te zijn van een internationaal rijbewijs. U kunt een internationaal rijbewijs aanvragen bij de ANWB. Naast uw Nederlandse rijbewijs moet voor het aanvragen u een recente pasfoto meenemen. Het internationaal rijbewijs is niet te koop via internet of per telefoon, enkel bij de ANWB verkooppunten.<br \/><br \/>\u200b\u200b\u200b\u200b\u200b\u200b\u200bVoor meer informatie over uw Apollo camper, Apollo depots, campings en wetenswaardigheden onderweg kunt u de App Apollo Connect downloaden in de App Store of op Google Play.<\/div><br\/><br\/><div class=\"default-hidden reisbescheiden_text\" style=\"background-color:#a3d771;\"><strong>Ophalen:<\/strong> * 09.00 uur Sydney Depot<br \/><strong>Inleveren:<\/strong> * 16.00 uur Sydney Depot<br \/>&nbsp;<br \/><strong>Inclusief:<\/strong> Basisverzekering met een eigen risico van AUD 5000.00 voor HiTop, Endeavour en Euro Tourer, AUD 7500.00 voor de overige 2WD campers en AUD 8000.00 voor 4WD campers,<span style=\"color:#ff0000;\"> <\/span>ongelimiteerd aantal kilometers (<em>300 km per dag voor 4WD voertuigen<\/em>),<span style=\"color:#ff0000;\"> <\/span>10% GST (BTW), 3% administratie kosten, extra bestuurder, volledige keukenuitrusting, linnen pakket (beddengoed en handdoeken), kampeertafel en -stoelen en 24 uur pechhulp. Ter plaatse ontvangt u een campinggids.<br \/><br \/><strong>Ter plaatse te betalen<\/strong>: Eerste gasvulling (AUD **), One Way Fee (AUD 260.00) en borg (AUD 250.00 &ndash; credit card imprint)<br \/><br \/>In de camper is alles aanwezig wat u tijdens uw reis nodig heeft, zoals lakens, dekens, kussens, handdoeken, pannen, keukengerei, bestek, borden, glazen etc. Wij raden u echter wel aan een extra theedoek en badlakens mee te nemen. Wanneer u meerdere apparaten wil opladen in de camper is het aan te raden een stekkerdoos (met adaptor!) mee te nemen.<br \/><br \/><em>Het depot van Sydney ligt ongeveer 25 kilometer ten zuiden van het centrum. Een taxi vanuit de stad kost ongeveer AUD 100.00. Een andere mogelijkheid is de trein. Met lijn T4 (Eastern Suburbs &amp; Illawarra Line) rijdt u naar het Rockdale Station of een halte verder naar Kogarah Station. Een enkeltje kost ongeveer AUD 5.00 per persoon. Vanaf beide stations kunt u een taxi nemen naar het depot, kosten ongeveer AUD 25.00.<\/em><br \/><br \/><em>Bij een huur van een 4WD voertuig mag u 300 kilometer per dag rijden. Extra kilometers kosten AUD 0.40 per kilometer. U kan ter plaatse een kilometer pakket van 500 kilometer bijkopen voor AUD 155.00. U dient deze voor vertrek te betalen en er wordt geen restitutie gegeven op ongebruikte kilometers. Wanneer u heeft gekozen voor een 4WD Additional Cover heeft u ongelimiteerde kilometers en hoeft u dus geen kilometer pakket aan te schaffen.<\/em><br \/><br \/>Wij raden u aan voor vertrek uit Nederland online een &lsquo;pre-registration&rsquo; formulier invullen. Door deze gegevens op de websitevan Apollo in te vullen kunt u sneller uw camper ophalen bij het depot. Het adres is: apollocamper.com\/registernow. Uw reserveringsnummer bij Apollo Motorhomes is:<br \/><br \/>U dient het voertuig schoon, met lege afwater en wc-tank, volle benzine\/diesel tank in te leveren. Apollo brengt kosten in rekening voor het schoonmaken van de camper en\/of het vullen van de tanken. Het is mogelijk bij het ophalen van de camper&nbsp;<span style=\"text-decoration:underline;\">optionele<\/span> schoonmaakkosten (Drop &amp; Go) te betalen van AUD 75.00, zodat u de camper niet zelf schoon hoeft te maken&nbsp;en de bedden niet hoeft converteren tot eettafel. Houdt u er rekening mee dat u bij de aanschaf van de Drop &amp; Go nog de camper wel met lege afwater- en wc-tanks en een volle brandstoftank dient in te leveren en de vuilnis (inclusief restanten uit de koelkast) weg te gooien.<br \/><br \/>Voor het huren van een camper in Australi&euml; dient u in het bezit te zijn van een internationaal rijbewijs. U kunt een internationaal rijbewijs aanvragen bij de ANWB. Naast uw Nederlandse rijbewijs moet voor het aanvragen u een recente pasfoto meenemen. Het internationaal rijbewijs is niet te koop via internet of per telefoon, enkel bij de ANWB verkooppunten.<br \/><br \/>Voor meer informatie over uw Apollo camper, Apollo depots, campings en wetenswaardigheden onderweg kunt u de Apollo Connect&nbsp;App downloaden in de App Store of op Google Play.<\/div> [<b>Beschrijving voertuig:\u2022<\/b> 2 zitplaatsen in de bestuurderscabine (draaibaar naar woongedeelte) en 2 in het woongedeelte \u2022 doorgang van het woongedeelte naar de bestuurderscabine \u2022 Fiat Ducato 3,0 l turbodiesel, automaat \u2022 125 l dieseltank, verbruik ca. 14 l\/100km \u2022 stuurbekrachtiging \u2022 lengte 7,90 m, breedte 2,40 m, hoogte 3,40 m en binnenhoogte 2,10 m\n\n<b>Bedden:\u2022<\/b> tweepersoonsbed in alkoof: 2,10 x 1,40 m \u2022 tweepersoonsbed achterin: 1,90 m x 1,50 m\n\n<b>Voertuiguitrusting:\u2022<\/b> airco in bestuurderscabine tijdens het rijden \u2022 airco\/verwarming in woongedeelte (240 V) \u2022 dubbel accusysteem, sigarettenaansteker (opladen van accu's) \u2022 AM\/FM radio met cd-speler, ipod docking station \u2022 tv\/dvd-speler (240V) \u2022 aanrecht met warm en koud water \u2022 douche met warm en koud water en wc \u2022 100 l verswatertank en 150 l afvalwatertank \u2022 1 x 4,5 kg en 1 x 2 kg gasfles \u2022 2-pits gasfornuis, elekrische kookplaat, grill, oven, magnetron (240V) \u2022 koelkast met vriesvak (175 l, 240V, 12V) \u2022 zonneluifel, vliegenraam voor enkele ramen \u2022 brandblusapparaat \u2022 geen baby- of kinderzitjes mogelijk]<\/body><\/html>",
+        "roomTypes": [{
+            "defaultPrice": "0.0000",
+            "description": "4WD X-Terrain Camper",
+            "minPerson": null,
+            "maxPerson": null,
+            "minUnit": null,
+            "maxUnit": null
+          },
+          {
+            "defaultPrice": "0.0000",
+            "description": "Euro Tourer",
+            "minPerson": null,
+            "maxPerson": null,
+            "minUnit": null,
+            "maxUnit": null
+          },
+          {
+            "defaultPrice": "0.0000",
+            "description": "Euro Camper",
+            "minPerson": null,
+            "maxPerson": null,
+            "minUnit": null,
+            "maxUnit": null
+          },
+          {
+            "defaultPrice": "0.0000",
+            "description": "Euro Deluxe",
+            "minPerson": null,
+            "maxPerson": null,
+            "minUnit": null,
+            "maxUnit": null
+          },
+          {
+            "defaultPrice": "0.0000",
+            "description": "4WD Adventure Camper",
+            "minPerson": null,
+            "maxPerson": null,
+            "minUnit": null,
+            "maxUnit": null
+          },
+          {
+            "defaultPrice": "0.0000",
+            "description": "Euro Star",
+            "minPerson": null,
+            "maxPerson": null,
+            "minUnit": null,
+            "maxUnit": null
+          },
+          {
+            "defaultPrice": "0.0000",
+            "description": "Endeavour Camper",
+            "minPerson": null,
+            "maxPerson": null,
+            "minUnit": null,
+            "maxUnit": null
+          },
+          {
+            "defaultPrice": "0.0000",
+            "description": "Euro Slider",
+            "minPerson": null,
+            "maxPerson": null,
+            "minUnit": null,
+            "maxUnit": null
+          },
+          {
+            "defaultPrice": "0.0000",
+            "description": "4WD Trailfinder",
+            "minPerson": null,
+            "maxPerson": null,
+            "minUnit": null,
+            "maxUnit": null
+          },
+          {
+            "defaultPrice": "0.0000",
+            "description": "Hitop Camper",
+            "minPerson": null,
+            "maxPerson": null,
+            "minUnit": null,
+            "maxUnit": null
+          },
+          {
+            "defaultPrice": "0.0000",
+            "description": "4WD Overlander",
+            "minPerson": null,
+            "maxPerson": null,
+            "minUnit": null,
+            "maxUnit": null
+          },
+          {
+            "defaultPrice": "0.0000",
+            "description": "Vivid Camper",
+            "minPerson": null,
+            "maxPerson": null,
+            "minUnit": null,
+            "maxUnit": null
+          }
+        ],
+        "supplierComment": null,
+        "sellingAmount": "15.000",
+        "sellingMarkupType": "margin",
+        "missingBookableDays": [
 
         ],
-        "date":"2018-11-14T23:00:00.000Z",
-        "missingBookableDays":false,
-        "elementsOrder":"8013|8014|8015|8016|8017",
-        "elementsMapActive":"",
-        "hasElementsOverlap":false,
-        "carRentalEnd":null,
-        "carRentalStart":null,
-        "endDate":"2018-11-14T23:00:00.000Z"
-     }
+        "vtbObjectId": "as0nt9njerlbmd6o7zckg6",
+        "linkedParty": "party 1",
+        "hasPreviousElementParticipantOverlap": true,
+        "day": 4,
+        "date": "2020-03-08",
+        "endDate": "2020-03-20",
+        "roomTypeMatchesParticipants": true
+      }],
+      "inViewport": false,
+      "maps": [
+
+      ],
+      "vtbObjectId": "tos57i80lhp4y51mu80d",
+      "carRentalElements": [
+
+      ],
+      "date": "2020-03-08",
+      "missingBookableDays": false,
+      "elementsOrder": "201549",
+      "elementsMapActive": "",
+      "hasElementsOverlap": false,
+      "endDate": "2020-03-20"
+    },
+    {
+      "nights": 0,
+      "day": 16,
+      "isFlight": false,
+      "typeId": 1,
+      "title": "Excursions",
+      "subTitle": null,
+      "content": "<p>Text for excursions. Show product text and additional texts for timetable. Text for excursions. Show product text and additional texts for timetable. Text for excursions. Show product text and additional texts for timetable. Text for excursions. Show product text and additional texts for timetable. Text for excursions. Show product text and additional texts for timetable. Text for excursions. Show product text and additional texts for timetable.</p>",
+      "TSBlock": {
+        "id": 101002
+      },
+      "flightInfo": [
+
+      ],
+      "media": [
+
+      ],
+      "elements": [{
+          "emptyOlStartDT": false,
+          "offset": 0,
+          "nights": 0,
+          "unitAmount": 1,
+          "unitId": 1,
+          "optional": false,
+          "not_calculated": false,
+          "title": "Great Barrier Reef met Silverswift",
+          "TSProduct": {
+            "id": 2278,
+            "tag": null,
+            "bookableDays": [
+
+            ]
+          },
+          "TSOrderline": {
+            "id": 201550
+          },
+          "media": [
+
+          ],
+          "olPrices": {
+            "costPrice": "80.000",
+            "discount": "0.000",
+            "title": "Great Barrier Reef met Silverswift",
+            "discountMethod": null,
+            "exchangeRate": "0.670000000",
+            "purchaseCurrency": "AUD",
+            "salesCurrency": "EUR",
+            "participants": {
+              "28": {
+                "costPrice": "80.000",
+                "salesPrice": 80
+              }
+            },
+            "salesTotal": 80
+          },
+          "additionalText": "<b>Omschrijving:<\/b> Een ideale tour voor zowel snorkelaars als duikers. Vertrek met de moderne, 29 m catamaran Silverswift (max. 85 passagiers) om 8.30 uur. U bezoekt 3 verschillende duikplaatsen en brengt meer dan 5 uur door bij de bekende Milln, Flynn, Thetford en\/of Pellowe Reefs. U heeft de mogelijkheid om een 3e duik te maken (cat. duiker). Snorkelaars kunnen ook een introductieduik boeken of deelnemen aan een begeleide snorkeltour. Terugkeer naar Cairns omstreeks 16.30 uur.<br \/><br \/><br \/><br \/><b>Inclusief:<\/b> boottocht met Engelstalige reisleiding, koffie\/thee, lunch, duik- en snorkeluitrusting, 2 duiken (bij cat. duiker), Wifi en entreegelden nationale parken.<br \/><br \/><b>Exclusief:<\/b> transfers, optionele excursies, dranken, persoonlijke uitgaven.<br\/><br\/><b>Omschrijving:<\/b> Een ideale tour voor zowel snorkelaars als duikers. Vertrek met de moderne, 29 m catamaran Silverswift (max. 85 passagiers) om 8.30 uur. U bezoekt 3 verschillende duikplaatsen en brengt meer dan 5 uur door bij de bekende Milln, Flynn, Thetford en\/of Pellowe Reefs. U heeft de mogelijkheid om 3 duiken te maken. Snorkelaars kunnen ook een introductieduik doen of een begeleide snorkeltour boeken. Terugkeer naar Cairns omstreeks 16.30 uur.<br \/><br \/><br \/><br \/><b>Inclusief:<\/b> tour met Engelstalige reisleiding, transfers, koffie\/thee, lunch, duik- en snorkeluitrusting, 2 duiken (bij cat. duiker), Wifi en entreegelden nationale parken.<br \/><br \/><b>Exclusief:<\/b> optionele excursies, dranken, persoonlijke uitgaven.",
+          "subAdditionalText": null,
+          "roomTypes": [{
+              "defaultPrice": "183.4700",
+              "description": "Snorkelaar",
+              "minPerson": 1,
+              "maxPerson": null,
+              "minUnit": null,
+              "maxUnit": null
+            },
+            {
+              "defaultPrice": "246.6700",
+              "description": "Duiker (incl. 2 duiken)",
+              "minPerson": 1,
+              "maxPerson": null,
+              "minUnit": null,
+              "maxUnit": null
+            }
+          ],
+          "supplierComment": null,
+          "sellingAmount": "20.000",
+          "sellingMarkupType": "margin",
+          "missingBookableDays": [
+
+          ],
+          "vtbObjectId": "uew45ta8m5l8jv012yhdk",
+          "linkedParty": "party 1",
+          "hasPreviousElementParticipantOverlap": true,
+          "day": 16,
+          "date": "2020-03-20",
+          "endDate": "2020-03-20",
+          "roomTypeMatchesParticipants": true
+        },
+        {
+          "emptyOlStartDT": false,
+          "offset": 0,
+          "nights": 0,
+          "unitAmount": 1,
+          "unitId": 3,
+          "optional": false,
+          "not_calculated": false,
+          "subTitle": "Standard",
+          "title": "Ningaloo Reef Dives - Discover Scuba Diving (ex. Exmouth)",
+          "TSProduct": {
+            "id": 9803,
+            "tag": null,
+            "bookableDays": [
+
+            ]
+          },
+          "TSOrderline": {
+            "id": 201552
+          },
+          "media": [
+
+          ],
+          "olPrices": {
+            "costPrice": "80.000",
+            "discount": null,
+            "title": "Ningaloo Reef Dives - Discover Scuba Diving (ex. Exmouth) [Standard]",
+            "discountMethod": "absolute",
+            "exchangeRate": "0.670000000",
+            "purchaseCurrency": "AUD",
+            "salesCurrency": "EUR",
+            "participants": {
+              "28": {
+                "costPrice": "80.000",
+                "salesPrice": 80
+              }
+            },
+            "salesTotal": 80
+          },
+          "additionalText": "<html><head><title><\/title><\/head><body><strong>Omschrijving <\/strong>Recht voor de deur van Exmouth duik je met een duik in het wereldberoemde Ningaloo Reef op een van onze 3 duikboten in de baai van Light House, of de West Side. Of je nu een doorgewinterde duiker bent of graag voor de eerste keer wilt proberen - je zult zeker een geweldige dag beleven als we twee verschillende duikplekken bezoeken. We hebben meer dan 500 vissoorten, 250 vari&euml;teiten van zowel zachte als harde koralen. Zie schildpadden, rifhaaien, naaktslakken, diverse vissen en dierenleven! Seizoensgebonden bezoekers zijn bultruggen, mantaroggen en walvishaaien - alle reuzen van de zee! Het horen van walvissen tijdens het duiken is geweldig!<br \/><br \/><strong>Inbegrepen<\/strong><br \/>Lunch<br \/>\u200b\u200b\u200b\u200b\u200b\u200b\u200bLichte versnaperingen<br\/><br\/>&nbsp;<div class=\"default-hidden reisbescheiden_text\" style=\"background-color:#a3d771;\">Recht voor de deur van Exmouth duik je in het wereldberoemde Ningaloo Reef op een van de 3 duikboten in de baai van Light House. Of je nu een doorgewinterde duiker bent of graag voor de eerste keer wilt proberen, je zal zeker een geweldige dag beleven wanneer er twee verschillende duikplekken worden bezocht. Ningaloo Reef bevat meer dan 500 vissoorten, schildpadden, koralen en nog veel meer! Soms zijn er ook bultruggen, mantaroggen en walvishaaien (seizoensgebonden).<br \/><br \/>U wordt om *** uur opgehaald.<br \/><br \/>Vertrek vanaf het Exmouth Diving Centre om *** uur. U dient op eigen gelegenheid naar het Exmouth Diving Centre te gaan (2 Payne Street in Exmouth).<br \/><br \/>U dient 15 minuten voor vertrek aanwezig te zijn.<br \/><br \/><strong>Inclusief:<\/strong> (<em>*** aantal<\/em>) duiken, uitrusting, lunch en versnaperingen<br \/><br \/>Wij raden u aan het volgende mee te nemen: badhanddoek, zwemkleding, camera, flesje water en zonnebrand.<br \/><br \/>U dient minimaal 24 uur voor vertrek uw tour te herbevestigen bij het Exmouth Diving Centre op telefoonnummer: +61 8 9949 1201<\/div><\/body><\/html>",
+          "subAdditionalText": null,
+          "roomTypes": [{
+            "defaultPrice": "0.0000",
+            "description": "Standard",
+            "minPerson": null,
+            "maxPerson": null,
+            "minUnit": null,
+            "maxUnit": null
+          }],
+          "supplierComment": null,
+          "sellingAmount": "20.000",
+          "sellingMarkupType": "margin",
+          "missingBookableDays": [
+
+          ],
+          "vtbObjectId": "1v99d2ybmm4ux0hkow9qf",
+          "linkedParty": "party 1",
+          "day": 16,
+          "date": "2020-03-20",
+          "endDate": "2020-03-20",
+          "roomTypeMatchesParticipants": true
+        }
+      ],
+      "inViewport": false,
+      "maps": [
+
+      ],
+      "vtbObjectId": "4a4sp8wj32ze2zaarwh1vg",
+      "carRentalElements": [
+
+      ],
+      "date": "2020-03-20",
+      "missingBookableDays": false,
+      "elementsOrder": "201550|201552",
+      "elementsMapActive": "",
+      "hasElementsOverlap": false,
+      "endDate": "2020-03-20"
+    },
+    {
+      "nights": 0,
+      "day": 16,
+      "isFlight": true,
+      "typeId": 4,
+      "title": " Vliegticket van Brisbane Airport naar Sydney Airport  <QFL3B2RS>",
+      "subTitle": null,
+      "content": "U vertrekt op vrijdag 27 maart 2020 om 11:05 uur 's morgens van Brisbane Airport. U vliegt met Qantas, het vluchtnummer is QF 525. De reisduur bedraagt 01 uur en 35 minuten (Non-stop). U komt aan op vrijdag 27 maart 2020 om 13:40 uur  op Sydney Airport. <br \/> <br \/>  <table><tr> <th>Vlucht vertrek<\/th> <th>Van<\/th> <th>Naar<\/th> <th>Aankomst<\/th> <th>Vluchtnr<\/th> <th>Duur<\/th> <th>Stop<\/th> <\/tr><tr> <td>vrijdag 27 maart 2020 11:05 uur 's morgens<\/td> <td>Brisbane Airport<\/td> <td>Sydney Airport<\/td> <td>vrijdag 27 maart 2020 13:40 uur <\/td> <td>QF 525<\/td> <td>01 uur en 35 minuten<\/td> <td>(Non-stop)<\/td> <\/tr><\/table><br \/><br \/>",
+      "TSBlock": {
+        "id": 101009
+      },
+      "flightInfo": [{
+        "id": 1545,
+        "airlineCode": "QF",
+        "flightNumber": " 525",
+        "departureAirport": "BNE",
+        "departureDt": "2020-03-27 11:05:00",
+        "arrivalAirport": "SYD",
+        "arrivalDt": "2020-03-27 13:40:00",
+        "arrivalDate": "2020-03-27",
+        "arrivalTime": "13:40",
+        "departureDate": "2020-03-27",
+        "departureTime": "11:05",
+        "stopoverAirport": "*",
+        "duration": 1,
+        "farebase": ""
+      }],
+      "media": [
+
+      ],
+      "elements": [{
+          "emptyOlStartDT": false,
+          "offset": 0,
+          "nights": 0,
+          "unitAmount": 1,
+          "unitId": 3,
+          "optional": false,
+          "not_calculated": false,
+          "title": "Vliegreis inbegrepen bij de arrangementskosten",
+          "TSProduct": {
+            "id": 4,
+            "tag": null,
+            "bookableDays": [
+
+            ]
+          },
+          "TSOrderline": {
+            "id": 204544
+          },
+          "media": [
+
+          ],
+          "olPrices": {
+            "costPrice": "0.000",
+            "discount": "0.000",
+            "title": "Vliegreis inbegrepen bij de arrangementskosten",
+            "discountMethod": "absolute",
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": [
+
+            ],
+            "salesTotal": 0
+          },
+          "subAdditionalText": null,
+          "additionalText": null,
+          "roomTypes": [
+
+          ],
+          "supplierComment": null,
+          "sellingAmount": "11.300",
+          "sellingMarkupType": "percentage",
+          "missingBookableDays": [
+
+          ],
+          "needsOffsetRecalculation": true,
+          "vtbObjectId": "p8zyvf5i7xdu8fjdrh1nn",
+          "day": 16,
+          "date": "2020-03-20",
+          "endDate": "2020-03-20",
+          "roomTypeMatchesParticipants": true
+        },
+        {
+          "emptyOlStartDT": false,
+          "offset": 0,
+          "nights": 0,
+          "unitAmount": 1,
+          "unitId": 3,
+          "optional": false,
+          "not_calculated": false,
+          "title": "Luchthavenbelastingen en toeslagen",
+          "TSProduct": {
+            "id": 1206,
+            "tag": null,
+            "bookableDays": [
+
+            ]
+          },
+          "TSOrderline": {
+            "id": 204545
+          },
+          "media": [
+
+          ],
+          "olPrices": {
+            "costPrice": "0.000",
+            "discount": "0.000",
+            "title": "Luchthavenbelastingen en toeslagen",
+            "discountMethod": "absolute",
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": [
+
+            ],
+            "salesTotal": 0
+          },
+          "subAdditionalText": null,
+          "additionalText": null,
+          "roomTypes": [
+
+          ],
+          "supplierComment": null,
+          "sellingAmount": "0.000",
+          "sellingMarkupType": "margin",
+          "missingBookableDays": [
+
+          ],
+          "needsOffsetRecalculation": true,
+          "vtbObjectId": "40638b0k8dehpljjel5i",
+          "day": 16,
+          "date": "2020-03-20",
+          "endDate": "2020-03-20",
+          "roomTypeMatchesParticipants": true
+        }
+      ],
+      "inViewport": false,
+      "maps": [
+
+      ],
+      "vtbObjectId": "y24r3me25hkewze4be3i",
+      "carRentalElements": [
+
+      ],
+      "date": "2020-03-20",
+      "missingBookableDays": false,
+      "elementsOrder": "204544|204545",
+      "elementsMapActive": "",
+      "hasElementsOverlap": false,
+      "endDate": "2020-03-20"
+    },
+    {
+      "nights": 0,
+      "day": 16,
+      "isFlight": false,
+      "typeId": 1,
+      "title": "Transfers",
+      "subTitle": null,
+      "content": "<html>\n<head>\n\t<title><\/title>\n<\/head>\n<body>Text for transfers. Show product text and additional texts for timetable.<\/body>\n<\/html>\n",
+      "TSBlock": {
+        "id": 101003
+      },
+      "flightInfo": [
+
+      ],
+      "media": [
+
+      ],
+      "elements": [{
+          "emptyOlStartDT": false,
+          "offset": 0,
+          "nights": 0,
+          "unitAmount": 1,
+          "unitId": 3,
+          "optional": false,
+          "not_calculated": false,
+          "title": "Retour transfer Honolulu en Lei",
+          "TSProduct": {
+            "id": 5,
+            "tag": "RTHNL",
+            "bookableDays": [
+
+            ]
+          },
+          "TSOrderline": {
+            "id": 204532
+          },
+          "media": [
+
+          ],
+          "olPrices": {
+            "costPrice": "60.000",
+            "discount": null,
+            "title": "Retour transfer Honolulu en Lei",
+            "discountMethod": null,
+            "exchangeRate": "0.940000000",
+            "purchaseCurrency": "USD",
+            "salesCurrency": "EUR",
+            "participants": {
+              "28": {
+                "costPrice": "60.000",
+                "salesPrice": 100
+              }
+            },
+            "salesTotal": 100
+          },
+          "additionalText": "<html><head><title><\/title><\/head><body><p>Ervaar de Hawaiiaanse gastvrijheid wanneer u na aankomst in Honolulu wordt verwelkomd met een verse bloemen lei en een warm &lsquo;Aloha&rsquo;. Aansluitend transfer naar uw hotel.<br \/>Aan het einde van uw verblijf wordt u opgehaald bij uw hotel voor de transfer terug naar de luchthaven.<\/p>&nbsp;<div class=\"default-hidden reisbescheiden_text\" style=\"background-color:#a3d771;\">(<em>VIP Trans<\/em>)<br \/>Na aankomst in Honolulu wordt u bij de bagageband opgewacht door een vertegenwoordiger van VIP Trans.<br \/><br \/>Wij hebben voor u een ontvangst met flower lei geboekt na aankomst in Honolulu. De Meet&amp;Greet vindt plaats bij de bagageband van uw vlucht. Wanneer u uw greeter niet kan vinden, raden wij u aan naar de dichtstbijzijnde Visitor Information Counter te gaan.<br \/>&nbsp;<br \/>De dag voor vertrek kan u contact op nemen met VIP Trans om uw transfer terug naar de luchthaven te herbevestigen. U hoort dan van hen hoe laat u wordt opgehaald bij uw hotel. Wij raden u aan 10 minuten voor de afgesproken tijd klaar te staan bij de ingang.<br \/><br \/>Wanneer u de vertegenwoordiger niet kunt lokaliseren, raden wij u aan contact op te nemen met VIP Trans op telefoonnummer (808) 836 0317.<br \/><br \/>(<em>SpeediShuttle<\/em>)<br \/>Na aankomst in Honolulu wordt u bij de bagageband opgewacht door een vertegenwoordiger van SpeediShuttle. De vertegenwoordiger heeft groene en rode kleding aan.<br \/><br \/>Wanneer u de vertegenwoordiger niet kunt lokaliseren, raden wij u aan contact op te nemen met SpeediShuttle op telefoonnummer (808) 248 7777.<br \/><br \/>Wij hebben voor u een ontvangst met flower lei geboekt na aankomst in Honolulu. De Meet&amp;Greet vindt plaats bij de bagageband van uw vlucht. Wanneer u uw greeter niet kan vinden, raden wij u aan naar de dichtstbijzijnde Visitor Information Counter te gaan.<br \/><br \/>De transfer terug naar de luchthaven wordt uitgevoerd door VIP Trans. De dag voor vertrek kunt u contact op nemen met VIP Trans om uw transfer terug naar de luchthaven te herbevestigen op telefoonnummer&nbsp;(808) 836 0317. U hoort dan van hen hoe laat u wordt opgehaald bij uw hotel. Wij raden u aan 10 minuten voor de afgesproken tijd klaar te staan bij de ingang.<\/div><br\/><br\/><div class=\"default-hidden reisbescheiden_text\" style=\"background-color:#a3d771;\">(<em>VIP Trans<\/em>)<br \/>Na aankomst in Honolulu wordt u bij de bagageband opgewacht door een vertegenwoordiger van VIP Trans.<br \/><br \/>Wij hebben voor u een ontvangst met flower lei geboekt na aankomst in Honolulu. De Meet&amp;Greet vindt plaats bij de bagageband van uw vlucht. Wanneer u uw greeter niet kan vinden, raden wij u aan naar de dichtstbijzijnde Visitor Information Counter te gaan.<br \/>&nbsp;<br \/>De dag voor vertrek kan u contact op nemen met VIP Trans om uw transfer terug naar de luchthaven te herbevestigen. U hoort dan van hen hoe laat u wordt opgehaald bij uw hotel. Wij raden u aan 10 minuten voor de afgesproken tijd klaar te staan bij de ingang.<br \/><br \/>Wanneer u de vertegenwoordiger niet kunt lokaliseren, raden wij u aan contact op te nemen met VIP Trans op telefoonnummer (808) 836 0317.<br \/><br \/>(<em>SpeediShuttle<\/em>)<br \/>Na aankomst in Honolulu wordt u bij de bagageband opgewacht door een vertegenwoordiger van SpeediShuttle. De vertegenwoordiger heeft groene en rode kleding aan.<br \/><br \/>Wanneer u de vertegenwoordiger niet kunt lokaliseren, raden wij u aan contact op te nemen met SpeediShuttle op telefoonnummer (808) 248 7777.<br \/><br \/>Wij hebben voor u een ontvangst met flower lei geboekt na aankomst in Honolulu. De Meet&amp;Greet vindt plaats bij de bagageband van uw vlucht. Wanneer u uw greeter niet kan vinden, raden wij u aan naar de dichtstbijzijnde Visitor Information Counter te gaan.<br \/><br \/>De transfer terug naar de luchthaven wordt uitgevoerd door VIP Trans. De dag voor vertrek kunt u contact op nemen met VIP Trans om uw transfer terug naar de luchthaven te herbevestigen op telefoonnummer&nbsp;(808) 836 0317. U hoort dan van hen hoe laat u wordt opgehaald bij uw hotel. Wij raden u aan 10 minuten voor de afgesproken tijd klaar te staan bij de ingang.<\/div><\/body><\/html>",
+          "subAdditionalText": null,
+          "roomTypes": [
+
+          ],
+          "supplierComment": null,
+          "sellingAmount": "100.000",
+          "sellingMarkupType": "fixed",
+          "missingBookableDays": [
+
+          ],
+          "needsOffsetRecalculation": true,
+          "vtbObjectId": "2jl43p8kwjmlno84bhbkvl",
+          "linkedParty": "party 1",
+          "day": 16,
+          "date": "2020-03-20",
+          "endDate": "2020-03-20",
+          "roomTypeMatchesParticipants": true
+        },
+        {
+          "emptyOlStartDT": false,
+          "offset": 0,
+          "nights": 0,
+          "unitAmount": 1,
+          "unitId": 3,
+          "optional": false,
+          "not_calculated": true,
+          "title": "Transfer Sydney",
+          "TSProduct": {
+            "id": 9138,
+            "tag": null,
+            "bookableDays": [
+
+            ]
+          },
+          "TSOrderline": {
+            "id": 204533
+          },
+          "media": [
+
+          ],
+          "olPrices": {
+            "costPrice": "10.000",
+            "discount": null,
+            "title": "Transfer Sydney",
+            "discountMethod": null,
+            "exchangeRate": "0.670000000",
+            "purchaseCurrency": "AUD",
+            "salesCurrency": "EUR",
+            "participants": {
+              "28": {
+                "costPrice": "10.000",
+                "salesPrice": 20
+              }
+            },
+            "salesTotal": 20
+          },
+          "additionalText": "<html><head><title><\/title><\/head><body>Prive Transfer Sydney Airport to Hotel v.v.<br\/><br\/>Prive Transfer Sydney Airport to Hotel v.v.<\/body><\/html>",
+          "subAdditionalText": null,
+          "roomTypes": [
+
+          ],
+          "supplierComment": null,
+          "sellingAmount": "20.000",
+          "sellingMarkupType": "margin",
+          "missingBookableDays": [
+
+          ],
+          "needsOffsetRecalculation": true,
+          "vtbObjectId": "1msynq29tkqmvxyf625qgf",
+          "linkedParty": "party 1",
+          "day": 16,
+          "date": "2020-03-20",
+          "endDate": "2020-03-20",
+          "roomTypeMatchesParticipants": true
+        },
+        {
+          "emptyOlStartDT": false,
+          "offset": 0,
+          "nights": 0,
+          "unitAmount": 1,
+          "unitId": 3,
+          "optional": false,
+          "not_calculated": false,
+          "subTitle": "Return Transfer",
+          "title": "Transfer Aitutaki",
+          "TSProduct": {
+            "id": 6526,
+            "tag": null,
+            "bookableDays": [
+
+            ]
+          },
+          "TSOrderline": {
+            "id": 204534
+          },
+          "media": [
+
+          ],
+          "olPrices": {
+            "costPrice": "10.000",
+            "discount": "0.000",
+            "title": "Transfer Aitutaki [Return Transfer]",
+            "discountMethod": "absolute",
+            "exchangeRate": "0.640000000",
+            "purchaseCurrency": "NZD",
+            "salesCurrency": "EUR",
+            "participants": {
+              "28": {
+                "costPrice": "10.000",
+                "salesPrice": 20
+              }
+            },
+            "salesTotal": 20
+          },
+          "additionalText": "<html><head><title><\/title><\/head><body><p>U wordt opgewacht bij de luchthaven van Aitutaki. Aan het einde van uw verblijf wordt u weer terug gebracht naar de luchthaven.<\/p><\/body><\/html>",
+          "subAdditionalText": null,
+          "roomTypes": [{
+            "defaultPrice": "0.0000",
+            "description": "Return Transfer",
+            "minPerson": 0,
+            "maxPerson": 4,
+            "minUnit": null,
+            "maxUnit": null
+          }],
+          "supplierComment": null,
+          "sellingAmount": "20.000",
+          "sellingMarkupType": "margin",
+          "missingBookableDays": [
+
+          ],
+          "needsOffsetRecalculation": true,
+          "vtbObjectId": "kz440orux0nny1u7h6gdop",
+          "linkedParty": "party 1",
+          "day": 16,
+          "date": "2020-03-20",
+          "endDate": "2020-03-20",
+          "roomTypeMatchesParticipants": true
+        }
+      ],
+      "inViewport": false,
+      "maps": [
+
+      ],
+      "vtbObjectId": "ia1p27prltpv9m4a24pz9",
+      "carRentalElements": [
+
+      ],
+      "date": "2020-03-20",
+      "missingBookableDays": false,
+      "elementsOrder": "204532|204533|204534",
+      "elementsMapActive": "",
+      "hasElementsOverlap": false,
+      "endDate": "2020-03-20"
+    },
+    {
+      "nights": 0,
+      "day": 16,
+      "isFlight": false,
+      "typeId": 1,
+      "title": "Car Rentals",
+      "subTitle": null,
+      "content": "<html>\n<head>\n\t<title><\/title>\n<\/head>\n<body>Text for car-rentals. Show product text and additional texts for timetable.<\/body>\n<\/html>\n",
+      "TSBlock": {
+        "id": 101004
+      },
+      "flightInfo": [
+
+      ],
+      "media": [
+
+      ],
+      "elements": [{
+        "emptyOlStartDT": false,
+        "offset": 0,
+        "nights": 0,
+        "unitAmount": 10,
+        "unitId": 3,
+        "optional": false,
+        "not_calculated": false,
+        "subTitle": "Passenger",
+        "title": "APEX Car Rentals - Ferry service",
+        "TSProduct": {
+          "id": 6918,
+          "tag": null,
+          "bookableDays": [
+
+          ]
+        },
+        "TSOrderline": {
+          "id": 204535
+        },
+        "media": [
+
+        ],
+        "olPrices": {
+          "costPrice": "441.600",
+          "discount": null,
+          "title": "APEX Car Rentals - Ferry service [Passenger]",
+          "discountMethod": "absolute",
+          "exchangeRate": "0.640000000",
+          "purchaseCurrency": "NZD",
+          "salesCurrency": "EUR",
+          "participants": {
+            "28": {
+              "costPrice": "441.600",
+              "salesPrice": 552
+            }
+          },
+          "salesTotal": 552
+        },
+        "additionalText": "<html><head><title><\/title><\/head><body><p><strong>Omschrijving: <\/strong>Bij autohuur tussen het Noordereiland en het Zuidereiland of v.v. dient u het voertuig van Apex mee te nemen op de ferry.<br \/><br \/>De ferryovertocht tussen het Noorder- en Zuidereiland duurt ca. drie uur. De Cook Strait en de Marlborough Sounds bieden een adembenemend panorama. Wij raden aan uw ferryverbinding zo vroeg mogelijk te boeken, vooral in het hoogseizoen. De ferry tickets zijn volledig flexibel en kunnen tot 24 uur voor vertrek ter plaatse kosteloos worden gewijzigd &ndash; mits beschikbaar.<br \/><br \/><strong>Afvaartijden vanaf Wellington:<\/strong> dagelijks om 09.00 uur (A), 14.45 uur (B), 17.00 uur (C, niet op zondag)<br \/><strong>Afvaartijden vanaf Picton:<\/strong> dagelijks om 09.05 uur (C, niet op zondag en maandag), 10.45 uur (B), 14.15 uur (A)*, 18.45 uur (B, niet op maandag)<br \/>Ferry: A=Kaitaki, B=Aratere, C=Kaiarahi<br \/><br \/><strong>LET OP: <\/strong>Gelieve bij boeking uw gewenste afvaartijd door te geven.<\/p>\u200b\u200b\u200b\u200b\u200b\u200b\u200b<div class=\"default-hidden reisbescheiden_text\" style=\"background-color:#a3d771;\">&nbsp;<\/div><br\/><br\/>&nbsp;<div class=\"default-hidden reisbescheiden_text\" style=\"background-color:#a3d771;\">Vertrek Wellington om 09.00 uur<br \/>Aankomst Picton om 12.30 uur<br \/>&nbsp;<br \/>Vertrek Wellington om 14.45 uur<br \/>Aankomst Picton om 17.55 uur<br \/>&nbsp;<br \/>Vertrek Picton om 09.05 uur<br \/>Aankomst Wellington om 12.35 uur<br \/>&nbsp;<br \/>Vertrek Picton om 10.45 uur<br \/>Aankomst Wellington om 13.55 uur<br \/>&nbsp;<br \/>Vertrek Picton om 14.15 uur<br \/>Aankomst Wellington om 17.45 uur<br \/><br \/>\u200b\u200b\u200b\u200b\u200b\u200b\u200bWanneer u uw reservering wil wijzigen kunt u contact opnemen met Interislander Ferry op het Free Phone nummer: 0800 802 802.<br \/>&nbsp;<br \/>(<em>met voertuig<\/em> <em>vanuit Wellington<\/em>)<br \/>U dient een uur voor vertrek in te checken in de Inter Islander Terminal aan de Aotea Quay. In de Terminal vindt u een caf&eacute; dat drankjes en broodjes verkoopt, toiletten, een internet kiosk en frisdrankautomaat.<br \/><br \/>Vergeet aan boord niet uw voertuig op de handrem te zetten en goed af te sluiten. Houd er rekening mee dat u tijdens de overtocht niet bij uw voertuig kunt komen.<br \/><br \/>(<em>met voertuig vanuit Picton<\/em>)<br \/>U dient een uur voor vertrek in te checken in de Inter Islander Terminal in Picton. In de Picnic Area naast de rijen voor de Vehicle Check-in vindt u een koffiebarretje dat warme drankjes en koekjes verkoopt. Daarnaast vindt u in de Terminal over toiletten, een Tourist Information Centre, een internet kiosk en frisdrankautomaat.<br \/><br \/>Vergeet aan boord niet uw voertuig op de handrem te zetten en goed af te sluiten. Houd er rekening mee dat u tijdens de overtocht niet bij uw voertuig kunt komen.<\/div><\/body><\/html>",
+        "subAdditionalText": null,
+        "roomTypes": [{
+          "defaultPrice": "69.0000",
+          "description": "Passenger",
+          "minPerson": null,
+          "maxPerson": null,
+          "minUnit": null,
+          "maxUnit": null
+        }],
+        "supplierComment": null,
+        "sellingAmount": "20.000",
+        "sellingMarkupType": "margin",
+        "missingBookableDays": [
+
+        ],
+        "needsOffsetRecalculation": true,
+        "vtbObjectId": "t7ideygqq4f6pm0x8knzqo",
+        "linkedParty": "party 1",
+        "day": 16,
+        "date": "2020-03-20",
+        "endDate": "2020-03-20",
+        "roomTypeMatchesParticipants": true
+      }],
+      "inViewport": false,
+      "maps": [
+
+      ],
+      "vtbObjectId": "3pc7qgg75bn4xmbchk1bk",
+      "carRentalElements": [
+
+      ],
+      "date": "2020-03-20",
+      "missingBookableDays": false,
+      "elementsOrder": "204535",
+      "elementsMapActive": "",
+      "hasElementsOverlap": false,
+      "endDate": "2020-03-20"
+    },
+    {
+      "nights": 0,
+      "day": 16,
+      "isFlight": false,
+      "typeId": 1,
+      "title": "Ferries",
+      "subTitle": null,
+      "content": "<html>\n<head>\n\t<title><\/title>\n<\/head>\n<body>Text for ferries. Show product text and additional texts for timetable.<\/body>\n<\/html>\n",
+      "TSBlock": {
+        "id": 101005
+      },
+      "flightInfo": [
+
+      ],
+      "media": [
+
+      ],
+      "elements": [{
+        "emptyOlStartDT": false,
+        "offset": 0,
+        "nights": 0,
+        "unitAmount": 1,
+        "unitId": 3,
+        "optional": false,
+        "not_calculated": false,
+        "subTitle": "Passenger",
+        "title": "Interislander Ferry",
+        "TSProduct": {
+          "id": 2153,
+          "tag": null,
+          "bookableDays": [
+
+          ]
+        },
+        "TSOrderline": {
+          "id": 204552
+        },
+        "media": [
+
+        ],
+        "olPrices": {
+          "costPrice": "44.160",
+          "discount": null,
+          "title": "Interislander Ferry [Passenger]",
+          "discountMethod": "absolute",
+          "exchangeRate": "0.640000000",
+          "purchaseCurrency": "NZD",
+          "salesCurrency": "EUR",
+          "participants": {
+            "28": {
+              "costPrice": "44.160",
+              "salesPrice": 55.2
+            }
+          },
+          "salesTotal": 55.2
+        },
+        "additionalText": "<html><head><title><\/title><\/head><body><p><b>Afvaartijden vanaf Wellington:<\/b> dagelijks om 09.00 uur (A), 14.45 uur (B), 17.00 uur (C, niet op zondag)<br \/><b>Afvaartijden vanaf Picton:<\/b> dagelijks om 09.05 uur (C, niet op zondag en maandag), 10.45 uur (B, niet op zondag en maandag), 14.15 uur (A), 18.45 uur (B, niet op maandag)<br \/>Ferry: A=Kaitaki, B=Aratere, C=Kaiarahi<br \/><br \/>Gelieve bij boeking uw gewenste datum en afvaartijd door te geven.&nbsp;Ter plaatse kunt u uw ferryverbinding kosteloos omboeken (onder voorbehoud van beschikbaarheid).<br \/><br \/>We raden aan uw ferryverbinding zo vroeg mogelijk te boeken, eventueel samen met uw voertuig, en vooral in het hoogseizoen.<br \/><br \/><b>Inclusief:<\/b> overtocht zoals geboekt<\/p><br\/><br\/><div class=\"default-hidden reisbescheiden_text\" style=\"background-color:#a3d771;\">Vertrek Wellington om 09.00 uur<br \/>Aankomst Picton om 12.30 uur<br \/>&nbsp;<br \/>Vertrek Wellington om 14.45 uur<br \/>Aankomst Picton om 17.55 uur<br \/>&nbsp;<br \/>Vertrek Picton om 09.05 uur<br \/>Aankomst Wellington om 12.35 uur<br \/>&nbsp;<br \/>Vertrek Picton om 10.45 uur<br \/>Aankomst Wellington om 13.55 uur<br \/>&nbsp;<br \/>Vertrek Picton om 14.15 uur<br \/>Aankomst Wellington om 17.45 uur<br \/><br \/>Wanneer u uw reservering wil wijzigen kunt u contact opnemen met Interislander Ferry op het Free Phone nummer: 0800 802 802.<br \/>&nbsp;<br \/>(<em>met voertuig<\/em> <em>vanuit Wellington<\/em>)<br \/>U dient een uur voor vertrek in te checken in de Inter Islander Terminal aan de Aotea Quay. In de Terminal vindt u een caf&eacute; dat drankjes en broodjes verkoopt, toiletten, een internet kiosk en frisdrankautomaat.<br \/><br \/>Houd er rekening mee dat u tijdens de overtocht niet bij uw voertuig kunt komen.<br \/><br \/>Wanneer u met een camper reist, dient u voor dat u aan boord rijdt de LPG gastank uit te zetten. Vergeet aan boord niet uw voertuig op de handrem te zetten en goed af te sluiten.<br \/><br \/>(<em>met voertuig vanuit Picton<\/em>)<br \/>U dient een uur voor vertrek in te checken in de Inter Islander Terminal in Picton. In de Picnic Area naast de rijen voor de Vehicle Check-in vindt u een koffiebarretje dat warme drankjes en koekjes verkoopt. Daarnaast vindt u in de Terminal over toiletten, een Tourist Information Centre, een internet kiosk en frisdrankautomaat.<br \/><br \/>Houd er rekening mee dat u tijdens de overtocht niet bij uw voertuig kunt komen.<br \/><br \/>Wanneer u met een camper reist, dient u voor dat u aan boord rijdt de LPG gastank uit te zetten. Vergeet aan boord niet uw voertuig op de handrem te zetten en goed af te sluiten.<br \/><br \/>(<em>zonder voertuig<\/em>)<br \/>U dient 45 minuten voor vertrek aanwezig te zijn voor check-in. In de Terminal vindt u een caf&eacute; dat drankjes en broodjes verkoopt, toiletten, een internet kiosk en frisdrankautomaat.<br \/><br \/>Op de Inter Islander Ferry mag u per persoon 2 stuks bagage meenemen. Elk stuk bagage mag niet zwaarder zijn dan 32 kg<\/div><\/body><\/html>",
+        "subAdditionalText": null,
+        "roomTypes": [{
+          "defaultPrice": "69.0000",
+          "description": "Passenger",
+          "minPerson": null,
+          "maxPerson": null,
+          "minUnit": null,
+          "maxUnit": null
+        }],
+        "supplierComment": null,
+        "sellingAmount": "20.000",
+        "sellingMarkupType": "margin",
+        "missingBookableDays": [
+
+        ],
+        "needsOffsetRecalculation": true,
+        "vtbObjectId": "7j0yoy5moioj9ero4zbvm",
+        "linkedParty": "party 1",
+        "day": 16,
+        "date": "2020-03-20",
+        "endDate": "2020-03-20",
+        "roomTypeMatchesParticipants": true
+      }],
+      "inViewport": false,
+      "maps": [
+
+      ],
+      "vtbObjectId": "dfbt1kr3f5gsg9my38t6k",
+      "carRentalElements": [
+
+      ],
+      "date": "2020-03-20",
+      "missingBookableDays": false,
+      "elementsOrder": "204552",
+      "elementsMapActive": "",
+      "hasElementsOverlap": false,
+      "endDate": "2020-03-20"
+    },
+    {
+      "nights": 0,
+      "day": 16,
+      "isFlight": false,
+      "typeId": 1,
+      "title": "Trains",
+      "subTitle": null,
+      "content": "<html>\n<head>\n\t<title><\/title>\n<\/head>\n<body>Text for train.&nbsp;Show product text and additional texts for timetable.<\/body>\n<\/html>\n",
+      "TSBlock": {
+        "id": 101012
+      },
+      "flightInfo": [
+
+      ],
+      "media": [
+
+      ],
+      "elements": [{
+        "emptyOlStartDT": false,
+        "offset": 0,
+        "nights": 0,
+        "unitAmount": 1,
+        "unitId": 3,
+        "optional": false,
+        "not_calculated": false,
+        "subTitle": "Gold Service",
+        "title": "The Ghan - Territory Complete",
+        "TSProduct": {
+          "id": 8825,
+          "tag": null,
+          "bookableDays": [
+
+          ]
+        },
+        "TSOrderline": {
+          "id": 204551
+        },
+        "media": [
+
+        ],
+        "olPrices": {
+          "costPrice": "100.000",
+          "discount": null,
+          "title": "The Ghan - Territory Complete [Gold Service]",
+          "discountMethod": "absolute",
+          "exchangeRate": "0.670000000",
+          "purchaseCurrency": "AUD",
+          "salesCurrency": "EUR",
+          "participants": {
+            "28": {
+              "costPrice": "100.000",
+              "salesPrice": 180
+            }
+          },
+          "salesTotal": 180
+        },
+        "additionalText": "<html><head><title><\/title><\/head><body><strong>Adelaide naar Darwin - 14 dagen \/ 13 nachten<br \/>vertrek op zondag<br \/><br \/>Dag 1: The Ghan - Adelaide (zondag)<\/strong><br \/>U begint uw reis wanneer u aan boord stapt van The Ghan in Adelaide en richting Alice Springs in het Noorden reist. Duik diep in het hart van Australi&euml; en aanschouw de rollende pastorale landschappen van Zuid-Australi&euml;. Geniet van het comfort en de eenzaamheid van uw priv&eacute; cabine, verdwaal in gesprekken met medereizigers of staar gewoon uit het raam en krijg inspiratie uit het steeds wisselende landschap. (L, D)<br \/><br \/><strong>Dag 2: The Ghan - Alice Springs (maandag)<\/strong><br \/>Wakker worden met een onvergetelijke outback zonsopgang tijdens een korte stop bij Marla in de afgelegen uithoeken van South Australia. Eenmaal terug aan boord, genieten we van een hapje eten met het uitgebreide brunch menu. Of u nu iets licht of juist een grote stevige maaltijd wenst, we hebben voor een ieder iets te bieden.&nbsp; In de vroege namiddag komen we aan in Alice Springs en wordt u per transfer naar uw accommodatie, Crowne Plaza Alice Springs Lasseters gebracht. (B, L)<br \/><br \/><strong>Dag 3:&nbsp;Uluru (Ayers Rock) en Kata Tjuta (The Olgas) (dinsdag)<\/strong><br \/>Vandaag reist u van Alice Springs naar Uluru met een coach door het ruige woestijn landschap en het prachtige MacDonnellgebergte. Onderweg zullen we een stop maken bij een Camel Farm en leert u over welke gevolgen de kamelen hadden in Centraal-Australi&euml; en heeft u de mogelijkheid om een kameel te bereiden (tegen optionele kosten). Vanuit hier ziet u Mt Conner in de verte voor u aankomt in Ayers Rock, waar u overnachtin het Ayers Rock Resort. Hier heeft u tijd om wat te ontspannen en klaar te maken om het geweldige World Heritage-beursgenoteerde Uluru-Kata Tjuta National Park te bezoeken.&nbsp;In de middag kunt u genieten van een ontspannen ritje naar Kata Tjuta voor een van de beste zonsondergang ervaringen in Centraal-Australi&euml;. Bewonder de unieke flora en bewonder het uitzicht vanaf de centrale vallei tussen de koepels van Kata Tjuta terwijl u met heerlijke hapjes en Australische wijn, bij de&nbsp;prachtige outback zonsondergang kunt genieten. (B)<br \/><br \/><strong>Dag 4: Kata Tjuta en Uluru<\/strong><br \/>Vandaag staan we vroeg op, om de zonsopgang bij Uluru te bekijken en de eerste stralen van de zon in de Red Centre te aanschouwen. Daarna reizen we verder naar de mystieke 36 koepels van Kata Tjuta, waar u aan de voet van de Walpa Gorge komt. Hier heeft u enige tijd om de kloof te verkennen en de ongebruikelijke conglomeraat rotsformaties. Daarna keert u terug naar Ayers Rock Resort voor een korte stop.<br \/><br \/>Daarna reizen we rond de basis van Uluru in comfort als uw gids u over de vele heilige plaatsen en functies informeert bij Uluru. Na een klein eindje rijden, komen we aan bij de Kuniya Walk, waar u wordt begeleid naar de prachtige Mutitjulu Waterhole. Hier kunt u Aboriginal rotsschilderingen en -kunst bekijken en leert u over de Aboriginal en Europese geschiedenis van Uluru. U heeft hier ook een kans een bezoek aan het cultuurcentrum van het Uluru-Kata Tjuta te brengen.<br \/><br \/>In de late namiddag, reizen we terug naar Uluru, voor een prachtige zonsondergang met de vele schakeringen van kleur waarvoor Uluru beroemd is. Bij deze prachtige zonsondergang worden hapjes en een glaasje wijn geserveerd.<br \/><br \/>Na de zonsondergang, wordt u naar onze exclusieve barbecue-site gebracht. Deze site ligt binnen het Uluru National Park, grenzend aan Uluru-Kata Tjuta cultureel centrum tussen de rode zandduinen en woestijn eiken bomen, en biedt een rustige omgeving in de woestijn. Geniet van een vari&euml;teit aan Australische vleeswaren en salades, vergezeld van een glaasje wijn, bier of sinaasappelsap.&nbsp;Na het diner, koffie, thee en dessert zal uw gids u een uitleg geven over de nachtelijke hemel. Waarin hij verwijst naar de zichtbare sterrenbeelden. (D)<br \/><br \/><strong>Dag 5: Kings Canyon<\/strong><br \/>In de ochtend heeft u vrije tijd om te ontspannen of het verkennen van de vele faciliteiten en activiteiten die beschikbaar zijn in het Ayers Rock Resort.&nbsp;In de vroege namiddag, reizen we door spectaculaire woestijn landschappen naar Kings Canyon Resort waar u misschien een glimp van de ondergaande zon achter Carmichaels Crag kunt opvangen.<br \/><br \/><strong>Dag 6: Kings Canyon naar Alice Springs&nbsp;<\/strong><br \/>Vandaag kunt u deelnemen aan een begeleide klim langs de rand van Kings Canyon voor prachtige uitzichten op Watarrka National Park. Als de tijd het toelaat, is het mogelijk een afdaling te maken naar de groene oase van de &#39;tuin van Eden&#39;. Als alternatief, kunt u desgewenst een gemakkelijker, kortere wandelingmaken, om de Canyon Vloer, met rotsen bezaaid, te verkennen. Daarna stoppen we bij Kings Creek Station om een lunch te kopen. Daarna reizen we verder door prachtige woestijnlandschappen als we terugreizen naar Alice Springs, waar u de komende 3 nachten bij het Crowne Plaza Alice Springs Lasseters, zult overnachten.<br \/><br \/><strong>Dag 7: Alice Springs<\/strong><br \/>Vandaag heeft u een dag vrij te besteden en kunt u in eigen tempo Alice Springs verkennen. Lokale bezienswaardigheden bezoeken of plaatsnemen op de voorste rij aan een spectaculaire vogel show in Desert Park. Tevens is het mogelijk om deel te nemen aan een ballonvaart over de oude MacDonnellgebergte (eigen kosten). Of kunt u als alternatief een rit maken met een kameel. (B)<br \/><br \/><strong>Dag 8: Palm Valley<\/strong><br \/>Vandaag start uw 4WD safari reis door de West MacDonnell Ranges bij Hermannsburg, een inheemse gemeenschap en historische politiedistrict die bekend is om zijn collectie Aboriginal kunst en de werken van Albert Namatjira. Reis langs de bedding van de Finke River, &eacute;&eacute;n van de oudste waterwerken in de wereld, in de vallei van de Palm. Hier kunt u de spectaculaire rotsformaties, witte zand en een oase van rots zwembaden en palmbomen aanschouwen. Bezoek de spectaculaire rotsformatie, bekend als de Ampitheatre en geniet van een picknick. Op de terugreis, geniet u van de veranderende kleuren van de prachtige West MacDonnell Ranges in het middag licht. (B, L)<br \/><br \/><strong>Dag 9: The Ghan - Alice Springs<\/strong><br \/>Nadat we zijn uitgecheckt bij het Crowne Plaza Alice Springs Lasseters, kunt u de rest van de ochtend genieten van wat vrije tijd, voordat we The Ghan verder naar het noorden reizen richting Darwin. Eenmaal terug op de trein is er voldoende tijd om met uw medereizigers te praten in de Outback Explorer Lounge voordat iedereen zich opfrist voor het diner in het Queen Adelaide Restaurant. (B, D)<br \/><br \/><strong>Dag 10: The Ghan - Katherine en Darwin<\/strong><br \/>Vandaag stapt u uit voor een ochtend van culturele hoogstandjes in de Katherines. Geniet van een ontspannen cruise op de Katherine River of krijg meer inzicht in de cultuur en levenswijzen van de traditionele bevolking van Nitmiluk, en neem deel aan een exclusieve culturele ervaring. Laat in de middag zullen we in Darwin arriveren waar u per transfer naar het stadscentrum wordt gebracht. U overnacht in het DoubleTree by Hilton Esplanade. (B, L)<br \/><br \/><strong>Dag 11: Darwin<\/strong><br \/>Vandaag ontdekken we alles wat Darwin te bieden heeft. De vele terrasjes op straat, de vele restaurants en bars, innovatieve musea vieren het verleden van de stad. De vele galeries geven in deze de rijke inheemse kunst weer. (B)<br \/><br \/><strong>Dag 12: Darwin naar Kakadu<\/strong><br \/>Stap aan boord van uw coach richting Kakadu Nationaal Park. Hier haakt u bij uw lokale gids aan op een cruise van de Yellow Water Billabong. Op zoek naar zoutwater krokodillen en de kleurrijke waaier van birdlife, dat is waar deze regio om bekend staat. Na de lunch, maken we een stop bij Nourlangie, waar uw gids u op een wandeling loodst om de rots kunstgalerijen te bekijken. (B, L) Voor een unieke ervaring kunt u een vlucht van 50 minuten over Kakadu en Arnhemland boeken. (eigen kosten)<br \/><br \/><strong>Dag 13: Kakadu naar Darwin<\/strong><br \/>In de ochtend is er tijd om het wereld erfgoed gebied van Ubirr te verkennen, waar u door de oude inheemse rots kunstgalerijen klimt, en op zoek gaat naar een uitzicht over de omliggende wetlands. Daarna stapt u op de Guluyambi-Cruise op de East Alligator River.&nbsp;Een Aboriginal gids zal u inzicht geven in hun cultuur, met inbegrip van informatie over lokale mythologie, de rivier de overvloedige voedselketen en bush overlevings vaardigheden. Met speciale toestemming van de plaatselijke bevolking bent u in staat om in Arnhem Land aan wal te gaan, voordat u aan boord van de bus stapt voor uw reis terug naar Darwin. U overnacht hier in het DoubleTree door Hilton Esplanade. (L)<br \/><br \/><strong>Dag 14: Darwin<\/strong><br \/>In de ochtend checkt u uit bij uw accommodatie en kunt u de rest van de dag zelf invullen.&nbsp; (B)\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br \/><br \/><strong>Inclusief:<\/strong><br \/>1 overnachting aan boord van The Ghan, Adelaide to Alice Springs<br \/>Transfer van\/naar Alice Springs Rail Terminal to hotel<br \/>4 overnachtingen Alice Springs<br \/>4 dagen\/3 nachten Uluru, Kata Tjuta en Kings Canyon tour<br \/>1 dag Palm Valley 4WD Safari tour<br \/>1 nacht aan boordvan&nbsp; The Ghan, Alice Springs to Darwin<br \/>Transfer van Darwin Rail Terminal naar city centre<br \/>3 overnachtingen Darwin<br \/>2 dagen\/1 nacht Kakadu National Park en East Alligator River tour<br\/><br\/><strong>Adelaide naar Darwin - 14 dagen \/ 13 nachten<br \/>vertrek op zondag<br \/><br \/>Dag 1: The Ghan - Adelaide (zondag)<\/strong><br \/>U begint uw reis wanneer u aan boord stapt van The Ghan in Adelaide en richting Alice Springs in het Noorden reist. Duik diep in het hart van Australi&euml; en aanschouw de rollende pastorale landschappen van Zuid-Australi&euml;. Geniet van het comfort en de eenzaamheid van uw priv&eacute; cabine, verdwaal in gesprekken met medereizigers of staar gewoon uit het raam en krijg inspiratie uit het steeds wisselende landschap. (L, D)<br \/><br \/><strong>Dag 2: The Ghan - Alice Springs (maandag)<\/strong><br \/>Wakker worden met een onvergetelijke outback zonsopgang tijdens een korte stop bij Marla in de afgelegen uithoeken van South Australia. Eenmaal terug aan boord, genieten we van een hapje eten met het uitgebreide brunch menu. Of u nu iets licht of juist een grote stevige maaltijd wenst, we hebben voor een ieder iets te bieden.&nbsp; In de vroege namiddag komen we aan in Alice Springs en wordt u per transfer naar uw accommodatie, Crowne Plaza Alice Springs Lasseters gebracht. (B, L)<br \/><br \/><strong>Dag 3:&nbsp;Uluru (Ayers Rock) en Kata Tjuta (The Olgas) (dinsdag)<\/strong><br \/>Vandaag reist u van Alice Springs naar Uluru met een coach door het ruige woestijn landschap en het prachtige MacDonnellgebergte. Onderweg zullen we een stop maken bij een Camel Farm en leert u over welke gevolgen de kamelen hadden in Centraal-Australi&euml; en heeft u de mogelijkheid om een kameel te bereiden (tegen optionele kosten). Vanuit hier ziet u Mt Conner in de verte voor u aankomt in Ayers Rock, waar u overnachtin het Ayers Rock Resort. Hier heeft u tijd om wat te ontspannen en klaar te maken om het geweldige World Heritage-beursgenoteerde Uluru-Kata Tjuta National Park te bezoeken.&nbsp;In de middag kunt u genieten van een ontspannen ritje naar Kata Tjuta voor een van de beste zonsondergang ervaringen in Centraal-Australi&euml;. Bewonder de unieke flora en bewonder het uitzicht vanaf de centrale vallei tussen de koepels van Kata Tjuta terwijl u met heerlijke hapjes en Australische wijn, bij de&nbsp;prachtige outback zonsondergang kunt genieten. (B)<br \/><br \/><strong>Dag 4: Kata Tjuta en Uluru<\/strong><br \/>Vandaag staan we vroeg op, om de zonsopgang bij Uluru te bekijken en de eerste stralen van de zon in de Red Centre te aanschouwen. Daarna reizen we verder naar de mystieke 36 koepels van Kata Tjuta, waar u aan de voet van de Walpa Gorge komt. Hier heeft u enige tijd om de kloof te verkennen en de ongebruikelijke conglomeraat rotsformaties. Daarna keert u terug naar Ayers Rock Resort voor een korte stop.<br \/><br \/>Daarna reizen we rond de basis van Uluru in comfort als uw gids u over de vele heilige plaatsen en functies informeert bij Uluru. Na een klein eindje rijden, komen we aan bij de Kuniya Walk, waar u wordt begeleid naar de prachtige Mutitjulu Waterhole. Hier kunt u Aboriginal rotsschilderingen en -kunst bekijken en leert u over de Aboriginal en Europese geschiedenis van Uluru. U heeft hier ook een kans een bezoek aan het cultuurcentrum van het Uluru-Kata Tjuta te brengen.<br \/><br \/>In de late namiddag, reizen we terug naar Uluru, voor een prachtige zonsondergang met de vele schakeringen van kleur waarvoor Uluru beroemd is. Bij deze prachtige zonsondergang worden hapjes en een glaasje wijn geserveerd.<br \/><br \/>Na de zonsondergang, wordt u naar onze exclusieve barbecue-site gebracht. Deze site ligt binnen het Uluru National Park, grenzend aan Uluru-Kata Tjuta cultureel centrum tussen de rode zandduinen en woestijn eiken bomen, en biedt een rustige omgeving in de woestijn. Geniet van een vari&euml;teit aan Australische vleeswaren en salades, vergezeld van een glaasje wijn, bier of sinaasappelsap.&nbsp;Na het diner, koffie, thee en dessert zal uw gids u een uitleg geven over de nachtelijke hemel. Waarin hij verwijst naar de zichtbare sterrenbeelden. (D)<br \/><br \/><strong>Dag 5: Kings Canyon<\/strong><br \/>In de ochtend heeft u vrije tijd om te ontspannen of het verkennen van de vele faciliteiten en activiteiten die beschikbaar zijn in het Ayers Rock Resort.&nbsp;In de vroege namiddag, reizen we door spectaculaire woestijn landschappen naar Kings Canyon Resort waar u misschien een glimp van de ondergaande zon achter Carmichaels Crag kunt opvangen.<br \/><br \/><strong>Dag 6: Kings Canyon naar Alice Springs&nbsp;<\/strong><br \/>Vandaag kunt u deelnemen aan een begeleide klim langs de rand van Kings Canyon voor prachtige uitzichten op Watarrka National Park. Als de tijd het toelaat, is het mogelijk een afdaling te maken naar de groene oase van de &#39;tuin van Eden&#39;. Als alternatief, kunt u desgewenst een gemakkelijker, kortere wandelingmaken, om de Canyon Vloer, met rotsen bezaaid, te verkennen. Daarna stoppen we bij Kings Creek Station om een lunch te kopen. Daarna reizen we verder door prachtige woestijnlandschappen als we terugreizen naar Alice Springs, waar u de komende 3 nachten bij het Crowne Plaza Alice Springs Lasseters, zult overnachten.<br \/><br \/><strong>Dag 7: Alice Springs<\/strong><br \/>Vandaag heeft u een dag vrij te besteden en kunt u in eigen tempo Alice Springs verkennen. Lokale bezienswaardigheden bezoeken of plaatsnemen op de voorste rij aan een spectaculaire vogel show in Desert Park. Tevens is het mogelijk om deel te nemen aan een ballonvaart over de oude MacDonnellgebergte (eigen kosten). Of kunt u als alternatief een rit maken met een kameel. (B)<br \/><br \/><strong>Dag 8: Palm Valley<\/strong><br \/>Vandaag start uw 4WD safari reis door de West MacDonnell Ranges bij Hermannsburg, een inheemse gemeenschap en historische politiedistrict die bekend is om zijn collectie Aboriginal kunst en de werken van Albert Namatjira. Reis langs de bedding van de Finke River, &eacute;&eacute;n van de oudste waterwerken in de wereld, in de vallei van de Palm. Hier kunt u de spectaculaire rotsformaties, witte zand en een oase van rots zwembaden en palmbomen aanschouwen. Bezoek de spectaculaire rotsformatie, bekend als de Ampitheatre en geniet van een picknick. Op de terugreis, geniet u van de veranderende kleuren van de prachtige West MacDonnell Ranges in het middag licht. (B, L)<br \/><br \/><strong>Dag 9: The Ghan - Alice Springs<\/strong><br \/>Nadat we zijn uitgecheckt bij het Crowne Plaza Alice Springs Lasseters, kunt u de rest van de ochtend genieten van wat vrije tijd, voordat we The Ghan verder naar het noorden reizen richting Darwin. Eenmaal terug op de trein is er voldoende tijd om met uw medereizigers te praten in de Outback Explorer Lounge voordat iedereen zich opfrist voor het diner in het Queen Adelaide Restaurant. (B, D)<br \/><br \/><strong>Dag 10: The Ghan - Katherine en Darwin<\/strong><br \/>Vandaag stapt u uit voor een ochtend van culturele hoogstandjes in de Katherines. Geniet van een ontspannen cruise op de Katherine River of krijg meer inzicht in de cultuur en levenswijzen van de traditionele bevolking van Nitmiluk, en neem deel aan een exclusieve culturele ervaring. Laat in de middag zullen we in Darwin arriveren waar u per transfer naar het stadscentrum wordt gebracht. U overnacht in het DoubleTree by Hilton Esplanade. (B, L)<br \/><br \/><strong>Dag 11: Darwin<\/strong><br \/>Vandaag ontdekken we alles wat Darwin te bieden heeft. De vele terrasjes op straat, de vele restaurants en bars, innovatieve musea vieren het verleden van de stad. De vele galeries geven in deze de rijke inheemse kunst weer. (B)<br \/><br \/><strong>Dag 12: Darwin naar Kakadu<\/strong><br \/>Stap aan boord van uw coach richting Kakadu Nationaal Park. Hier haakt u bij uw lokale gids aan op een cruise van de Yellow Water Billabong. Op zoek naar zoutwater krokodillen en de kleurrijke waaier van birdlife, dat is waar deze regio om bekend staat. Na de lunch, maken we een stop bij Nourlangie, waar uw gids u op een wandeling loodst om de rots kunstgalerijen te bekijken. (B, L) Voor een unieke ervaring kunt u een vlucht van 50 minuten over Kakadu en Arnhemland boeken. (eigen kosten)<br \/><br \/><strong>Dag 13: Kakadu naar Darwin<\/strong><br \/>In de ochtend is er tijd om het wereld erfgoed gebied van Ubirr te verkennen, waar u door de oude inheemse rots kunstgalerijen klimt, en op zoek gaat naar een uitzicht over de omliggende wetlands. Daarna stapt u op de Guluyambi-Cruise op de East Alligator River.&nbsp;Een Aboriginal gids zal u inzicht geven in hun cultuur, met inbegrip van informatie over lokale mythologie, de rivier de overvloedige voedselketen en bush overlevings vaardigheden. Met speciale toestemming van de plaatselijke bevolking bent u in staat om in Arnhem Land aan wal te gaan, voordat u aan boord van de bus stapt voor uw reis terug naar Darwin. U overnacht hier in het DoubleTree door Hilton Esplanade. (L)<br \/><br \/><strong>Dag 14: Darwin<\/strong><br \/>In de ochtend checkt u uit bij uw accommodatie en kunt u de rest van de dag zelf invullen.&nbsp; (B)???????<br \/><br \/><strong>Inclusief:<\/strong><br \/>1 overnachting aan boord van The Ghan, Adelaide to Alice Springs<br \/>Transfer van\/naar Alice Springs Rail Terminal to hotel<br \/>4 overnachtingen Alice Springs<br \/>4 dagen\/3 nachten Uluru, Kata Tjuta en Kings Canyon tour<br \/>1 dag Palm Valley 4WD Safari tour<br \/>1 nacht aan boordvan&nbsp; The Ghan, Alice Springs to Darwin<br \/>Transfer van Darwin Rail Terminal naar city centre<br \/>3 overnachtingen Darwin<br \/>2 dagen\/1 nacht Kakadu National Park en East Alligator River tour<\/body><\/html>",
+        "subAdditionalText": null,
+        "roomTypes": [{
+          "defaultPrice": "0.0000",
+          "description": "Gold Service",
+          "minPerson": null,
+          "maxPerson": null,
+          "minUnit": null,
+          "maxUnit": null
+        }],
+        "supplierComment": null,
+        "sellingAmount": "20.000",
+        "sellingMarkupType": "margin",
+        "missingBookableDays": [
+
+        ],
+        "needsOffsetRecalculation": true,
+        "vtbObjectId": "dl2fubjr2en5hm48c2wju",
+        "linkedParty": "party 1",
+        "day": 16,
+        "date": "2020-03-20",
+        "endDate": "2020-03-20",
+        "roomTypeMatchesParticipants": true
+      }],
+      "inViewport": false,
+      "maps": [
+
+      ],
+      "vtbObjectId": "6sa4zev5zwmls4i7dhhba",
+      "carRentalElements": [
+
+      ],
+      "date": "2020-03-20",
+      "missingBookableDays": false,
+      "elementsOrder": "204551",
+      "elementsMapActive": "",
+      "hasElementsOverlap": false,
+      "endDate": "2020-03-20"
+    },
+    {
+      "nights": 0,
+      "day": 16,
+      "isFlight": true,
+      "typeId": 4,
+      "title": " Vliegticket van Sydney Airport naar Hong Kong  <CXL3B2RS>",
+      "subTitle": null,
+      "content": "U vertrekt op woensdag  1 april 2020 om 14:10 uur  van Sydney Airport. U vliegt met Cathay Pacific, het vluchtnummer is CX 100. De reisduur bedraagt 09 uren en 25 minuten (Non-stop). U komt aan op woensdag  1 april 2020 om 21:35 uur  op Hong Kong. <br \/> <br \/>  <table><tr> <th>Vlucht vertrek<\/th> <th>Van<\/th> <th>Naar<\/th> <th>Aankomst<\/th> <th>Vluchtnr<\/th> <th>Duur<\/th> <th>Stop<\/th> <\/tr><tr> <td>woensdag  1 april 2020 14:10 uur <\/td> <td>Sydney Airport<\/td> <td>Hong Kong<\/td> <td>woensdag  1 april 2020 21:35 uur <\/td> <td>CX 100<\/td> <td>09 uren en 25 minuten<\/td> <td>(Non-stop)<\/td> <\/tr><\/table><br \/><br \/>",
+      "TSBlock": {
+        "id": 101010
+      },
+      "flightInfo": [{
+        "id": 1546,
+        "airlineCode": "CX",
+        "flightNumber": " 100",
+        "departureAirport": "SYD",
+        "departureDt": "2020-04-01 14:10:00",
+        "arrivalAirport": "HKG",
+        "arrivalDt": "2020-04-01 21:35:00",
+        "arrivalDate": "2020-04-01",
+        "arrivalTime": "21:35",
+        "departureDate": "2020-04-01",
+        "departureTime": "14:10",
+        "stopoverAirport": "*",
+        "duration": 9,
+        "farebase": ""
+      }],
+      "media": [
+
+      ],
+      "elements": [{
+          "emptyOlStartDT": false,
+          "offset": 0,
+          "nights": 0,
+          "unitAmount": 1,
+          "unitId": 3,
+          "optional": false,
+          "not_calculated": false,
+          "title": "Vliegreis inbegrepen bij de arrangementskosten",
+          "TSProduct": {
+            "id": 4,
+            "tag": null,
+            "bookableDays": [
+
+            ]
+          },
+          "TSOrderline": {
+            "id": 204546
+          },
+          "media": [
+
+          ],
+          "olPrices": {
+            "costPrice": "0.000",
+            "discount": "0.000",
+            "title": "Vliegreis inbegrepen bij de arrangementskosten",
+            "discountMethod": "absolute",
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": [
+
+            ],
+            "salesTotal": 0
+          },
+          "subAdditionalText": null,
+          "additionalText": null,
+          "roomTypes": [
+
+          ],
+          "supplierComment": null,
+          "sellingAmount": "11.300",
+          "sellingMarkupType": "percentage",
+          "missingBookableDays": [
+
+          ],
+          "needsOffsetRecalculation": true,
+          "vtbObjectId": "d7v7p0tggk68vxlkb9ipqc",
+          "day": 16,
+          "date": "2020-03-20",
+          "endDate": "2020-03-20",
+          "roomTypeMatchesParticipants": true
+        },
+        {
+          "emptyOlStartDT": false,
+          "offset": 0,
+          "nights": 0,
+          "unitAmount": 1,
+          "unitId": 3,
+          "optional": false,
+          "not_calculated": false,
+          "title": "Luchthavenbelastingen en toeslagen",
+          "TSProduct": {
+            "id": 1206,
+            "tag": null,
+            "bookableDays": [
+
+            ]
+          },
+          "TSOrderline": {
+            "id": 204547
+          },
+          "media": [
+
+          ],
+          "olPrices": {
+            "costPrice": "0.000",
+            "discount": "0.000",
+            "title": "Luchthavenbelastingen en toeslagen",
+            "discountMethod": "absolute",
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": [
+
+            ],
+            "salesTotal": 0
+          },
+          "subAdditionalText": null,
+          "additionalText": null,
+          "roomTypes": [
+
+          ],
+          "supplierComment": null,
+          "sellingAmount": "0.000",
+          "sellingMarkupType": "margin",
+          "missingBookableDays": [
+
+          ],
+          "needsOffsetRecalculation": true,
+          "vtbObjectId": "yz4h6wq4u2bbrackvcx3k",
+          "day": 16,
+          "date": "2020-03-20",
+          "endDate": "2020-03-20",
+          "roomTypeMatchesParticipants": true
+        }
+      ],
+      "inViewport": false,
+      "maps": [
+
+      ],
+      "vtbObjectId": "143l2cc071mtlsg32d1lo",
+      "carRentalElements": [
+
+      ],
+      "date": "2020-03-20",
+      "missingBookableDays": false,
+      "elementsOrder": "204546|204547",
+      "elementsMapActive": "",
+      "hasElementsOverlap": false,
+      "endDate": "2020-03-20"
+    },
+    {
+      "nights": 0,
+      "day": 16,
+      "isFlight": true,
+      "typeId": 4,
+      "title": " Vliegticket van Hong Kong naar Amsterdam Schiphol  <CXL3B2RS>",
+      "subTitle": null,
+      "content": "U vertrekt op donderdag  2 april 2020 om 00:15 uur 's morgens van Hong Kong. U vliegt met Cathay Pacific, het vluchtnummer is CX 271. De reisduur bedraagt 12 uren en 25 minuten (Non-stop). U komt aan op donderdag  2 april 2020 om 06:40 uur 's morgens op Amsterdam Schiphol. <br \/> <br \/>  <table><tr> <th>Vlucht vertrek<\/th> <th>Van<\/th> <th>Naar<\/th> <th>Aankomst<\/th> <th>Vluchtnr<\/th> <th>Duur<\/th> <th>Stop<\/th> <\/tr><tr> <td>donderdag  2 april 2020 00:15 uur 's morgens<\/td> <td>Hong Kong<\/td> <td>Amsterdam Schiphol<\/td> <td>donderdag  2 april 2020 06:40 uur 's morgens<\/td> <td>CX 271<\/td> <td>12 uren en 25 minuten<\/td> <td>(Non-stop)<\/td> <\/tr><\/table>",
+      "TSBlock": {
+        "id": 101011
+      },
+      "flightInfo": [{
+        "id": 1547,
+        "airlineCode": "CX",
+        "flightNumber": " 271",
+        "departureAirport": "HKG",
+        "departureDt": "2020-04-02 00:15:00",
+        "arrivalAirport": "AMS",
+        "arrivalDt": "2020-04-02 06:40:00",
+        "arrivalDate": "2020-04-02",
+        "arrivalTime": "06:40",
+        "departureDate": "2020-04-02",
+        "departureTime": "00:15",
+        "stopoverAirport": "*",
+        "duration": 12,
+        "farebase": ""
+      }],
+      "media": [
+
+      ],
+      "elements": [{
+          "emptyOlStartDT": false,
+          "offset": 0,
+          "nights": 0,
+          "unitAmount": 1,
+          "unitId": 3,
+          "optional": false,
+          "not_calculated": false,
+          "title": "Vliegreis inbegrepen bij de arrangementskosten",
+          "TSProduct": {
+            "id": 4,
+            "tag": null,
+            "bookableDays": [
+
+            ]
+          },
+          "TSOrderline": {
+            "id": 204548
+          },
+          "media": [
+
+          ],
+          "olPrices": {
+            "costPrice": "0.000",
+            "discount": "0.000",
+            "title": "Vliegreis inbegrepen bij de arrangementskosten",
+            "discountMethod": "absolute",
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": [
+
+            ],
+            "salesTotal": 0
+          },
+          "subAdditionalText": null,
+          "additionalText": null,
+          "roomTypes": [
+
+          ],
+          "supplierComment": null,
+          "sellingAmount": "11.300",
+          "sellingMarkupType": "percentage",
+          "missingBookableDays": [
+
+          ],
+          "needsOffsetRecalculation": true,
+          "vtbObjectId": "uzqk2k58iakmg3qryypsi",
+          "day": 16,
+          "date": "2020-03-20",
+          "endDate": "2020-03-20",
+          "roomTypeMatchesParticipants": true
+        },
+        {
+          "emptyOlStartDT": false,
+          "offset": 0,
+          "nights": 0,
+          "unitAmount": 1,
+          "unitId": 3,
+          "optional": false,
+          "not_calculated": false,
+          "title": "Luchthavenbelastingen en toeslagen",
+          "TSProduct": {
+            "id": 1206,
+            "tag": null,
+            "bookableDays": [
+
+            ]
+          },
+          "TSOrderline": {
+            "id": 204549
+          },
+          "media": [
+
+          ],
+          "olPrices": {
+            "costPrice": "0.000",
+            "discount": "0.000",
+            "title": "Luchthavenbelastingen en toeslagen",
+            "discountMethod": "absolute",
+            "exchangeRate": "1.000000000",
+            "purchaseCurrency": "EUR",
+            "salesCurrency": "EUR",
+            "participants": [
+
+            ],
+            "salesTotal": 0
+          },
+          "subAdditionalText": null,
+          "additionalText": null,
+          "roomTypes": [
+
+          ],
+          "supplierComment": null,
+          "sellingAmount": "0.000",
+          "sellingMarkupType": "margin",
+          "missingBookableDays": [
+
+          ],
+          "needsOffsetRecalculation": true,
+          "vtbObjectId": "mfd44b7ne1tqa50ybdtjk",
+          "day": 16,
+          "date": "2020-03-20",
+          "endDate": "2020-03-20",
+          "roomTypeMatchesParticipants": true
+        }
+      ],
+      "inViewport": false,
+      "maps": [
+
+      ],
+      "vtbObjectId": "xz9f59obvgazr524gvxn9",
+      "carRentalElements": [
+
+      ],
+      "date": "2020-03-20",
+      "missingBookableDays": false,
+      "elementsOrder": "204548|204549",
+      "elementsMapActive": "",
+      "hasElementsOverlap": false,
+      "endDate": "2020-03-20"
+    }
   ],
-  "liborderId":594,
-  "cover":[
-     {
-        "id":145,
-        "sourceType":"mediaspirit",
-        "sourceId":"fc159151e390154a9bcd3e7fcd5ae741",
-        "url":"https:\/\/s3-eu-west-1.amazonaws.com\/demo.mediaspirit.io\/original\/lg\/Krugerpark%20safari%20(1).jpg"
-     }
-  ],
-  "hasNotCalculated":true,
-  "totalDays":3,
-  "totalDaysAllocated":3,
-  "endDate":"2018-11-14T23:00:00.000Z",
-  "notifications":[
+  "liborderId": 6637,
+  "departmentName": "PIT",
+  "departmentId": 1,
+  "officeId": 1,
+  "officeName": "WWTG",
+  "costPriceBeforeRounding": 1827.3100000000002,
+  "salesPriceBeforeRounding": 3531.95,
+  "vtbObjectId": "aqcjyf0b2q9efk77c6ovyu",
+  "cover": [
 
   ],
-  "salesPriceAfterRounding":0,
-  "salesPriceBeforeRounding":0,
-  "costPriceBeforeRounding":0,
-  "title":"Pretium cursus justo",
-  "subTitle":"Augue"
+  "hasNotCalculated": false,
+  "totalDays": 16,
+  "totalDaysAllocated": 16,
+  "endDate": "2020-03-20",
+  "notifications": [
+
+  ]
 }
